@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C5sobek14ViewController", ""]
 provides-dynamic-lookup:
+- "viewDidLoad"
+- "id"
+- "mWebView"
 - "didReceiveMemoryWarning"
 - "prepare"
-- "mWebView"
-- "id"
-- "viewDidLoad"
 depends-top-level:
-- "CastingPrecedence"
-- "UIViewController"
 - "ViewController"
-- "AssignmentPrecedence"
-- !private "Int"
-- !private "URLRequest"
-- !private "URL"
 - "UIWebView"
-- "UIStoryboardSegue"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- "UIViewController"
 - !private "StringLiteralType"
+- !private "Int"
+- "UIStoryboardSegue"
+- !private "URLRequest"
 - !private "NSURLRequest"
+- !private "URL"
 depends-member:
 - !private ["Ps9AnyObject", "NSURLRequest"]
 - !private ["Ps9AnyObject", "URL"]

@@ -6,27 +6,27 @@ provides-nominal:
 provides-member:
 - ["C5sobek21InitialViewController", ""]
 provides-dynamic-lookup:
+- "confirmButton"
 - "viewDidLoad"
 - "textField"
 - "sendRequest"
 - "didReceiveMemoryWarning"
-- "confirmButton"
 depends-top-level:
-- !private "URL"
 - !private "String"
-- !private "URLRequest"
-- "UITextField"
-- !private "print"
 - !private "HTTPURLResponse"
-- "UIViewController"
 - !private "StringLiteralType"
+- !private "print"
 - "InitialViewController"
-- "AssignmentPrecedence"
 - "UIButton"
-- !private "=="
 - !private "CastingPrecedence"
-- !private "URLSession"
 - !private "!="
+- !private "URLRequest"
+- "AssignmentPrecedence"
+- !private "=="
+- !private "URL"
+- "UIViewController"
+- !private "URLSession"
+- "UITextField"
 depends-member:
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "URL"]

@@ -16,6 +16,7 @@
 		A023382B1E8B50930099855E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02338291E8B50930099855E /* LaunchScreen.storyboard */; };
 		A02338361E8B50930099855E /* sobekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02338351E8B50930099855E /* sobekTests.swift */; };
 		A02338411E8B50940099855E /* sobekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02338401E8B50940099855E /* sobekUITests.swift */; };
+		A091FD341EBDAE2300390531 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A091FD331EBDAE2300390531 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A023383C1E8B50940099855E /* sobekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sobekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02338401E8B50940099855E /* sobekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sobekUITests.swift; sourceTree = "<group>"; };
 		A02338421E8B50940099855E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A091FD331EBDAE2300390531 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A091FD341EBDAE2300390531 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				A02338341E8B50930099855E /* sobekTests */,
 				A023383F1E8B50940099855E /* sobekUITests */,
 				A023381E1E8B50930099855E /* Products */,
+				A091FD321EBDAE2300390531 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +135,14 @@
 			path = sobekUITests;
 			sourceTree = "<group>";
 		};
+		A091FD321EBDAE2300390531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A091FD331EBDAE2300390531 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +153,7 @@
 				A02338191E8B50930099855E /* Sources */,
 				A023381A1E8B50930099855E /* Frameworks */,
 				A023381B1E8B50930099855E /* Resources */,
+				A091FD361EBDAFD800390531 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -260,6 +273,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A091FD361EBDAFD800390531 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A02338191E8B50930099855E /* Sources */ = {
@@ -420,6 +450,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = sobek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sobek.sobek;
@@ -432,6 +466,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = sobek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sobek.sobek;
