@@ -76,6 +76,18 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<data>
+		iyCgPFDZeEkJlGZrzY+ZeisPh8M=
+		</data>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<data>
+		b7fxKBRFptjRXb7bHWqQt9hVE6c=
+		</data>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<data>
+		g/lYbywDQTtUQTtoChefYj2FAuM=
+		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
 		blagc+UjPVBTHaTHbrlBKbVn20I=
@@ -238,6 +250,39 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iyCgPFDZeEkJlGZrzY+ZeisPh8M=
+			</data>
+			<key>hash2</key>
+			<data>
+			YjNjZRPUi/W2FIUx4VHYupQHYMP+llM+PcXYbfXsA1I=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b7fxKBRFptjRXb7bHWqQt9hVE6c=
+			</data>
+			<key>hash2</key>
+			<data>
+			HFsrOGlyXMj1QmfPrWnYlHEmM9DXlSPyK+gYXmqrXJs=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			g/lYbywDQTtUQTtoChefYj2FAuM=
+			</data>
+			<key>hash2</key>
+			<data>
+			NiKcpmTcJNdInsLIkE9aHUuiVBV++ubwcdFXtVVoPEE=
+			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
