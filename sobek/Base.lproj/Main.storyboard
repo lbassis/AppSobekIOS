@@ -41,21 +41,32 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sobek.png" translatesAutoresizingMaskIntoConstraints="NO" id="6sq-e9-gWv">
                                 <rect key="frame" x="64" y="28" width="240" height="128"/>
                             </imageView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="quc-bv-m72">
+                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Crz-Jv-VRS"/>
+                                    <constraint firstAttribute="width" constant="200" id="w0D-dm-BfL"/>
+                                </constraints>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="v6L-XK-LKp" firstAttribute="top" secondItem="6sq-e9-gWv" secondAttribute="bottom" constant="53" id="5OQ-1v-NxV"/>
                             <constraint firstItem="6sq-e9-gWv" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="6HD-ap-HgI"/>
                             <constraint firstItem="6sq-e9-gWv" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="8" id="V1N-yx-DvK"/>
+                            <constraint firstItem="quc-bv-m72" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="W7V-KZ-fMk"/>
                             <constraint firstItem="v6L-XK-LKp" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="ZHA-An-fBl"/>
                             <constraint firstItem="CH1-8y-RCV" firstAttribute="top" secondItem="v6L-XK-LKp" secondAttribute="bottom" constant="29" id="aWK-Y2-ebu"/>
                             <constraint firstItem="CH1-8y-RCV" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="pEu-X1-8Bc"/>
+                            <constraint firstItem="quc-bv-m72" firstAttribute="centerY" secondItem="Bpq-y5-an3" secondAttribute="centerY" id="wwW-Zg-kVC"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="confirmButton" destination="CH1-8y-RCV" id="f5q-e1-hhB"/>
+                        <outlet property="loadingIndicator" destination="quc-bv-m72" id="tUf-Yl-GuB"/>
                         <outlet property="textField" destination="v6L-XK-LKp" id="k94-xf-cKM"/>
-                        <segue destination="BYZ-38-t0r" kind="modal" identifier="segue" animates="NO" id="lOW-4Z-BBS"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segue" animates="NO" id="lOW-4Z-BBS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h5Z-Z1-aHx" userLabel="First Responder" sceneMemberID="firstResponder"/>

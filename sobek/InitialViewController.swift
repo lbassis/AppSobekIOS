@@ -13,27 +13,30 @@ class InitialViewController: UIViewController {
 	
 	@IBOutlet weak var textField: UITextField!
 	@IBOutlet weak var confirmButton: UIButton!
+	@IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+	let IDSIZE = 8
 	
 	
 	@IBAction func sendRequest(_ sender: UIButton) {
 		
-		//let serverUrl = "http://sobek.ufrgs.br/app/receiver.php?"
+		self.loadingIndicator.isHidden = false
+		self.view.isUserInteractionEnabled = false
+		self.view.alpha = 0.85
+		
+		
 		let serverUrl = "http://192.168.25.104/sobek/receiver.php"
+		let id = randomID()
+		let url = textField.text
 		
-		var request = URLRequest(url: URL(string: serverUrl)!)
-		let postString = "TOBE=true&ADJ=true&TOHAVE=true&VERBS=true&ADV:true"
-
-		//let postString: [String:String] = ["TODO":"true", "ADJ":"true", "TOHAVE":"true", "VERBS":"true", "ADV":"true", "NOUNS":"true", "AVGCON":"", "INTER":"true", "LANG":"2", "PRON":"true", "MOB_ID":"17356698", "URL":"sobek.ufrgs.br", "TOBE":"true", "FREQ":"", "THES":"false"]
-		//let postString = "TODO=true, ADJ=true, TOHAVE=true, VERBS=true, ADV=true, NOUNS=true, AVGCON=, INTER=true, LANG=2, PRON=true, MOB_ID=73168828, URL=ufrgs.br, TOBE=true, FREQ=, THES=false"
+		let postString: [String:String] = ["TODO":"true", "ADJ":"true", "TOHAVE":"true", "VERBS":"true", "ADV":"true", "NOUNS":"true", "AVGCON":"", "INTER":"true", "LANG":"2", "PRON":"true", "MOB_ID":id, "URL":url!, "TOBE":"true", "FREQ":"", "THES":"false"]
 		
-		Alamofire.request(serverUrl, parameters: postString, encoding: URLEncoding.default)
-
-
-		
-		self.performSegue(withIdentifier: "segue", sender: 17356698)
+		Alamofire.request(serverUrl, method: .post, parameters: postString).responseString { response in
+			self.performSegue(withIdentifier: "segue", sender: id)
+		}
 
 		
-		//print(self.textField.text!)
+
+		
 	}
 	
 	override func viewDidLoad() {
@@ -46,5 +49,20 @@ class InitialViewController: UIViewController {
 		// Dispose of any resources that can be recreated.
 	}
 	
+	func randomID() -> String {
+		
+		var i = 0
+		var result = ""
+		
+		while (i < IDSIZE) {
+			result = result + String(Int(arc4random_uniform(9) + 1))
+			i += 1
+		}
+		return result
+	}
 	
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		let webview = segue.destination as! ViewController
+		webview.id = sender as! String
+	}
 }

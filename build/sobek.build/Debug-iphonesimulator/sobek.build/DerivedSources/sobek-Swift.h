@@ -136,7 +136,9 @@ SWIFT_CLASS("_TtC5sobek11AppDelegate")
 @end
 
 @class UIButton;
+@class UIStoryboardSegue;
 @class UITextField;
+@class UIActivityIndicatorView;
 @class NSBundle;
 @class NSCoder;
 
@@ -144,21 +146,23 @@ SWIFT_CLASS("_TtC5sobek21InitialViewController")
 @interface InitialViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified textField;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified confirmButton;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loadingIndicator;
+@property (nonatomic, readonly) NSInteger IDSIZE;
 - (IBAction)sendRequest:(UIButton * _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (NSString * _Nonnull)randomID;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIStoryboardSegue;
 @class UIWebView;
 
 SWIFT_CLASS("_TtC5sobek14ViewController")
 @interface ViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UIWebView * _Null_unspecified mWebView;
-@property (nonatomic) NSInteger id;
-- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+@property (nonatomic, copy) NSString * _Nonnull id;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
