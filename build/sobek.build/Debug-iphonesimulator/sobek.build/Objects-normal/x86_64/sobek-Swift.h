@@ -137,6 +137,7 @@ SWIFT_CLASS("_TtC5sobek11AppDelegate")
 
 @class UIButton;
 @class UIStoryboardSegue;
+@class UINavigationItem;
 @class UITextField;
 @class UIActivityIndicatorView;
 @class NSBundle;
@@ -144,12 +145,15 @@ SWIFT_CLASS("_TtC5sobek11AppDelegate")
 
 SWIFT_CLASS("_TtC5sobek21InitialViewController")
 @interface InitialViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UINavigationItem * _Null_unspecified navBar;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified textField;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified confirmButton;
 @property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loadingIndicator;
 @property (nonatomic, readonly) NSInteger IDSIZE;
+- (void)hideNavBar;
 - (IBAction)sendRequest:(UIButton * _Nonnull)sender;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
 - (NSString * _Nonnull)randomID;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;

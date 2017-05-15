@@ -17,7 +17,9 @@ class ViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		let url = URL(string: "http://192.168.25.104/sobek/grafo?=" + String(self.id))// + "=en")
+		let url = URL(string: "http://192.168.25.210/sobek/grafo?=" + String(self.id))// + "=en")
+		//let url = URL(string:"http://sobek.ufrgs.br/app/grafo/?id=" + id)
+
 		print (url)
 		let requestObj = NSURLRequest(url: url!);
 		mWebView.loadRequest(requestObj as URLRequest);

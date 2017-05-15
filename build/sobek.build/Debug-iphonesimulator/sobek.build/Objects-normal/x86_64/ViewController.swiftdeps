@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C5sobek14ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
 - "mWebView"
 - "id"
+- "viewDidLoad"
 depends-top-level:
+- !private "+"
 - !private "URL"
+- "UIWebView"
 - "UIViewController"
-- "String"
+- "StringLiteralType"
 - "CastingPrecedence"
+- "String"
 - !private "URLRequest"
 - "ViewController"
-- "StringLiteralType"
-- "UIWebView"
 - !private "NSURLRequest"
 - !private "print"
-- !private "+"
 depends-member:
 - !private ["Ps9AnyObject", "NSURLRequest"]
 - !private ["Ps9AnyObject", "String"]

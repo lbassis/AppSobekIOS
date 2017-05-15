@@ -11,20 +11,30 @@ import Alamofire
 
 class InitialViewController: UIViewController {
 	
+	@IBOutlet weak var navBar: UINavigationItem!
 	@IBOutlet weak var textField: UITextField!
 	@IBOutlet weak var confirmButton: UIButton!
 	@IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
 	let IDSIZE = 8
 	
 	
+	func hideNavBar() {
+		self.navigationController?.navigationBar.isTranslucent = false
+		self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+		self.navigationController?.navigationBar.shadowImage = UIImage()
+	}
+	
 	@IBAction func sendRequest(_ sender: UIButton) {
 		
 		self.loadingIndicator.isHidden = false
 		self.view.isUserInteractionEnabled = false
 		self.view.alpha = 0.85
+		self.navigationController?.navigationBar.alpha = 0.85
 		
 		
-		let serverUrl = "http://192.168.25.104/sobek/receiver.php"
+		let serverUrl = "http://192.168.25.210/sobek/receiver.php"
+		//let serverUrl = "http://192.168.0.78/sobek_request_receiver/receiver.php"
+
 		let id = randomID()
 		let url = textField.text
 		
@@ -32,6 +42,8 @@ class InitialViewController: UIViewController {
 		
 		Alamofire.request(serverUrl, method: .post, parameters: postString).responseString { response in
 			self.performSegue(withIdentifier: "segue", sender: id)
+			self.loadingIndicator.isHidden = true
+			self.navigationController?.navigationBar.alpha = 1
 		}
 
 		
@@ -41,7 +53,10 @@ class InitialViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-
+		hideNavBar()
+	}
+	
+	override func viewWillAppear(_ animated: Bool) {
 	}
 	
 	override func didReceiveMemoryWarning() {
