@@ -14,7 +14,7 @@
         <scene sceneID="aIp-bm-QN4">
             <objects>
                 <navigationController id="acU-mv-wLo" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="omY-eN-Ffs">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="omY-eN-Ffs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -38,10 +38,11 @@
                         <rect key="frame" x="0.0" y="64" width="667" height="311"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v6L-XK-LKp">
-                                <rect key="frame" x="210" y="216" width="247" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v6L-XK-LKp">
+                                <rect key="frame" x="210" y="225" width="247" height="21"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="247" id="meq-5E-3nu"/>
+                                    <constraint firstAttribute="width" constant="247" id="Ylc-jf-oxI"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -49,43 +50,86 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CH1-8y-RCV">
                                 <rect key="frame" x="311" y="275" width="45" height="30"/>
-                                <state key="normal" title="Extrair"/>
+                                <state key="normal" title="Extrair">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="sendRequest:" destination="lp5-C5-z5G" eventType="touchUpInside" id="67U-hJ-dcw"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sobek.png" translatesAutoresizingMaskIntoConstraints="NO" id="6sq-e9-gWv">
-                                <rect key="frame" x="230.5" y="8" width="206" height="155"/>
+                                <rect key="frame" x="231" y="8" width="206" height="155"/>
                             </imageView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="quc-bv-m72">
-                                <rect key="frame" x="234" y="55.5" width="200" height="200"/>
+                                <rect key="frame" x="234" y="56" width="200" height="199"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="Crz-Jv-VRS"/>
-                                    <constraint firstAttribute="width" constant="200" id="w0D-dm-BfL"/>
+                                    <constraint firstAttribute="width" constant="200" id="WlU-1c-GHP"/>
                                 </constraints>
                             </activityIndicatorView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WqQ-Zj-oyD">
+                                <rect key="frame" x="122" y="17" width="423" height="277"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTv-aT-Wrf">
+                                        <rect key="frame" x="8" y="8" width="407" height="229"/>
+                                        <string key="text">Sobek é uma ferramenta de mineração de texto que foi desenvolvida para apoiar aplicações educacionais. Ele é capaz de identificar as informações relevantes em um texto e apresentar essas informações na forma de um grafo, auxiliando a sua identificação visual. O Sobek foi desenvolvido no Programa de Pós-Graduação em Informática na Educação, na Universidade Federal do Rio Grande do Sul (UFRGS), Brasil. Para obter mais informações, visite 
+http://sobek.ufrgs.br</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spI-DQ-lU5">
+                                        <rect key="frame" x="374" y="232" width="30" height="30"/>
+                                        <state key="normal" title="OK">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="aboutOkWithSender:" destination="lp5-C5-z5G" eventType="touchUpInside" id="77Z-1b-Npi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="spI-DQ-lU5" secondAttribute="bottom" constant="15" id="05W-JK-gfk"/>
+                                    <constraint firstItem="GTv-aT-Wrf" firstAttribute="trailing" secondItem="WqQ-Zj-oyD" secondAttribute="trailingMargin" id="6hd-dc-PHM"/>
+                                    <constraint firstAttribute="bottom" secondItem="GTv-aT-Wrf" secondAttribute="bottom" constant="40" id="93w-Nk-iOa"/>
+                                    <constraint firstItem="GTv-aT-Wrf" firstAttribute="top" secondItem="WqQ-Zj-oyD" secondAttribute="topMargin" id="Xtr-gF-hbT"/>
+                                    <constraint firstAttribute="trailing" secondItem="spI-DQ-lU5" secondAttribute="trailing" constant="19" id="cJD-We-OMF"/>
+                                    <constraint firstItem="GTv-aT-Wrf" firstAttribute="leading" secondItem="WqQ-Zj-oyD" secondAttribute="leadingMargin" id="r1N-0X-cUN"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="v6L-XK-LKp" firstAttribute="top" secondItem="6sq-e9-gWv" secondAttribute="bottom" constant="53" id="5OQ-1v-NxV"/>
-                            <constraint firstItem="6sq-e9-gWv" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="6HD-ap-HgI"/>
-                            <constraint firstItem="6sq-e9-gWv" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="8" id="V1N-yx-DvK"/>
-                            <constraint firstItem="quc-bv-m72" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="W7V-KZ-fMk"/>
-                            <constraint firstItem="v6L-XK-LKp" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="ZHA-An-fBl"/>
-                            <constraint firstItem="CH1-8y-RCV" firstAttribute="top" secondItem="v6L-XK-LKp" secondAttribute="bottom" constant="29" id="aWK-Y2-ebu"/>
-                            <constraint firstItem="CH1-8y-RCV" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="pEu-X1-8Bc"/>
-                            <constraint firstItem="quc-bv-m72" firstAttribute="centerY" secondItem="Bpq-y5-an3" secondAttribute="centerY" id="wwW-Zg-kVC"/>
+                            <constraint firstItem="RSG-Mh-vW3" firstAttribute="top" secondItem="CH1-8y-RCV" secondAttribute="bottom" constant="6" id="1LD-Fk-hJ1"/>
+                            <constraint firstItem="quc-bv-m72" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="56" id="8b0-kK-Yc2"/>
+                            <constraint firstItem="WqQ-Zj-oyD" firstAttribute="leading" secondItem="Bpq-y5-an3" secondAttribute="leading" constant="122" id="8h5-hS-fsS"/>
+                            <constraint firstItem="6sq-e9-gWv" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="AIF-VT-H2s"/>
+                            <constraint firstItem="v6L-XK-LKp" firstAttribute="centerX" secondItem="CH1-8y-RCV" secondAttribute="centerX" id="H8t-Rd-Rni"/>
+                            <constraint firstItem="WqQ-Zj-oyD" firstAttribute="centerX" secondItem="quc-bv-m72" secondAttribute="centerX" id="SXp-qJ-oWr"/>
+                            <constraint firstItem="WqQ-Zj-oyD" firstAttribute="centerY" secondItem="quc-bv-m72" secondAttribute="centerY" id="Vx8-T8-Tik"/>
+                            <constraint firstItem="CH1-8y-RCV" firstAttribute="top" secondItem="v6L-XK-LKp" secondAttribute="bottom" constant="29" id="gbj-9B-Nfu"/>
+                            <constraint firstItem="6sq-e9-gWv" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="8" symbolic="YES" id="l5Z-Fy-Dyu"/>
+                            <constraint firstItem="WqQ-Zj-oyD" firstAttribute="centerY" secondItem="Bpq-y5-an3" secondAttribute="centerY" id="mBh-oW-oeU"/>
+                            <constraint firstItem="WqQ-Zj-oyD" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="17" id="mfx-vQ-GLS"/>
+                            <constraint firstItem="quc-bv-m72" firstAttribute="centerX" secondItem="v6L-XK-LKp" secondAttribute="centerX" id="w1W-Hu-vy4"/>
+                            <constraint firstItem="6sq-e9-gWv" firstAttribute="centerX" secondItem="v6L-XK-LKp" secondAttribute="centerX" id="w3B-JB-3rn"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Sobek" id="BlW-4I-dbG">
-                        <barButtonItem key="rightBarButtonItem" title="About" id="wUG-dZ-iw0"/>
+                        <barButtonItem key="rightBarButtonItem" title="About" id="wUG-dZ-iw0">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="aboutButtonWithSender:" destination="lp5-C5-z5G" id="1s3-3P-wCD"/>
+                            </connections>
+                        </barButtonItem>
                         <connections>
                             <outlet property="titleView" destination="Bpq-y5-an3" id="Zav-Zx-pPh"/>
                         </connections>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
+                        <outlet property="aboutView" destination="WqQ-Zj-oyD" id="FCu-uJ-hDF"/>
                         <outlet property="confirmButton" destination="CH1-8y-RCV" id="f5q-e1-hhB"/>
                         <outlet property="loadingIndicator" destination="quc-bv-m72" id="tUf-Yl-GuB"/>
                         <outlet property="navBar" destination="BlW-4I-dbG" id="rXH-XB-isf"/>
@@ -95,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h5Z-Z1-aHx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1490" y="113"/>
+            <point key="canvasLocation" x="-1490.1049475262371" y="112.8"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -147,4 +191,5 @@
     <resources>
         <image name="sobek.png" width="206" height="155"/>
     </resources>
+    <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
 </document>

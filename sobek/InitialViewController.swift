@@ -11,11 +11,21 @@ import Alamofire
 
 class InitialViewController: UIViewController {
 	
+	@IBOutlet weak var aboutView: UIView!
 	@IBOutlet weak var navBar: UINavigationItem!
 	@IBOutlet weak var textField: UITextField!
 	@IBOutlet weak var confirmButton: UIButton!
 	@IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+	
 	let IDSIZE = 8
+	
+	@IBAction func aboutButton(sender: UIBarButtonItem) {
+		self.aboutView.isHidden = false
+	}
+	
+	@IBAction func aboutOk(sender: UIButton) {
+		self.aboutView.isHidden = true
+	}
 	
 	
 	func hideNavBar() {
@@ -44,6 +54,7 @@ class InitialViewController: UIViewController {
 			self.performSegue(withIdentifier: "segue", sender: id)
 			self.loadingIndicator.isHidden = true
 			self.navigationController?.navigationBar.alpha = 1
+			self.view.isUserInteractionEnabled = true
 		}
 
 		
@@ -53,10 +64,10 @@ class InitialViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		hideNavBar()
 	}
 	
 	override func viewWillAppear(_ animated: Bool) {
+		hideNavBar()
 	}
 	
 	override func didReceiveMemoryWarning() {
@@ -80,4 +91,5 @@ class InitialViewController: UIViewController {
 		let webview = segue.destination as! ViewController
 		webview.id = sender as! String
 	}
+	
 }
