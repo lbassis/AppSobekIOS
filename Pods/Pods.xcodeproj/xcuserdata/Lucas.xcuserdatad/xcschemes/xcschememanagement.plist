@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BTNavigationDropdownMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
+		<key>Pods-sobek.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
+		<key>Pods-sobekTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-sobekUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2A99646902DEEDBF9BCD09C9E979D02C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>500C185A64F1B9EBDACE0D355D353AAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54B92DD4EE10EB5E00811C0D836A3447</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A52524E727A97710A55D0EDA55BB7CFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

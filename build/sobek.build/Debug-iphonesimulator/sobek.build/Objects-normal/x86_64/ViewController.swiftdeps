@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C5sobek14ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "didReceiveMemoryWarning"
-- "mWebView"
 - "id"
+- "viewDidLoad"
+- "mWebView"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "+"
-- "ViewController"
-- !private "URL"
-- "CastingPrecedence"
-- !private "NSURLRequest"
-- "UIViewController"
-- !private "URLRequest"
 - "UIWebView"
+- !private "URL"
+- "ViewController"
+- "CastingPrecedence"
+- !private "+"
 - "StringLiteralType"
+- "UIViewController"
 - "String"
+- !private "URLRequest"
+- !private "NSURLRequest"
 depends-member:
 - !private ["Ps9AnyObject", "NSURLRequest"]
 - !private ["Ps9AnyObject", "String"]
@@ -346,4 +346,8 @@ depends-external:
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Modules/BTNavigationDropdownMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Headers/BTNavigationDropdownMenu-Swift.h"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Headers/BTNavigationDropdownMenu-umbrella.h"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Modules/module.modulemap"
 interface-hash: "5d7e2027faba0c383c3cd31f5c397f4b"

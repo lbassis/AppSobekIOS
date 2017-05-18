@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BTNavigationDropdownMenu-Swift.h",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Headers/BTNavigationDropdownMenu-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTNavigationDropdownMenu-umbrella.h",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/Pods/Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/build/Pods.build/Debug-iphonesimulator/BTNavigationDropdownMenu.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/Pods_sobek.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-sobek-umbrella.h",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/Pods/Target Support Files/Pods-sobek/Pods-sobek-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_sobek-Swift.h",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/Pods_sobek.framework/Headers/Pods_sobek-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/Pods_sobek.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/build/Pods.build/Debug-iphonesimulator/Pods-sobek.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

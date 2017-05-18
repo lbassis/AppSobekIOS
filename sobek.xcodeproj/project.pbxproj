@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ADCD934F39B288D9D6BBE7B /* Pods_sobekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DFF847832E3A7F47CE3025 /* Pods_sobekUITests.framework */; };
+		2B2FEBCAC3E0C079D117A2BC /* Pods_sobek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ABC74D8E7FF0B7294B551C /* Pods_sobek.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A013144A1E9EEBB100693A71 /* sobek.png in Resources */ = {isa = PBXBuildFile; fileRef = A01314491E9EEBB100693A71 /* sobek.png */; };
 		A023039C1E93145D00436C0E /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023039B1E93145D00436C0E /* InitialViewController.swift */; };
 		A02338211E8B50930099855E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02338201E8B50930099855E /* AppDelegate.swift */; };
@@ -17,6 +19,7 @@
 		A02338361E8B50930099855E /* sobekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02338351E8B50930099855E /* sobekTests.swift */; };
 		A02338411E8B50940099855E /* sobekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02338401E8B50940099855E /* sobekUITests.swift */; };
 		A091FD341EBDAE2300390531 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A091FD331EBDAE2300390531 /* Alamofire.framework */; };
+		F87D4FBCEC3722D6F3BF9E18 /* Pods_sobekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73102130A7BF6208F52FE594 /* Pods_sobekTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17ABC74D8E7FF0B7294B551C /* Pods_sobek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sobek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		303CA14304AE4B5AC2F29158 /* Pods-sobek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sobek.release.xcconfig"; path = "Pods/Target Support Files/Pods-sobek/Pods-sobek.release.xcconfig"; sourceTree = "<group>"; };
+		3C32ED76E8D66F1396EEF797 /* Pods-sobekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sobekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sobekTests/Pods-sobekTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FFE19E55B4703C33099693D /* Pods-sobekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sobekUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sobekUITests/Pods-sobekUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73102130A7BF6208F52FE594 /* Pods_sobekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sobekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		972128C6D934DA4BF6F3933D /* Pods-sobekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sobekTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sobekTests/Pods-sobekTests.release.xcconfig"; sourceTree = "<group>"; };
 		A01314491E9EEBB100693A71 /* sobek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sobek.png; sourceTree = "<group>"; };
 		A023039B1E93145D00436C0E /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		A023381D1E8B50930099855E /* sobek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sobek.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +62,9 @@
 		A02338401E8B50940099855E /* sobekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sobekUITests.swift; sourceTree = "<group>"; };
 		A02338421E8B50940099855E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A091FD331EBDAE2300390531 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		A8906FEF6CBAA7305E52ABD9 /* Pods-sobekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sobekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sobekUITests/Pods-sobekUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C849ACEE9249A8640B0F1250 /* Pods-sobek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sobek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sobek/Pods-sobek.debug.xcconfig"; sourceTree = "<group>"; };
+		C8DFF847832E3A7F47CE3025 /* Pods_sobekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sobekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A091FD341EBDAE2300390531 /* Alamofire.framework in Frameworks */,
+				2B2FEBCAC3E0C079D117A2BC /* Pods_sobek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87D4FBCEC3722D6F3BF9E18 /* Pods_sobekTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADCD934F39B288D9D6BBE7B /* Pods_sobekUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4345993D138CE3EF0613B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C849ACEE9249A8640B0F1250 /* Pods-sobek.debug.xcconfig */,
+				303CA14304AE4B5AC2F29158 /* Pods-sobek.release.xcconfig */,
+				3C32ED76E8D66F1396EEF797 /* Pods-sobekTests.debug.xcconfig */,
+				972128C6D934DA4BF6F3933D /* Pods-sobekTests.release.xcconfig */,
+				A8906FEF6CBAA7305E52ABD9 /* Pods-sobekUITests.debug.xcconfig */,
+				3FFE19E55B4703C33099693D /* Pods-sobekUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A02338141E8B50930099855E = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +117,7 @@
 				A023383F1E8B50940099855E /* sobekUITests */,
 				A023381E1E8B50930099855E /* Products */,
 				A091FD321EBDAE2300390531 /* Frameworks */,
+				1C4345993D138CE3EF0613B5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				A091FD331EBDAE2300390531 /* Alamofire.framework */,
+				17ABC74D8E7FF0B7294B551C /* Pods_sobek.framework */,
+				73102130A7BF6208F52FE594 /* Pods_sobekTests.framework */,
+				C8DFF847832E3A7F47CE3025 /* Pods_sobekUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,10 +182,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A02338451E8B50940099855E /* Build configuration list for PBXNativeTarget "sobek" */;
 			buildPhases = (
+				1FEA03C230E1272F3D50871A /* [CP] Check Pods Manifest.lock */,
 				A02338191E8B50930099855E /* Sources */,
 				A023381A1E8B50930099855E /* Frameworks */,
 				A023381B1E8B50930099855E /* Resources */,
 				A091FD361EBDAFD800390531 /* ShellScript */,
+				69AC22BC691128220A3761BD /* [CP] Embed Pods Frameworks */,
+				A5F91FC1538F180ECDC45D67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A02338481E8B50940099855E /* Build configuration list for PBXNativeTarget "sobekTests" */;
 			buildPhases = (
+				681A09EF90EA0C5DD05FE797 /* [CP] Check Pods Manifest.lock */,
 				A023382D1E8B50930099855E /* Sources */,
 				A023382E1E8B50930099855E /* Frameworks */,
 				A023382F1E8B50930099855E /* Resources */,
+				788A036DCDC33D65584397C6 /* [CP] Embed Pods Frameworks */,
+				3308F3A2833C6D920C7A0638 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A023384B1E8B50940099855E /* Build configuration list for PBXNativeTarget "sobekUITests" */;
 			buildPhases = (
+				599DC40B3E76541ED8906E76 /* [CP] Check Pods Manifest.lock */,
 				A02338381E8B50940099855E /* Sources */,
 				A02338391E8B50940099855E /* Frameworks */,
 				A023383A1E8B50940099855E /* Resources */,
+				55312C09421C650DAC2640B2 /* [CP] Embed Pods Frameworks */,
+				2A5DB12F3FC524934F1CB3DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +316,126 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1FEA03C230E1272F3D50871A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A5DB12F3FC524934F1CB3DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sobekUITests/Pods-sobekUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3308F3A2833C6D920C7A0638 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sobekTests/Pods-sobekTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55312C09421C650DAC2640B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sobekUITests/Pods-sobekUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		599DC40B3E76541ED8906E76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		681A09EF90EA0C5DD05FE797 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69AC22BC691128220A3761BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sobek/Pods-sobek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		788A036DCDC33D65584397C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sobekTests/Pods-sobekTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A091FD361EBDAFD800390531 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,6 +449,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		A5F91FC1538F180ECDC45D67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sobek/Pods-sobek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -448,6 +624,7 @@
 		};
 		A02338461E8B50940099855E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C849ACEE9249A8640B0F1250 /* Pods-sobek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -464,6 +641,7 @@
 		};
 		A02338471E8B50940099855E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303CA14304AE4B5AC2F29158 /* Pods-sobek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -480,6 +658,7 @@
 		};
 		A02338491E8B50940099855E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C32ED76E8D66F1396EEF797 /* Pods-sobekTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +673,7 @@
 		};
 		A023384A1E8B50940099855E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972128C6D934DA4BF6F3933D /* Pods-sobekTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +688,7 @@
 		};
 		A023384C1E8B50940099855E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8906FEF6CBAA7305E52ABD9 /* Pods-sobekUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = sobekUITests/Info.plist;
@@ -521,6 +702,7 @@
 		};
 		A023384D1E8B50940099855E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFE19E55B4703C33099693D /* Pods-sobekUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = sobekUITests/Info.plist;
