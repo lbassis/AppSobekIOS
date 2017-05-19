@@ -1,22 +1,12 @@
 PODS:
-  - BTNavigationDropdownMenu (0.4.1)
+  - AZDropdownMenu (1.1.2)
 
 DEPENDENCIES:
-  - BTNavigationDropdownMenu (from `https://github.com/PhamBaTho/BTNavigationDropdownMenu.git`, branch `swift-3.0`)
-
-EXTERNAL SOURCES:
-  BTNavigationDropdownMenu:
-    :branch: swift-3.0
-    :git: https://github.com/PhamBaTho/BTNavigationDropdownMenu.git
-
-CHECKOUT OPTIONS:
-  BTNavigationDropdownMenu:
-    :commit: 2c08c8579cf7a53ecb3dbf578e6e1034080a9859
-    :git: https://github.com/PhamBaTho/BTNavigationDropdownMenu.git
+  - AZDropdownMenu
 
 SPEC CHECKSUMS:
-  BTNavigationDropdownMenu: 093f3cbfad1572f2c222bdf8d17584d1e13380d4
+  AZDropdownMenu: 411c1b445fd29bb1e56b219131aaf294ba21b9b6
 
-PODFILE CHECKSUM: 66337b3abe273029376001ac72945327a8eafef7
+PODFILE CHECKSUM: 1a26c8328fa1cc8fe735a026e2988b2c1020334b
 
 COCOAPODS: 1.2.1

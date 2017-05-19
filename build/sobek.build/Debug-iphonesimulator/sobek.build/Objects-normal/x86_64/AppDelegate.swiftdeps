@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C5sobek11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillEnterForeground"
-- "application"
+- "applicationWillResignActive"
 - "applicationDidBecomeActive"
 - "window"
-- "applicationWillResignActive"
-- "applicationWillTerminate"
 - "applicationDidEnterBackground"
+- "application"
+- "applicationWillEnterForeground"
+- "applicationWillTerminate"
 depends-top-level:
-- "UIResponder"
+- "UIWindow"
+- "AppDelegate"
+- "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
-- "AppDelegate"
-- "UIWindow"
-- !private "BooleanLiteralType"
-- "UIApplication"
 - "Bool"
+- !private "BooleanLiteralType"
+- "UIResponder"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
@@ -263,8 +263,8 @@ depends-external:
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Modules/BTNavigationDropdownMenu.swiftmodule/x86_64.swiftmodule"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Headers/BTNavigationDropdownMenu-Swift.h"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Headers/BTNavigationDropdownMenu-umbrella.h"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Modules/module.modulemap"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Modules/AZDropdownMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-Swift.h"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-umbrella.h"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Modules/module.modulemap"
 interface-hash: "7e85a999868267b7cde0941f4dd635ac"

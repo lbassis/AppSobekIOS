@@ -8,7 +8,6 @@
 
 import UIKit
 import Alamofire
-import BTNavigationDropdownMenu
 
 class InitialViewController: UIViewController {
 	

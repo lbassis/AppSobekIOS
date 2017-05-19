@@ -7,85 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03B67FEC7D2B50CBB5924CBAB9DE3532 /* Pods-sobek-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D712D7CF31868E44C99270D11645F98 /* Pods-sobek-dummy.m */; };
-		05582AA88CD8208768A24D3E31F43FE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		52933055CBE7B3EA7B1FE33D401CD13D /* BTNavigationDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A4FB14486A7F2E1CFE0EB65C82E60 /* BTNavigationDropdownMenu-dummy.m */; };
-		53FCA9CA383DA8F381865015170AFFF8 /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44ECC1F20F225DA56CC2FEE7EFA2AFAC /* BTNavigationDropdownMenu.bundle */; };
+		18B65A8C875558134D503B1A95AB6322 /* AZDropdownMenuConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581E0FB6D0DF45B527DE81D89F0A56FD /* AZDropdownMenuConfig.swift */; };
+		1D673463A985686A447362511BA5ABB4 /* AZDropdownMenuDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94198721233F69C45804B80ACC25124 /* AZDropdownMenuDefaultCell.swift */; };
+		4C2B7867E6398FC7A627CC9C98653A3F /* AZDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F19BD0D332F3BF262B207C410C0A4 /* AZDropdownMenu.swift */; };
+		60C7A7D3061653368C2D77F41CD62C59 /* AZDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A73CF1D468912A524A93C08AA55334 /* AZDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A57444A15ABAC54615D40FF1F5B768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6A574A65E4290777CD4F0BA190F6E8A6 /* Pods-sobekUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD068E22A18A23442E9C9123C79D1C2A /* Pods-sobekUITests-dummy.m */; };
-		94A8A9C6D3F7F317D2483937BD4F941F /* Pods-sobek-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BD3C33A07C34A3B7C178DBDA428B37 /* Pods-sobek-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70F1AE0DB2D3B1A81A14468BB6EBB399 /* Pods-sobek-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BD3C33A07C34A3B7C178DBDA428B37 /* Pods-sobek-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD9ADE006CA83465345059BE0FDD746 /* AZDropdownMenuBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243CAFCC6EAC2C6CFC6989D93869B69 /* AZDropdownMenuBaseCell.swift */; };
 		9AD4EA92387E89EB53B1F7E91B788C60 /* Pods-sobekTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C44F5CA4F0B593914A8DFF750859A42 /* Pods-sobekTests-dummy.m */; };
+		9FAD0169B7AE5C0F9436CBC515360850 /* AZDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6291BCE27200D36DD5234137FB5B7 /* AZDropdownMenu-dummy.m */; };
+		A62D10727856937B6597E67A676279A3 /* Pods-sobek-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D712D7CF31868E44C99270D11645F98 /* Pods-sobek-dummy.m */; };
 		A93BF8FECACFF7BD31DEBC8CC1C0DA55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B3AAE6FDD1C94A708CC3B5041BDB5A27 /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6362D864FA2D3C24243FBF8536174C /* BTNavigationDropdownMenu.swift */; };
 		B9F245301F091CD52EF62EFF17834BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CC22A8D2ABA5D432888CE34039987522 /* Pods-sobekUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4026D1C675AB81E12EACB246CDFC8CD /* Pods-sobekUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E47D2BA82F8F1795B757B9401BBFF516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E501ED9B0FC34A2A8F8B1AE20809D629 /* BTNavigationDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 752F8BCF5187145076ADA7FEE85A65A7 /* BTNavigationDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E82E4EC41A9D1C95018E9F3A93C716A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EEEE20C99FFFD3697C2FAD4A6F413518 /* Pods-sobekTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 487B09ABBE217CA8DA456CF11BE3F01F /* Pods-sobekTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3FA634B4C7BC0CB492AA6F2A020B1718 /* PBXContainerItemProxy */ = {
+		1CE19E6C56D847A6B0E908DD22D87F7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A52524E727A97710A55D0EDA55BB7CFE;
-			remoteInfo = BTNavigationDropdownMenu;
+			remoteGlobalIDString = 0BA6525597C1B817693051CCA494E16A;
+			remoteInfo = AZDropdownMenu;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0109FD136CE66C72C2E7514D42887E8F /* Pods-sobekUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobekUITests-resources.sh"; sourceTree = "<group>"; };
 		01C7E04DBFEE1F34968822709AAF2E70 /* Pods-sobek-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sobek-acknowledgements.plist"; sourceTree = "<group>"; };
+		028D3FA93CCD57E87F6E23D21010A1E9 /* Pods_sobek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sobek.framework; path = "Pods-sobek.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047B148BF305DE1698DAC42FB0339419 /* Pods-sobek-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobek-frameworks.sh"; sourceTree = "<group>"; };
 		08A1550EA14749C63851F37EACC4E69A /* Pods-sobekTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobekTests-resources.sh"; sourceTree = "<group>"; };
 		0B0EF79790D6097DD4E0FA6437840803 /* Pods-sobekUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sobekUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		121AB90052DC2A0702F16D9A526276D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DE9B81A48387D024C9FF6806472B21 /* Pods_sobekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sobekUITests.framework; path = "Pods-sobekUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		174C56E6241CB02BD0502DCF10E9C258 /* Pods-sobekTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sobekTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		201D8665484B5876B108743E18F42758 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21D25AD821AB9FF92554F1EF67B474CA /* Pods-sobekTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sobekTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2243CAFCC6EAC2C6CFC6989D93869B69 /* AZDropdownMenuBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuBaseCell.swift; path = Pod/Classes/AZDropdownMenuBaseCell.swift; sourceTree = "<group>"; };
 		25EB3FB7040747F55F22DAF90762631F /* Pods-sobek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobek.release.xcconfig"; sourceTree = "<group>"; };
 		388E90467E1B4548635B83ABDF1381FE /* Pods-sobek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobek.debug.xcconfig"; sourceTree = "<group>"; };
-		44ECC1F20F225DA56CC2FEE7EFA2AFAC /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BTNavigationDropdownMenu.bundle; path = Source/BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
 		487B09ABBE217CA8DA456CF11BE3F01F /* Pods-sobekTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sobekTests-umbrella.h"; sourceTree = "<group>"; };
 		4D712D7CF31868E44C99270D11645F98 /* Pods-sobek-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sobek-dummy.m"; sourceTree = "<group>"; };
-		4F0A4FB14486A7F2E1CFE0EB65C82E60 /* BTNavigationDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTNavigationDropdownMenu-dummy.m"; sourceTree = "<group>"; };
 		562244B868D558502D9F92DB196F6264 /* Pods-sobekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobekUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5B39C31D3AC90515D43E28CB2F8ADA22 /* Pods_sobek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sobek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65FF64EB4B2A787E25995B298D789724 /* BTNavigationDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTNavigationDropdownMenu.xcconfig; sourceTree = "<group>"; };
+		581E0FB6D0DF45B527DE81D89F0A56FD /* AZDropdownMenuConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuConfig.swift; path = Pod/Classes/AZDropdownMenuConfig.swift; sourceTree = "<group>"; };
+		5C464EFA42257207BF175E47091EFDAD /* AZDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66A73CF1D468912A524A93C08AA55334 /* AZDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
 		6726358F5BA2250D7488231FB00F5E93 /* Pods-sobekUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sobekUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		752F8BCF5187145076ADA7FEE85A65A7 /* BTNavigationDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTNavigationDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		701DCF559D3E0BF5B39929E9BE2BE656 /* AZDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AZDropdownMenu.modulemap; sourceTree = "<group>"; };
 		767338CEF42ABDF0D59DE82671EDA545 /* Pods-sobekTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobekTests-frameworks.sh"; sourceTree = "<group>"; };
-		7D6362D864FA2D3C24243FBF8536174C /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTNavigationDropdownMenu.swift; path = Source/BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
 		83452B553747D52DF0350F79CDC798E8 /* Pods-sobek-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobek-resources.sh"; sourceTree = "<group>"; };
 		8C44F5CA4F0B593914A8DFF750859A42 /* Pods-sobekTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sobekTests-dummy.m"; sourceTree = "<group>"; };
-		9040FEA03A1CEE4BD06E5D64CDBA7E3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90ED5970693EDD73336C560CABE60F2E /* Pods-sobek-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sobek-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0C2916B9A4B52F92BE133D26B0D2051 /* Pods-sobekTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-sobekTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AC4BC3119E61E4C50272355DD68F092 /* AZDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZDropdownMenu.xcconfig; sourceTree = "<group>"; };
+		A0C2916B9A4B52F92BE133D26B0D2051 /* Pods-sobekTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-sobekTests.modulemap"; sourceTree = "<group>"; };
 		AC4AEED2BE9D741676B59E482384FBBE /* Pods-sobekUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobekUITests-frameworks.sh"; sourceTree = "<group>"; };
-		B31F647D9E558260994963839AE71C1D /* BTNavigationDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTNavigationDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE753EC5C64AE9CCF1F8093F43E1A57F /* BTNavigationDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BTNavigationDropdownMenu.modulemap; sourceTree = "<group>"; };
+		B5C3EC8EBB208CEAE16B42D3FF0514A0 /* Pods_sobekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sobekTests.framework; path = "Pods-sobekTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65F19BD0D332F3BF262B207C410C0A4 /* AZDropdownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenu.swift; path = Pod/Classes/AZDropdownMenu.swift; sourceTree = "<group>"; };
+		B94198721233F69C45804B80ACC25124 /* AZDropdownMenuDefaultCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuDefaultCell.swift; path = Pod/Classes/AZDropdownMenuDefaultCell.swift; sourceTree = "<group>"; };
 		C45F3B6BE0CD7DF1723ACBE586A8313B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4026D1C675AB81E12EACB246CDFC8CD /* Pods-sobekUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sobekUITests-umbrella.h"; sourceTree = "<group>"; };
 		D4BD3C33A07C34A3B7C178DBDA428B37 /* Pods-sobek-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sobek-umbrella.h"; sourceTree = "<group>"; };
 		D83A545A2DE8A5034223AD786E4FDBEE /* Pods-sobekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobekTests.release.xcconfig"; sourceTree = "<group>"; };
 		D98D5B44AA781EB2119BD257D0CD784C /* Pods-sobekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobekTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DA7104180BF1BF74D63DD3A789D21F5C /* BTNavigationDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTNavigationDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
-		E2F4CEFD9122481ADF9B857BA74F0F69 /* Pods_sobekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sobekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD6291BCE27200D36DD5234137FB5B7 /* AZDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZDropdownMenu-dummy.m"; sourceTree = "<group>"; };
 		EA7A75A0A59A46BF2A9A6EF8F1840E46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBB9D89BCA4472C656FEC26CBA1EED8E /* Pods-sobek.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-sobek.modulemap"; sourceTree = "<group>"; };
-		EC1912AFE37A5E2CE3B69662F0463D28 /* Pods_sobekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sobekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB9D89BCA4472C656FEC26CBA1EED8E /* Pods-sobek.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-sobek.modulemap"; sourceTree = "<group>"; };
 		F60A5E87C52679600AC1C60C75C039F3 /* Pods-sobekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobekUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FBA326F7E34202C76320E7FEAD3C16E8 /* Pods-sobekUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-sobekUITests.modulemap"; sourceTree = "<group>"; };
+		FAEEB641920440DD7A556C567AFA3E12 /* AZDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZDropdownMenu.framework; path = AZDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA326F7E34202C76320E7FEAD3C16E8 /* Pods-sobekUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-sobekUITests.modulemap"; sourceTree = "<group>"; };
 		FD068E22A18A23442E9C9123C79D1C2A /* Pods-sobekUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sobekUITests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FA28A4CC76082D6800F2919930F21B1 /* Frameworks */ = {
+		2BB481CAC86FDB60D00939601AB4C790 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05582AA88CD8208768A24D3E31F43FE7 /* Foundation.framework in Frameworks */,
+				61A57444A15ABAC54615D40FF1F5B768 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,19 +101,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9A401389931AEA7E57B1283CF295EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82E4EC41A9D1C95018E9F3A93C716A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF6E694AFAB366056B19D89B75FB3C05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A93BF8FECACFF7BD31DEBC8CC1C0DA55 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF1727C004082BC608E65FB04C132FFB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E47D2BA82F8F1795B757B9401BBFF516 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,28 +130,48 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		50A6A50BC8331D4B2135949784EF6FC6 /* BTNavigationDropdownMenu */ = {
+		5161239CBCA8192BE4350431F7C8C3EC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D6362D864FA2D3C24243FBF8536174C /* BTNavigationDropdownMenu.swift */,
-				59391CD8AE191507CFA3C89D5772084A /* Resources */,
-				A3E1EDC54EE51249AB73C780D3FE2AD3 /* Support Files */,
+				701DCF559D3E0BF5B39929E9BE2BE656 /* AZDropdownMenu.modulemap */,
+				9AC4BC3119E61E4C50272355DD68F092 /* AZDropdownMenu.xcconfig */,
+				DDD6291BCE27200D36DD5234137FB5B7 /* AZDropdownMenu-dummy.m */,
+				5C464EFA42257207BF175E47091EFDAD /* AZDropdownMenu-prefix.pch */,
+				66A73CF1D468912A524A93C08AA55334 /* AZDropdownMenu-umbrella.h */,
+				201D8665484B5876B108743E18F42758 /* Info.plist */,
 			);
-			path = BTNavigationDropdownMenu;
+			name = "Support Files";
+			path = "../Target Support Files/AZDropdownMenu";
 			sourceTree = "<group>";
 		};
-		59391CD8AE191507CFA3C89D5772084A /* Resources */ = {
+		54A2076D8EE86D6FA5E5239BD6FCAB25 /* AZDropdownMenu */ = {
 			isa = PBXGroup;
 			children = (
-				44ECC1F20F225DA56CC2FEE7EFA2AFAC /* BTNavigationDropdownMenu.bundle */,
+				B65F19BD0D332F3BF262B207C410C0A4 /* AZDropdownMenu.swift */,
+				2243CAFCC6EAC2C6CFC6989D93869B69 /* AZDropdownMenuBaseCell.swift */,
+				581E0FB6D0DF45B527DE81D89F0A56FD /* AZDropdownMenuConfig.swift */,
+				B94198721233F69C45804B80ACC25124 /* AZDropdownMenuDefaultCell.swift */,
+				5161239CBCA8192BE4350431F7C8C3EC /* Support Files */,
 			);
-			name = Resources;
+			name = AZDropdownMenu;
+			path = AZDropdownMenu;
 			sourceTree = "<group>";
 		};
-		6E1E9424BEC08A0763D15F563D7803F3 /* Pods */ = {
+		5546C6C75C02B138FB78F1F10EE8F6E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50A6A50BC8331D4B2135949784EF6FC6 /* BTNavigationDropdownMenu */,
+				FAEEB641920440DD7A556C567AFA3E12 /* AZDropdownMenu.framework */,
+				028D3FA93CCD57E87F6E23D21010A1E9 /* Pods_sobek.framework */,
+				B5C3EC8EBB208CEAE16B42D3FF0514A0 /* Pods_sobekTests.framework */,
+				15DE9B81A48387D024C9FF6806472B21 /* Pods_sobekUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EFBE4AFDBAF1243664DC8D73F75BB24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54A2076D8EE86D6FA5E5239BD6FCAB25 /* AZDropdownMenu */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -157,8 +181,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				6E1E9424BEC08A0763D15F563D7803F3 /* Pods */,
-				C34008F336F5BF94E31BA1745FED105A /* Products */,
+				5EFBE4AFDBAF1243664DC8D73F75BB24 /* Pods */,
+				5546C6C75C02B138FB78F1F10EE8F6E4 /* Products */,
 				12CADC5D7FD28E3F0A0ECF0ED9BF14B9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -199,37 +223,12 @@
 			path = "Target Support Files/Pods-sobek";
 			sourceTree = "<group>";
 		};
-		A3E1EDC54EE51249AB73C780D3FE2AD3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BE753EC5C64AE9CCF1F8093F43E1A57F /* BTNavigationDropdownMenu.modulemap */,
-				65FF64EB4B2A787E25995B298D789724 /* BTNavigationDropdownMenu.xcconfig */,
-				4F0A4FB14486A7F2E1CFE0EB65C82E60 /* BTNavigationDropdownMenu-dummy.m */,
-				DA7104180BF1BF74D63DD3A789D21F5C /* BTNavigationDropdownMenu-prefix.pch */,
-				752F8BCF5187145076ADA7FEE85A65A7 /* BTNavigationDropdownMenu-umbrella.h */,
-				9040FEA03A1CEE4BD06E5D64CDBA7E3A /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BTNavigationDropdownMenu";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C34008F336F5BF94E31BA1745FED105A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B31F647D9E558260994963839AE71C1D /* BTNavigationDropdownMenu.framework */,
-				5B39C31D3AC90515D43E28CB2F8ADA22 /* Pods_sobek.framework */,
-				E2F4CEFD9122481ADF9B857BA74F0F69 /* Pods_sobekTests.framework */,
-				EC1912AFE37A5E2CE3B69662F0463D28 /* Pods_sobekUITests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -269,11 +268,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80100C3EBABA663D0146653B530AC944 /* Headers */ = {
+		61A75356BBE6E8C9079D0A6F9E93052A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E501ED9B0FC34A2A8F8B1AE20809D629 /* BTNavigationDropdownMenu-umbrella.h in Headers */,
+				70F1AE0DB2D3B1A81A14468BB6EBB399 /* Pods-sobek-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A0D46E6D8FAB863E57C914E7A12660 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C7A7D3061653368C2D77F41CD62C59 /* AZDropdownMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,33 +292,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD8282BCA8C71440CE610DCF33293B9E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94A8A9C6D3F7F317D2483937BD4F941F /* Pods-sobek-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A99646902DEEDBF9BCD09C9E979D02C /* Pods-sobek */ = {
+		0BA6525597C1B817693051CCA494E16A /* AZDropdownMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0DF99509098D771D344F0EDD7B4D6AA /* Build configuration list for PBXNativeTarget "Pods-sobek" */;
+			buildConfigurationList = 4500DE545E75E9ED99E96DFD33207214 /* Build configuration list for PBXNativeTarget "AZDropdownMenu" */;
 			buildPhases = (
-				11487254006D07AA5B0C3B6AAAEDAAE7 /* Sources */,
-				CF1727C004082BC608E65FB04C132FFB /* Frameworks */,
-				DD8282BCA8C71440CE610DCF33293B9E /* Headers */,
+				8DDCA6BDD10C63D2AF31C44FFD13E6C9 /* Sources */,
+				2BB481CAC86FDB60D00939601AB4C790 /* Frameworks */,
+				A9A0D46E6D8FAB863E57C914E7A12660 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				038F61F87B78DB923ABF7A92B9D57466 /* PBXTargetDependency */,
 			);
-			name = "Pods-sobek";
-			productName = "Pods-sobek";
-			productReference = 5B39C31D3AC90515D43E28CB2F8ADA22 /* Pods_sobek.framework */;
+			name = AZDropdownMenu;
+			productName = AZDropdownMenu;
+			productReference = FAEEB641920440DD7A556C567AFA3E12 /* AZDropdownMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		500C185A64F1B9EBDACE0D355D353AAB /* Pods-sobekUITests */ = {
@@ -328,7 +326,25 @@
 			);
 			name = "Pods-sobekUITests";
 			productName = "Pods-sobekUITests";
-			productReference = EC1912AFE37A5E2CE3B69662F0463D28 /* Pods_sobekUITests.framework */;
+			productReference = 15DE9B81A48387D024C9FF6806472B21 /* Pods_sobekUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5223B5788575E083EA87CC090D5E0E74 /* Pods-sobek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DA8A53E0E670F662F01F9EC47533C97 /* Build configuration list for PBXNativeTarget "Pods-sobek" */;
+			buildPhases = (
+				5ABAEB0A67161408B7420CE62FA7EEB0 /* Sources */,
+				A9A401389931AEA7E57B1283CF295EC0 /* Frameworks */,
+				61A75356BBE6E8C9079D0A6F9E93052A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C44FF84968C1F8D1CE33D303F69AA9D /* PBXTargetDependency */,
+			);
+			name = "Pods-sobek";
+			productName = "Pods-sobek";
+			productReference = 028D3FA93CCD57E87F6E23D21010A1E9 /* Pods_sobek.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		54B92DD4EE10EB5E00811C0D836A3447 /* Pods-sobekTests */ = {
@@ -345,25 +361,7 @@
 			);
 			name = "Pods-sobekTests";
 			productName = "Pods-sobekTests";
-			productReference = E2F4CEFD9122481ADF9B857BA74F0F69 /* Pods_sobekTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A52524E727A97710A55D0EDA55BB7CFE /* BTNavigationDropdownMenu */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D90E5EB1444F3AFD9BA59CA5F757333 /* Build configuration list for PBXNativeTarget "BTNavigationDropdownMenu" */;
-			buildPhases = (
-				31A2C7D4F00C41B7050082322279F8F1 /* Sources */,
-				0FA28A4CC76082D6800F2919930F21B1 /* Frameworks */,
-				9E64531B46CFE89120AD1C1DA6FCFDF9 /* Resources */,
-				80100C3EBABA663D0146653B530AC944 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BTNavigationDropdownMenu;
-			productName = BTNavigationDropdownMenu;
-			productReference = B31F647D9E558260994963839AE71C1D /* BTNavigationDropdownMenu.framework */;
+			productReference = B5C3EC8EBB208CEAE16B42D3FF0514A0 /* Pods_sobekTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -373,7 +371,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -383,28 +381,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C34008F336F5BF94E31BA1745FED105A /* Products */;
+			productRefGroup = 5546C6C75C02B138FB78F1F10EE8F6E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A52524E727A97710A55D0EDA55BB7CFE /* BTNavigationDropdownMenu */,
-				2A99646902DEEDBF9BCD09C9E979D02C /* Pods-sobek */,
+				0BA6525597C1B817693051CCA494E16A /* AZDropdownMenu */,
+				5223B5788575E083EA87CC090D5E0E74 /* Pods-sobek */,
 				54B92DD4EE10EB5E00811C0D836A3447 /* Pods-sobekTests */,
 				500C185A64F1B9EBDACE0D355D353AAB /* Pods-sobekUITests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		9E64531B46CFE89120AD1C1DA6FCFDF9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53FCA9CA383DA8F381865015170AFFF8 /* BTNavigationDropdownMenu.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1115834E18D8522D17CA82A71BBE0B69 /* Sources */ = {
@@ -415,20 +402,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11487254006D07AA5B0C3B6AAAEDAAE7 /* Sources */ = {
+		5ABAEB0A67161408B7420CE62FA7EEB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B67FEC7D2B50CBB5924CBAB9DE3532 /* Pods-sobek-dummy.m in Sources */,
+				A62D10727856937B6597E67A676279A3 /* Pods-sobek-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31A2C7D4F00C41B7050082322279F8F1 /* Sources */ = {
+		8DDCA6BDD10C63D2AF31C44FFD13E6C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52933055CBE7B3EA7B1FE33D401CD13D /* BTNavigationDropdownMenu-dummy.m in Sources */,
-				B3AAE6FDD1C94A708CC3B5041BDB5A27 /* BTNavigationDropdownMenu.swift in Sources */,
+				9FAD0169B7AE5C0F9436CBC515360850 /* AZDropdownMenu-dummy.m in Sources */,
+				4C2B7867E6398FC7A627CC9C98653A3F /* AZDropdownMenu.swift in Sources */,
+				8CD9ADE006CA83465345059BE0FDD746 /* AZDropdownMenuBaseCell.swift in Sources */,
+				18B65A8C875558134D503B1A95AB6322 /* AZDropdownMenuConfig.swift in Sources */,
+				1D673463A985686A447362511BA5ABB4 /* AZDropdownMenuDefaultCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,11 +433,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		038F61F87B78DB923ABF7A92B9D57466 /* PBXTargetDependency */ = {
+		3C44FF84968C1F8D1CE33D303F69AA9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BTNavigationDropdownMenu;
-			target = A52524E727A97710A55D0EDA55BB7CFE /* BTNavigationDropdownMenu */;
-			targetProxy = 3FA634B4C7BC0CB492AA6F2A020B1718 /* PBXContainerItemProxy */;
+			name = AZDropdownMenu;
+			target = 0BA6525597C1B817693051CCA494E16A /* AZDropdownMenu */;
+			targetProxy = 1CE19E6C56D847A6B0E908DD22D87F7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -476,11 +466,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -574,9 +562,9 @@
 			};
 			name = Debug;
 		};
-		30A80386C102734D1B00FECCEB5307B5 /* Release */ = {
+		30973245DD522CA1858304209457B1F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65FF64EB4B2A787E25995B298D789724 /* BTNavigationDropdownMenu.xcconfig */;
+			baseConfigurationReference = 9AC4BC3119E61E4C50272355DD68F092 /* AZDropdownMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -590,14 +578,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BTNavigationDropdownMenu/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AZDropdownMenu/AZDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZDropdownMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu.modulemap";
+				MODULEMAP_FILE = "Target Support Files/AZDropdownMenu/AZDropdownMenu.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BTNavigationDropdownMenu;
+				PRODUCT_NAME = AZDropdownMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -644,43 +632,7 @@
 			};
 			name = Release;
 		};
-		8B748E92BB0E9663D834C92020CFC1A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F60A5E87C52679600AC1C60C75C039F3 /* Pods-sobekUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-sobekUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sobekUITests/Pods-sobekUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_sobekUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		98689FF3FA59B177F6A761CA719B6779 /* Debug */ = {
+		57DAD028E917246DDDB208EDAA9B2A40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 388E90467E1B4548635B83ABDF1381FE /* Pods-sobek.debug.xcconfig */;
 			buildSettings = {
@@ -719,54 +671,78 @@
 			};
 			name = Debug;
 		};
-		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+		8B748E92BB0E9663D834C92020CFC1A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60A5E87C52679600AC1C60C75C039F3 /* Pods-sobekUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-sobekUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sobekUITests/Pods-sobekUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_sobekUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		C9798ECC1EB6136DD6E73D04A6925082 /* Release */ = {
+		8BEB795EC60BB68FC1967BD76B1DF716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC4BC3119E61E4C50272355DD68F092 /* AZDropdownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AZDropdownMenu/AZDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZDropdownMenu/AZDropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AZDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C461BBB5DB7B58F2246A423158F0949 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25EB3FB7040747F55F22DAF90762631F /* Pods-sobek.release.xcconfig */;
 			buildSettings = {
@@ -804,40 +780,49 @@
 			};
 			name = Release;
 		};
-		DE71FF5AECC892C8113E2CCFBC6C55F4 /* Debug */ = {
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65FF64EB4B2A787E25995B298D789724 /* BTNavigationDropdownMenu.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BTNavigationDropdownMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BTNavigationDropdownMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -851,6 +836,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		0DA8A53E0E670F662F01F9EC47533C97 /* Build configuration list for PBXNativeTarget "Pods-sobek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DAD028E917246DDDB208EDAA9B2A40 /* Debug */,
+				9C461BBB5DB7B58F2246A423158F0949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -860,11 +854,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D90E5EB1444F3AFD9BA59CA5F757333 /* Build configuration list for PBXNativeTarget "BTNavigationDropdownMenu" */ = {
+		4500DE545E75E9ED99E96DFD33207214 /* Build configuration list for PBXNativeTarget "AZDropdownMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE71FF5AECC892C8113E2CCFBC6C55F4 /* Debug */,
-				30A80386C102734D1B00FECCEB5307B5 /* Release */,
+				8BEB795EC60BB68FC1967BD76B1DF716 /* Debug */,
+				30973245DD522CA1858304209457B1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -874,15 +868,6 @@
 			buildConfigurations = (
 				2202AB5BE6094E67369D12190265F56F /* Debug */,
 				44112410D8F035539428AE3964FE215E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0DF99509098D771D344F0EDD7B4D6AA /* Build configuration list for PBXNativeTarget "Pods-sobek" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98689FF3FA59B177F6A761CA719B6779 /* Debug */,
-				C9798ECC1EB6136DD6E73D04A6925082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

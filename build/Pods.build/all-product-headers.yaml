@@ -4,28 +4,28 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Headers",
+      'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers",
       'contents': [
         {
           'type': 'file',
-          'name': "BTNavigationDropdownMenu-Swift.h",
-          'external-contents': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Headers/BTNavigationDropdownMenu-Swift.h"
+          'name': "AZDropdownMenu-Swift.h",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-Swift.h"
         },
         {
           'type': 'file',
-          'name': "BTNavigationDropdownMenu-umbrella.h",
-          'external-contents': "/Users/Lucas/Documents/SobekIOS/Pods/Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu-umbrella.h"
+          'name': "AZDropdownMenu-umbrella.h",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/Pods/Target Support Files/AZDropdownMenu/AZDropdownMenu-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework/Modules",
+      'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Lucas/Documents/SobekIOS/build/Pods.build/Debug-iphonesimulator/BTNavigationDropdownMenu.build/module.modulemap"
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/build/Pods.build/Debug-iphonesimulator/AZDropdownMenu.build/module.modulemap"
         }
       ]
     },

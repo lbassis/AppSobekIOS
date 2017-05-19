@@ -1,0 +1,255 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AZDropdownMenuConfig"
+- "AZDropdownMenuSeperatorStyle"
+- "AZDropdownMenuItemImagePosition"
+- "=="
+- "=="
+provides-nominal:
+- "V14AZDropdownMenu20AZDropdownMenuConfig"
+- "O14AZDropdownMenu28AZDropdownMenuSeperatorStyle"
+- "O14AZDropdownMenu31AZDropdownMenuItemImagePosition"
+provides-member:
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", ""]
+- ["O14AZDropdownMenu28AZDropdownMenuSeperatorStyle", ""]
+- ["O14AZDropdownMenu31AZDropdownMenuItemImagePosition", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "UIColor"
+- "Bool"
+- "AZDropdownMenuSeperatorStyle"
+- "AZDropdownMenuConfig"
+- "CGFloat"
+- "AZDropdownMenuItemAlignment"
+- "String"
+- "BooleanLiteralType"
+- "AZDropdownMenuItemImagePosition"
+- "/"
+- "StringLiteralType"
+depends-member:
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "AZDropdownMenuItemAlignment"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "AZDropdownMenuItemImagePosition"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "AZDropdownMenuSeperatorStyle"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "Bool"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "CGFloat"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "String"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "UIColor"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "deinit"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "init"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "itemAlignment"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "itemColor"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "itemFont"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "itemFontColor"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "itemFontSize"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "itemImagePosition"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "itemSelectionColor"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "menuSeparatorColor"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "menuSeparatorStyle"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "overlayAlpha"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "overlayColor"]
+- ["V14AZDropdownMenu20AZDropdownMenuConfig", "shouldDismissMenuOnDrag"]
+- ["O14AZDropdownMenu27AZDropdownMenuItemAlignment", "deinit"]
+- ["O14AZDropdownMenu27AZDropdownMenuItemAlignment", "left"]
+- ["O14AZDropdownMenu31AZDropdownMenuItemImagePosition", "=="]
+- ["O14AZDropdownMenu31AZDropdownMenuItemImagePosition", "_toAnyHashable"]
+- ["O14AZDropdownMenu31AZDropdownMenuItemImagePosition", "deinit"]
+- ["O14AZDropdownMenu31AZDropdownMenuItemImagePosition", "hashValue"]
+- ["O14AZDropdownMenu31AZDropdownMenuItemImagePosition", "postfix"]
+- ["O14AZDropdownMenu31AZDropdownMenuItemImagePosition", "prefix"]
+- ["O14AZDropdownMenu28AZDropdownMenuSeperatorStyle", "=="]
+- ["O14AZDropdownMenu28AZDropdownMenuSeperatorStyle", "_toAnyHashable"]
+- ["O14AZDropdownMenu28AZDropdownMenuSeperatorStyle", "deinit"]
+- ["O14AZDropdownMenu28AZDropdownMenuSeperatorStyle", "hashValue"]
+- ["O14AZDropdownMenu28AZDropdownMenuSeperatorStyle", "none"]
+- ["O14AZDropdownMenu28AZDropdownMenuSeperatorStyle", "singleline"]
+- ["Ps9AnyObject", "black"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lightGray"]
+- ["Ps9AnyObject", "white"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- ["Sb", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps7CVarArg", "black"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "lightGray"]
+- ["Ps7CVarArg", "white"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "black"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "lightGray"]
+- ["Ps28CustomDebugStringConvertible", "white"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "black"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "lightGray"]
+- ["Ps23CustomStringConvertible", "white"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "black"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "left"]
+- ["Ps9Equatable", "lightGray"]
+- ["Ps9Equatable", "prefix"]
+- ["Ps9Equatable", "singleline"]
+- ["Ps9Equatable", "white"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "black"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "left"]
+- ["Ps8Hashable", "lightGray"]
+- ["Ps8Hashable", "prefix"]
+- ["Ps8Hashable", "singleline"]
+- ["Ps8Hashable", "white"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "black"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "lightGray"]
+- ["PSo8NSCoding", "white"]
+- ["PSo9NSCopying", "black"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "lightGray"]
+- ["PSo9NSCopying", "white"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "black"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lightGray"]
+- ["CSo8NSObject", "white"]
+- ["PSo16NSObjectProtocol", "black"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "lightGray"]
+- ["PSo16NSObjectProtocol", "white"]
+- ["PSo14NSSecureCoding", "black"]
+- ["PSo14NSSecureCoding", "init"]
+- ["PSo14NSSecureCoding", "lightGray"]
+- ["PSo14NSSecureCoding", "white"]
+- ["CSo8NSString", "init"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["CSo7UIColor", "black"]
+- ["CSo7UIColor", "deinit"]
+- ["CSo7UIColor", "init"]
+- ["CSo7UIColor", "lightGray"]
+- ["CSo7UIColor", "white"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps26_ExpressibleByColorLiteral", "black"]
+- ["Ps26_ExpressibleByColorLiteral", "init"]
+- ["Ps26_ExpressibleByColorLiteral", "lightGray"]
+- ["Ps26_ExpressibleByColorLiteral", "white"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "black"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "left"]
+- ["Ps9_Hashable", "lightGray"]
+- ["Ps9_Hashable", "prefix"]
+- ["Ps9_Hashable", "singleline"]
+- ["Ps9_Hashable", "white"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "V14AZDropdownMenu20AZDropdownMenuConfig"
+- "O14AZDropdownMenu27AZDropdownMenuItemAlignment"
+- "O14AZDropdownMenu31AZDropdownMenuItemImagePosition"
+- "O14AZDropdownMenu28AZDropdownMenuSeperatorStyle"
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "CSo7UIColor"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/Lucas/Documents/SobekIOS/Pods/Target Support Files/AZDropdownMenu/AZDropdownMenu-umbrella.h"
+- "/Users/Lucas/Documents/SobekIOS/build/Pods.build/Debug-iphoneos/AZDropdownMenu.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "32491cb2cb30af3fafb2f73cb22ce9e0"

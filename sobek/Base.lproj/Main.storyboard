@@ -14,7 +14,7 @@
         <scene sceneID="aIp-bm-QN4">
             <objects>
                 <navigationController id="acU-mv-wLo" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="omY-eN-Ffs">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="omY-eN-Ffs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -178,9 +178,16 @@ http://sobek.ufrgs.br</string>
                             <constraint firstItem="yky-iP-aLr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="k05-wQ-YXj"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="fBw-6j-YXP"/>
+                    <navigationItem key="navigationItem" id="fBw-6j-YXP">
+                        <barButtonItem key="rightBarButtonItem" title="Options" id="ORr-eM-SWo">
+                            <connections>
+                                <action selector="optionPress:" destination="BYZ-38-t0r" id="eJh-bA-COS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mWebView" destination="yky-iP-aLr" id="eSu-Wh-MI6"/>
+                        <outlet property="optionsButton" destination="ORr-eM-SWo" id="beE-0A-hG6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

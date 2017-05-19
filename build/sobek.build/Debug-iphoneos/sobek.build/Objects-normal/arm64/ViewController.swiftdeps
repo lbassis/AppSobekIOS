@@ -1,0 +1,511 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C5sobek14ViewController"
+provides-member:
+- ["C5sobek14ViewController", ""]
+provides-dynamic-lookup:
+- "mWebView"
+- "optionPress"
+- "id"
+- "didReceiveMemoryWarning"
+- "optionsView"
+- "viewDidLoad"
+- "optionsButton"
+depends-top-level:
+- "UIWebView"
+- "CastingPrecedence"
+- "AZDropdownMenu"
+- "UIView"
+- "String"
+- !private "=="
+- !private "URLRequest"
+- "UIBarButtonItem"
+- !private "+"
+- "UIViewController"
+- !private "URL"
+- !private "NSURLRequest"
+- !private "BooleanLiteralType"
+- "ViewController"
+- "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "AZDropdownMenu"]
+- !private ["Ps9AnyObject", "NSURLRequest"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "URL"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadRequest"]
+- ["Ps9AnyObject", "mWebView"]
+- !private ["Ps9AnyObject", "menu"]
+- ["Ps9AnyObject", "optionPress"]
+- ["Ps9AnyObject", "optionsButton"]
+- ["Ps9AnyObject", "optionsView"]
+- !private ["Ps9AnyObject", "stringByEvaluatingJavaScript"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "loadRequest"]
+- !private ["PSo15CALayerDelegate", "stringByEvaluatingJavaScript"]
+- ["Ps7CVarArg", "AZDropdownMenu"]
+- !private ["Ps7CVarArg", "NSURLRequest"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "URL"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "id"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "loadRequest"]
+- ["Ps7CVarArg", "mWebView"]
+- !private ["Ps7CVarArg", "menu"]
+- ["Ps7CVarArg", "optionPress"]
+- ["Ps7CVarArg", "optionsButton"]
+- ["Ps7CVarArg", "optionsView"]
+- !private ["Ps7CVarArg", "stringByEvaluatingJavaScript"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "AZDropdownMenu"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "id"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "loadRequest"]
+- ["Ps28CustomDebugStringConvertible", "mWebView"]
+- !private ["Ps28CustomDebugStringConvertible", "menu"]
+- ["Ps28CustomDebugStringConvertible", "optionPress"]
+- ["Ps28CustomDebugStringConvertible", "optionsButton"]
+- ["Ps28CustomDebugStringConvertible", "optionsView"]
+- !private ["Ps28CustomDebugStringConvertible", "stringByEvaluatingJavaScript"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "AZDropdownMenu"]
+- !private ["Ps23CustomStringConvertible", "NSURLRequest"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "id"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "loadRequest"]
+- ["Ps23CustomStringConvertible", "mWebView"]
+- !private ["Ps23CustomStringConvertible", "menu"]
+- ["Ps23CustomStringConvertible", "optionPress"]
+- ["Ps23CustomStringConvertible", "optionsButton"]
+- ["Ps23CustomStringConvertible", "optionsView"]
+- !private ["Ps23CustomStringConvertible", "stringByEvaluatingJavaScript"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "AZDropdownMenu"]
+- !private ["Ps9Equatable", "NSURLRequest"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "URL"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "id"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "loadRequest"]
+- ["Ps9Equatable", "mWebView"]
+- !private ["Ps9Equatable", "menu"]
+- ["Ps9Equatable", "optionPress"]
+- ["Ps9Equatable", "optionsButton"]
+- ["Ps9Equatable", "optionsView"]
+- !private ["Ps9Equatable", "stringByEvaluatingJavaScript"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "AZDropdownMenu"]
+- !private ["Ps8Hashable", "NSURLRequest"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "URL"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "id"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "loadRequest"]
+- ["Ps8Hashable", "mWebView"]
+- !private ["Ps8Hashable", "menu"]
+- ["Ps8Hashable", "optionPress"]
+- ["Ps8Hashable", "optionsButton"]
+- ["Ps8Hashable", "optionsView"]
+- !private ["Ps8Hashable", "stringByEvaluatingJavaScript"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "AZDropdownMenu"]
+- !private ["PSo8NSCoding", "NSURLRequest"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "URL"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "id"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "loadRequest"]
+- ["PSo8NSCoding", "mWebView"]
+- !private ["PSo8NSCoding", "menu"]
+- ["PSo8NSCoding", "optionPress"]
+- ["PSo8NSCoding", "optionsButton"]
+- ["PSo8NSCoding", "optionsView"]
+- !private ["PSo8NSCoding", "stringByEvaluatingJavaScript"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "AZDropdownMenu"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURLRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "URL"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "id"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "mWebView"]
+- !private ["PSo26NSExtensionRequestHandling", "menu"]
+- ["PSo26NSExtensionRequestHandling", "optionPress"]
+- ["PSo26NSExtensionRequestHandling", "optionsButton"]
+- ["PSo26NSExtensionRequestHandling", "optionsView"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AZDropdownMenu"]
+- !private ["CSo8NSObject", "NSURLRequest"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIBarButtonItem"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "UIWebView"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "URLRequest"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "loadRequest"]
+- ["CSo8NSObject", "mWebView"]
+- !private ["CSo8NSObject", "menu"]
+- ["CSo8NSObject", "optionPress"]
+- ["CSo8NSObject", "optionsButton"]
+- ["CSo8NSObject", "optionsView"]
+- !private ["CSo8NSObject", "stringByEvaluatingJavaScript"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "AZDropdownMenu"]
+- !private ["PSo16NSObjectProtocol", "NSURLRequest"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "loadRequest"]
+- ["PSo16NSObjectProtocol", "mWebView"]
+- !private ["PSo16NSObjectProtocol", "menu"]
+- ["PSo16NSObjectProtocol", "optionPress"]
+- ["PSo16NSObjectProtocol", "optionsButton"]
+- ["PSo16NSObjectProtocol", "optionsView"]
+- !private ["PSo16NSObjectProtocol", "stringByEvaluatingJavaScript"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["CSo12NSURLRequest", "deinit"]
+- !private ["CSo12NSURLRequest", "init"]
+- ["Sq", "deinit"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "loadRequest"]
+- !private ["PSo29UIAccessibilityIdentification", "stringByEvaluatingJavaScript"]
+- !private ["PSo12UIAppearance", "loadRequest"]
+- !private ["PSo12UIAppearance", "stringByEvaluatingJavaScript"]
+- ["PSo21UIAppearanceContainer", "AZDropdownMenu"]
+- !private ["PSo21UIAppearanceContainer", "NSURLRequest"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "URL"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "id"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "loadRequest"]
+- ["PSo21UIAppearanceContainer", "mWebView"]
+- !private ["PSo21UIAppearanceContainer", "menu"]
+- ["PSo21UIAppearanceContainer", "optionPress"]
+- ["PSo21UIAppearanceContainer", "optionsButton"]
+- ["PSo21UIAppearanceContainer", "optionsView"]
+- !private ["PSo21UIAppearanceContainer", "stringByEvaluatingJavaScript"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "AZDropdownMenu"]
+- !private ["PSo18UIContentContainer", "NSURLRequest"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "URL"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "id"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "mWebView"]
+- !private ["PSo18UIContentContainer", "menu"]
+- ["PSo18UIContentContainer", "optionPress"]
+- ["PSo18UIContentContainer", "optionsButton"]
+- ["PSo18UIContentContainer", "optionsView"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "loadRequest"]
+- !private ["PSo17UICoordinateSpace", "stringByEvaluatingJavaScript"]
+- !private ["PSo13UIDynamicItem", "loadRequest"]
+- !private ["PSo13UIDynamicItem", "stringByEvaluatingJavaScript"]
+- ["PSo18UIFocusEnvironment", "AZDropdownMenu"]
+- !private ["PSo18UIFocusEnvironment", "NSURLRequest"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "URL"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "id"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "loadRequest"]
+- ["PSo18UIFocusEnvironment", "mWebView"]
+- !private ["PSo18UIFocusEnvironment", "menu"]
+- ["PSo18UIFocusEnvironment", "optionPress"]
+- ["PSo18UIFocusEnvironment", "optionsButton"]
+- ["PSo18UIFocusEnvironment", "optionsView"]
+- !private ["PSo18UIFocusEnvironment", "stringByEvaluatingJavaScript"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "loadRequest"]
+- !private ["PSo11UIFocusItem", "stringByEvaluatingJavaScript"]
+- ["CSo11UIResponder", "AZDropdownMenu"]
+- !private ["CSo11UIResponder", "NSURLRequest"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIBarButtonItem"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "UIWebView"]
+- !private ["CSo11UIResponder", "URL"]
+- !private ["CSo11UIResponder", "URLRequest"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "id"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "loadRequest"]
+- ["CSo11UIResponder", "mWebView"]
+- !private ["CSo11UIResponder", "menu"]
+- ["CSo11UIResponder", "optionPress"]
+- ["CSo11UIResponder", "optionsButton"]
+- ["CSo11UIResponder", "optionsView"]
+- !private ["CSo11UIResponder", "stringByEvaluatingJavaScript"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "AZDropdownMenu"]
+- !private ["PSo30UIResponderStandardEditActions", "NSURLRequest"]
+- !private ["PSo30UIResponderStandardEditActions", "String"]
+- !private ["PSo30UIResponderStandardEditActions", "URL"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "id"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "loadRequest"]
+- ["PSo30UIResponderStandardEditActions", "mWebView"]
+- !private ["PSo30UIResponderStandardEditActions", "menu"]
+- ["PSo30UIResponderStandardEditActions", "optionPress"]
+- ["PSo30UIResponderStandardEditActions", "optionsButton"]
+- ["PSo30UIResponderStandardEditActions", "optionsView"]
+- !private ["PSo30UIResponderStandardEditActions", "stringByEvaluatingJavaScript"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "loadRequest"]
+- !private ["PSo20UIScrollViewDelegate", "stringByEvaluatingJavaScript"]
+- ["PSo16UIStateRestoring", "AZDropdownMenu"]
+- !private ["PSo16UIStateRestoring", "NSURLRequest"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "URL"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "id"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "mWebView"]
+- !private ["PSo16UIStateRestoring", "menu"]
+- ["PSo16UIStateRestoring", "optionPress"]
+- ["PSo16UIStateRestoring", "optionsButton"]
+- ["PSo16UIStateRestoring", "optionsView"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "AZDropdownMenu"]
+- !private ["PSo18UITraitEnvironment", "NSURLRequest"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "URL"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "id"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "loadRequest"]
+- ["PSo18UITraitEnvironment", "mWebView"]
+- !private ["PSo18UITraitEnvironment", "menu"]
+- ["PSo18UITraitEnvironment", "optionPress"]
+- ["PSo18UITraitEnvironment", "optionsButton"]
+- ["PSo18UITraitEnvironment", "optionsView"]
+- !private ["PSo18UITraitEnvironment", "stringByEvaluatingJavaScript"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "loadRequest"]
+- !private ["CSo6UIView", "stringByEvaluatingJavaScript"]
+- ["CSo16UIViewController", "AZDropdownMenu"]
+- !private ["CSo16UIViewController", "NSURLRequest"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIBarButtonItem"]
+- ["CSo16UIViewController", "UIView"]
+- ["CSo16UIViewController", "UIWebView"]
+- !private ["CSo16UIViewController", "URL"]
+- !private ["CSo16UIViewController", "URLRequest"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "id"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "mWebView"]
+- !private ["CSo16UIViewController", "menu"]
+- ["CSo16UIViewController", "optionPress"]
+- ["CSo16UIViewController", "optionsButton"]
+- ["CSo16UIViewController", "optionsView"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["CSo9UIWebView", "loadRequest"]
+- !private ["CSo9UIWebView", "stringByEvaluatingJavaScript"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- ["P9Alamofire14URLConvertible", "init"]
+- ["V10Foundation10URLRequest", "deinit"]
+- ["C5sobek14ViewController", "AZDropdownMenu"]
+- !private ["C5sobek14ViewController", "NSURLRequest"]
+- ["C5sobek14ViewController", "String"]
+- ["C5sobek14ViewController", "UIBarButtonItem"]
+- ["C5sobek14ViewController", "UIView"]
+- ["C5sobek14ViewController", "UIWebView"]
+- !private ["C5sobek14ViewController", "URL"]
+- !private ["C5sobek14ViewController", "URLRequest"]
+- ["C5sobek14ViewController", "deinit"]
+- ["C5sobek14ViewController", "didReceiveMemoryWarning"]
+- ["C5sobek14ViewController", "id"]
+- ["C5sobek14ViewController", "init"]
+- ["C5sobek14ViewController", "mWebView"]
+- !private ["C5sobek14ViewController", "menu"]
+- ["C5sobek14ViewController", "optionPress"]
+- ["C5sobek14ViewController", "optionsButton"]
+- ["C5sobek14ViewController", "optionsView"]
+- !private ["C5sobek14ViewController", "view"]
+- ["C5sobek14ViewController", "viewDidLoad"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "loadRequest"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "stringByEvaluatingJavaScript"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "AZDropdownMenu"]
+- !private ["Ps9_Hashable", "NSURLRequest"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "URL"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "id"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "loadRequest"]
+- ["Ps9_Hashable", "mWebView"]
+- !private ["Ps9_Hashable", "menu"]
+- ["Ps9_Hashable", "optionPress"]
+- ["Ps9_Hashable", "optionsButton"]
+- ["Ps9_Hashable", "optionsView"]
+- !private ["Ps9_Hashable", "stringByEvaluatingJavaScript"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "CSo12NSURLRequest"
+- "Sq"
+- !private "P10Foundation20ReferenceConvertible"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "CSo9UIWebView"
+- "V10Foundation3URL"
+- "P9Alamofire14URLConvertible"
+- "V10Foundation10URLRequest"
+- "C5sobek14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphoneos/AZDropdownMenu/AZDropdownMenu.framework/Modules/AZDropdownMenu.swiftmodule/arm64.swiftmodule"
+interface-hash: "9a7fca273fb4c1db33961da4e47e49b9"

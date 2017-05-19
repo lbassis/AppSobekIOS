@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vI2stGpCEoL213izglOGi7ZV8AM=
+			SQePT6369AWIJNIG4umEakV7dSg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +26,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NDDpSq00z5/xD2yiqm5K1qhRbqg=
+			lpVwZCQSM3xOqShEIcdtsnsoprc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0YFdJ+F0HDLigQWyXDpz2iVGojY=
+			o/bc7B54fv7p4nS5qjp5rVNp7n0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,7 +53,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7Vno3vAu0o6ufB1tEbgNG/EiuJ4=
+			6NrL1CSCRG79BEXznWeh3G8ODOE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5wqYtDn0VKvsnLNr0jeePTGVVt0=
+			jDSTo/aBO6+ud+7uaZS/XE5kSPg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -71,11 +71,23 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9JxQW1oWT7iQ9x5zJ3YUFUnJ3TE=
+			x5acnLVfxY8gqNfNozZNIzHP9s0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Frameworks/AZDropdownMenu.framework/AZDropdownMenu</key>
+		<data>
+		tBhWJm5NfpvHyq69rlUvB9f2LA8=
+		</data>
+		<key>Frameworks/AZDropdownMenu.framework/Info.plist</key>
+		<data>
+		UjhSR72fPktZnZ4jL2AFIlh37Ns=
+		</data>
+		<key>Frameworks/AZDropdownMenu.framework/_CodeSignature/CodeResources</key>
+		<data>
+		RPr8C418cKGTyShhSvXxQXNZYd8=
+		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
 		iyCgPFDZeEkJlGZrzY+ZeisPh8M=
@@ -90,7 +102,7 @@
 		</data>
 		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu</key>
 		<data>
-		GqL1VddbWFDeOhdUvSYG/byApYM=
+		pWgCf7ATLyKOj37f1jdFUubMmlU=
 		</data>
 		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/arrow_down_icon.png</key>
 		<data>
@@ -166,7 +178,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9cuNyuf6Mpsp1kY/JZCGgZbQA1E=
+		Ofp4iUzkewwW52n+v6MdVjzH+1c=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -187,11 +199,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vI2stGpCEoL213izglOGi7ZV8AM=
+			SQePT6369AWIJNIG4umEakV7dSg=
 			</data>
 			<key>hash2</key>
 			<data>
-			k+bnQ1jbNBMZcuRdg5mXbWNNz1m0AALdbs2+RCAzhRc=
+			EwnBwIpcoN1sR8mMgBrcmBavNSgAG4BqacxubmaC+yA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -213,11 +225,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NDDpSq00z5/xD2yiqm5K1qhRbqg=
+			lpVwZCQSM3xOqShEIcdtsnsoprc=
 			</data>
 			<key>hash2</key>
 			<data>
-			H3Xvjic6u+YpNoOd6gw77lSM+/KCwi+E15TAkUlCJJk=
+			7ZwX+BTA85RjCdDREmY3E+OPtOAjwYUdMjQ5kwWcuPs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -226,11 +238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0YFdJ+F0HDLigQWyXDpz2iVGojY=
+			o/bc7B54fv7p4nS5qjp5rVNp7n0=
 			</data>
 			<key>hash2</key>
 			<data>
-			uWemp4AusWW0hSLl9ACEVRlRwRdsvtN/4AWr9M1+BRg=
+			1YtHLLdzHxSThuA0PXrfMFq6tOHWBt7ZB8m6SJO+E3s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -252,11 +264,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7Vno3vAu0o6ufB1tEbgNG/EiuJ4=
+			6NrL1CSCRG79BEXznWeh3G8ODOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			KLlBe5KjcUbQgqNdPMo3X6L6enlXy+xMzwytgR/nQwE=
+			YuD7XeXuDxLxCXdjdG5fW358dnw4eS7gGWE32++3ulI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -265,11 +277,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5wqYtDn0VKvsnLNr0jeePTGVVt0=
+			jDSTo/aBO6+ud+7uaZS/XE5kSPg=
 			</data>
 			<key>hash2</key>
 			<data>
-			xAa/L9SKvYVtxaVl1GFPMCDAu54lMbrh/HB1olDh6no=
+			utqPkMrO9pDdquc4Ziw/cJBCAKmY+vtAiyp3mvyvQ8U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -278,14 +290,47 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9JxQW1oWT7iQ9x5zJ3YUFUnJ3TE=
+			x5acnLVfxY8gqNfNozZNIzHP9s0=
 			</data>
 			<key>hash2</key>
 			<data>
-			MXYZRAwf5knmhZOkbKJxfXZf+qxB+/sBjNE95sIR8h8=
+			IgE0oYmZ8EzFENWkYBNcJnC1277cjgTdTm1nU0kg/oI=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>Frameworks/AZDropdownMenu.framework/AZDropdownMenu</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tBhWJm5NfpvHyq69rlUvB9f2LA8=
+			</data>
+			<key>hash2</key>
+			<data>
+			H/tCdUuyFEtH2Ya23MQbCwmJqx/LUGtCZdTYI4EfNK0=
+			</data>
+		</dict>
+		<key>Frameworks/AZDropdownMenu.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UjhSR72fPktZnZ4jL2AFIlh37Ns=
+			</data>
+			<key>hash2</key>
+			<data>
+			mcdmb0p7NWk1XiXu8jH37lz1q7oUMUAvbukQ108I0Rk=
+			</data>
+		</dict>
+		<key>Frameworks/AZDropdownMenu.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RPr8C418cKGTyShhSvXxQXNZYd8=
+			</data>
+			<key>hash2</key>
+			<data>
+			P0YfiDWuTAakOCQJti6zErz4dB8JM87OwTARRtndQLg=
+			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<dict>
@@ -324,11 +369,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GqL1VddbWFDeOhdUvSYG/byApYM=
+			pWgCf7ATLyKOj37f1jdFUubMmlU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+OjNJXKr8xSWiTy2Y5WXDjcaVay7Cr38JMWCRoj7ysE=
+			SDwnpU7gO8/oiSVFVia38KcUkKNB3lMX8WxwsyZB8QA=
 			</data>
 		</dict>
 		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/arrow_down_icon.png</key>
