@@ -6,39 +6,41 @@ provides-nominal:
 provides-member:
 - ["C5sobek14ViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "mWebView"
-- "handleOption"
 - "optionsView"
-- "viewDidLoad"
-- "optionPress"
-- "menu"
-- "optionsButton"
+- "handleOption"
 - "id"
+- "language"
+- "didReceiveMemoryWarning"
+- "menu"
+- "mWebView"
+- "optionPress"
+- "optionsButton"
 - "titles"
+- "viewDidLoad"
 depends-top-level:
-- !private "URLRequest"
-- "ViewController"
-- !private "print"
-- "CastingPrecedence"
-- !private "~="
-- !private "=="
-- "AssignmentPrecedence"
-- !private "Void"
-- "UIView"
-- "String"
-- "StringLiteralType"
-- !private "IndexPath"
-- "AZDropdownMenu"
-- "UIWebView"
-- "UIBarButtonItem"
-- !private "+"
 - !private "BooleanLiteralType"
-- !private "URL"
-- "Int"
 - !private "NSURLRequest"
+- !private "IndexPath"
+- "UIView"
 - "Array"
+- "Int"
+- "CastingPrecedence"
+- !private "=="
+- !private "~="
+- !private "||"
 - "UIViewController"
+- "UIBarButtonItem"
+- "String"
+- !private "URLRequest"
+- "StringLiteralType"
+- "AssignmentPrecedence"
+- "ViewController"
+- "UIWebView"
+- "AZDropdownMenu"
+- !private "+"
+- !private "print"
+- !private "Void"
+- !private "URL"
 depends-member:
 - !private ["C14AZDropdownMenu14AZDropdownMenu", "cellTapHandler"]
 - ["C14AZDropdownMenu14AZDropdownMenu", "deinit"]
@@ -57,6 +59,7 @@ depends-member:
 - ["Ps9AnyObject", "id"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "isDescendant"]
+- ["Ps9AnyObject", "language"]
 - !private ["Ps9AnyObject", "loadRequest"]
 - ["Ps9AnyObject", "mWebView"]
 - ["Ps9AnyObject", "menu"]
@@ -66,6 +69,7 @@ depends-member:
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "showMenuFromView"]
 - !private ["Ps9AnyObject", "stringByEvaluatingJavaScript"]
+- !private ["Ps9AnyObject", "title"]
 - ["Ps9AnyObject", "titles"]
 - !private ["Ps9AnyObject", "view"]
 - ["Ps9AnyObject", "viewDidLoad"]
@@ -131,6 +135,7 @@ depends-member:
 - ["Ps7CVarArg", "id"]
 - ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "isDescendant"]
+- ["Ps7CVarArg", "language"]
 - !private ["Ps7CVarArg", "loadRequest"]
 - ["Ps7CVarArg", "mWebView"]
 - ["Ps7CVarArg", "menu"]
@@ -141,6 +146,7 @@ depends-member:
 - !private ["Ps7CVarArg", "showMenuFromView"]
 - !private ["Ps7CVarArg", "stringByEvaluatingJavaScript"]
 - !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "title"]
 - ["Ps7CVarArg", "titles"]
 - !private ["Ps7CVarArg", "view"]
 - ["Ps7CVarArg", "viewDidLoad"]
@@ -177,6 +183,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "id"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "isDescendant"]
+- ["Ps28CustomDebugStringConvertible", "language"]
 - !private ["Ps28CustomDebugStringConvertible", "loadRequest"]
 - ["Ps28CustomDebugStringConvertible", "mWebView"]
 - ["Ps28CustomDebugStringConvertible", "menu"]
@@ -188,6 +195,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "showMenuFromView"]
 - !private ["Ps28CustomDebugStringConvertible", "stringByEvaluatingJavaScript"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
 - ["Ps28CustomDebugStringConvertible", "titles"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
@@ -225,6 +233,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "id"]
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "isDescendant"]
+- ["Ps23CustomStringConvertible", "language"]
 - !private ["Ps23CustomStringConvertible", "loadRequest"]
 - ["Ps23CustomStringConvertible", "mWebView"]
 - ["Ps23CustomStringConvertible", "menu"]
@@ -236,6 +245,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "showMenuFromView"]
 - !private ["Ps23CustomStringConvertible", "stringByEvaluatingJavaScript"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "title"]
 - ["Ps23CustomStringConvertible", "titles"]
 - !private ["Ps23CustomStringConvertible", "view"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
@@ -265,6 +275,7 @@ depends-member:
 - ["Ps9Equatable", "id"]
 - ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "isDescendant"]
+- ["Ps9Equatable", "language"]
 - !private ["Ps9Equatable", "loadRequest"]
 - ["Ps9Equatable", "mWebView"]
 - ["Ps9Equatable", "menu"]
@@ -275,6 +286,7 @@ depends-member:
 - !private ["Ps9Equatable", "row"]
 - !private ["Ps9Equatable", "showMenuFromView"]
 - !private ["Ps9Equatable", "stringByEvaluatingJavaScript"]
+- !private ["Ps9Equatable", "title"]
 - ["Ps9Equatable", "titles"]
 - !private ["Ps9Equatable", "view"]
 - ["Ps9Equatable", "viewDidLoad"]
@@ -308,6 +320,7 @@ depends-member:
 - ["Ps8Hashable", "id"]
 - ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "isDescendant"]
+- ["Ps8Hashable", "language"]
 - !private ["Ps8Hashable", "loadRequest"]
 - ["Ps8Hashable", "mWebView"]
 - ["Ps8Hashable", "menu"]
@@ -318,6 +331,7 @@ depends-member:
 - !private ["Ps8Hashable", "row"]
 - !private ["Ps8Hashable", "showMenuFromView"]
 - !private ["Ps8Hashable", "stringByEvaluatingJavaScript"]
+- !private ["Ps8Hashable", "title"]
 - ["Ps8Hashable", "titles"]
 - !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", "viewDidLoad"]
@@ -387,6 +401,7 @@ depends-member:
 - ["PSo8NSCoding", "id"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "isDescendant"]
+- ["PSo8NSCoding", "language"]
 - !private ["PSo8NSCoding", "loadRequest"]
 - ["PSo8NSCoding", "mWebView"]
 - ["PSo8NSCoding", "menu"]
@@ -396,6 +411,7 @@ depends-member:
 - !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "showMenuFromView"]
 - !private ["PSo8NSCoding", "stringByEvaluatingJavaScript"]
+- !private ["PSo8NSCoding", "title"]
 - ["PSo8NSCoding", "titles"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
@@ -409,6 +425,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "handleOption"]
 - ["PSo26NSExtensionRequestHandling", "id"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "language"]
 - ["PSo26NSExtensionRequestHandling", "mWebView"]
 - ["PSo26NSExtensionRequestHandling", "menu"]
 - ["PSo26NSExtensionRequestHandling", "optionPress"]
@@ -438,6 +455,7 @@ depends-member:
 - ["CSo8NSObject", "id"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "isDescendant"]
+- ["CSo8NSObject", "language"]
 - !private ["CSo8NSObject", "loadRequest"]
 - ["CSo8NSObject", "mWebView"]
 - ["CSo8NSObject", "menu"]
@@ -447,6 +465,7 @@ depends-member:
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "showMenuFromView"]
 - !private ["CSo8NSObject", "stringByEvaluatingJavaScript"]
+- !private ["CSo8NSObject", "title"]
 - ["CSo8NSObject", "titles"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
@@ -461,6 +480,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "id"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "isDescendant"]
+- ["PSo16NSObjectProtocol", "language"]
 - !private ["PSo16NSObjectProtocol", "loadRequest"]
 - ["PSo16NSObjectProtocol", "mWebView"]
 - ["PSo16NSObjectProtocol", "menu"]
@@ -470,6 +490,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "showMenuFromView"]
 - !private ["PSo16NSObjectProtocol", "stringByEvaluatingJavaScript"]
+- !private ["PSo16NSObjectProtocol", "title"]
 - ["PSo16NSObjectProtocol", "titles"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
@@ -552,6 +573,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "loadRequest"]
 - !private ["PSo29UIAccessibilityIdentification", "showMenuFromView"]
 - !private ["PSo29UIAccessibilityIdentification", "stringByEvaluatingJavaScript"]
+- !private ["PSo29UIAccessibilityIdentification", "title"]
 - !private ["PSo12UIAppearance", "cellTapHandler"]
 - !private ["PSo12UIAppearance", "hideMenu"]
 - ["PSo12UIAppearance", "init"]
@@ -559,6 +581,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "loadRequest"]
 - !private ["PSo12UIAppearance", "showMenuFromView"]
 - !private ["PSo12UIAppearance", "stringByEvaluatingJavaScript"]
+- !private ["PSo12UIAppearance", "title"]
 - ["PSo21UIAppearanceContainer", "AZDropdownMenu"]
 - !private ["PSo21UIAppearanceContainer", "NSURLRequest"]
 - ["PSo21UIAppearanceContainer", "String"]
@@ -570,6 +593,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "id"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "isDescendant"]
+- ["PSo21UIAppearanceContainer", "language"]
 - !private ["PSo21UIAppearanceContainer", "loadRequest"]
 - ["PSo21UIAppearanceContainer", "mWebView"]
 - ["PSo21UIAppearanceContainer", "menu"]
@@ -583,6 +607,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo15UIBarButtonItem", "title"]
+- !private ["CSo9UIBarItem", "title"]
 - ["PSo18UIContentContainer", "AZDropdownMenu"]
 - !private ["PSo18UIContentContainer", "NSURLRequest"]
 - ["PSo18UIContentContainer", "String"]
@@ -591,6 +617,7 @@ depends-member:
 - ["PSo18UIContentContainer", "handleOption"]
 - ["PSo18UIContentContainer", "id"]
 - !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "language"]
 - ["PSo18UIContentContainer", "mWebView"]
 - ["PSo18UIContentContainer", "menu"]
 - ["PSo18UIContentContainer", "optionPress"]
@@ -626,6 +653,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "id"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "isDescendant"]
+- ["PSo18UIFocusEnvironment", "language"]
 - !private ["PSo18UIFocusEnvironment", "loadRequest"]
 - ["PSo18UIFocusEnvironment", "mWebView"]
 - ["PSo18UIFocusEnvironment", "menu"]
@@ -669,6 +697,7 @@ depends-member:
 - ["CSo11UIResponder", "id"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "isDescendant"]
+- ["CSo11UIResponder", "language"]
 - !private ["CSo11UIResponder", "loadRequest"]
 - ["CSo11UIResponder", "mWebView"]
 - ["CSo11UIResponder", "menu"]
@@ -692,6 +721,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "id"]
 - ["PSo30UIResponderStandardEditActions", "init"]
 - !private ["PSo30UIResponderStandardEditActions", "isDescendant"]
+- ["PSo30UIResponderStandardEditActions", "language"]
 - !private ["PSo30UIResponderStandardEditActions", "loadRequest"]
 - ["PSo30UIResponderStandardEditActions", "mWebView"]
 - ["PSo30UIResponderStandardEditActions", "menu"]
@@ -720,6 +750,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "handleOption"]
 - ["PSo16UIStateRestoring", "id"]
 - !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "language"]
 - ["PSo16UIStateRestoring", "mWebView"]
 - ["PSo16UIStateRestoring", "menu"]
 - ["PSo16UIStateRestoring", "optionPress"]
@@ -751,6 +782,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "id"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "isDescendant"]
+- ["PSo18UITraitEnvironment", "language"]
 - !private ["PSo18UITraitEnvironment", "loadRequest"]
 - ["PSo18UITraitEnvironment", "mWebView"]
 - ["PSo18UITraitEnvironment", "menu"]
@@ -786,6 +818,7 @@ depends-member:
 - ["CSo16UIViewController", "handleOption"]
 - ["CSo16UIViewController", "id"]
 - ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "language"]
 - ["CSo16UIViewController", "mWebView"]
 - ["CSo16UIViewController", "menu"]
 - ["CSo16UIViewController", "optionPress"]
@@ -818,6 +851,7 @@ depends-member:
 - ["C5sobek14ViewController", "handleOption"]
 - ["C5sobek14ViewController", "id"]
 - ["C5sobek14ViewController", "init"]
+- ["C5sobek14ViewController", "language"]
 - ["C5sobek14ViewController", "mWebView"]
 - ["C5sobek14ViewController", "menu"]
 - ["C5sobek14ViewController", "optionPress"]
@@ -869,6 +903,7 @@ depends-member:
 - ["Ps9_Hashable", "id"]
 - ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "isDescendant"]
+- ["Ps9_Hashable", "language"]
 - !private ["Ps9_Hashable", "loadRequest"]
 - ["Ps9_Hashable", "mWebView"]
 - ["Ps9_Hashable", "menu"]
@@ -879,6 +914,7 @@ depends-member:
 - !private ["Ps9_Hashable", "row"]
 - !private ["Ps9_Hashable", "showMenuFromView"]
 - !private ["Ps9_Hashable", "stringByEvaluatingJavaScript"]
+- !private ["Ps9_Hashable", "title"]
 - ["Ps9_Hashable", "titles"]
 - !private ["Ps9_Hashable", "view"]
 - ["Ps9_Hashable", "viewDidLoad"]
@@ -982,6 +1018,8 @@ depends-nominal:
 - "PSo29UIAccessibilityIdentification"
 - "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
+- !private "CSo15UIBarButtonItem"
+- !private "CSo9UIBarItem"
 - "PSo18UIContentContainer"
 - "PSo17UICoordinateSpace"
 - "PSo13UIDynamicItem"
@@ -1041,4 +1079,4 @@ depends-external:
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-Swift.h"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-umbrella.h"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Modules/module.modulemap"
-interface-hash: "f46a05ca1b63c33cab50da9395c21239"
+interface-hash: "753ff23572db67ae2325cfbd86170533"

@@ -15,9 +15,11 @@ class InitialViewController: UIViewController {
 	@IBOutlet weak var navBar: UINavigationItem!
 	@IBOutlet weak var textField: UITextField!
 	@IBOutlet weak var confirmButton: UIButton!
+	@IBOutlet weak var aboutBar: UIBarButtonItem!
 	@IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
 	
 	let IDSIZE = 8
+	var language = 0	// padrao é portugues
 	
 	@IBAction func aboutButton(sender: UIBarButtonItem) {
 		self.aboutView.isHidden = false
@@ -26,6 +28,33 @@ class InitialViewController: UIViewController {
 	@IBAction func aboutOk(sender: UIButton) {
 		self.aboutView.isHidden = true
 	}
+	
+	@IBAction func ptLang(_ sender: Any) {
+		self.language = 0
+		updateLanguage()
+	}
+	
+	@IBAction func enLang(_ sender: Any) {
+		self.language = 1
+		updateLanguage()
+	}
+	
+	func updateLanguage() {
+		
+		if (self.language == 0) {
+			self.confirmButton.setTitle("Extrair", for: .normal)
+			self.textField.placeholder = "Insira a URL desejada"
+			self.aboutBar.title = "Sobre"
+		}
+		
+		else {
+			self.confirmButton.setTitle("Extract", for: .normal)
+			self.textField.placeholder = "Insert the desired URL"
+			//self.aboutBar.title! = "About"
+		}
+	}
+	
+	
 	
 	
 	func hideNavBar() {
@@ -51,7 +80,13 @@ class InitialViewController: UIViewController {
 		let postString: [String:String] = ["TODO":"true", "ADJ":"true", "TOHAVE":"true", "VERBS":"true", "ADV":"true", "NOUNS":"true", "AVGCON":"", "INTER":"true", "LANG":"2", "PRON":"true", "MOB_ID":id, "URL":url!, "TOBE":"true", "FREQ":"", "THES":"false"]
 		
 		Alamofire.request(serverUrl, method: .post, parameters: postString).responseString { response in
-			self.performSegue(withIdentifier: "segue", sender: id)
+			
+			let result = ["id":id, "language":self.language] as [String : Any]
+			
+			self.performSegue(withIdentifier: "segue", sender: result)
+			
+			let transform: CGAffineTransform = CGAffineTransform(scaleX: 10, y: 10)
+			self.loadingIndicator.transform = transform
 			self.loadingIndicator.isHidden = true
 			self.navigationController?.navigationBar.alpha = 1
 			self.view.isUserInteractionEnabled = true
@@ -64,6 +99,7 @@ class InitialViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+
 	}
 	
 	override func viewWillAppear(_ animated: Bool) {
@@ -89,7 +125,10 @@ class InitialViewController: UIViewController {
 	
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		let webview = segue.destination as! ViewController
-		webview.id = sender as! String
+		
+		let result = sender as! [String : Any]
+		webview.id = result["id"] as! String
+		webview.language = result["language"] as! Int
 	}
 	
 }

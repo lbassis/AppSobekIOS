@@ -4,11 +4,15 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		S6svILnhEh4oIyrRoJM5dzUDUWU=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SQePT6369AWIJNIG4umEakV7dSg=
+			Tzsxcn3vVZil9nWw3EoemKmMOOo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +30,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lpVwZCQSM3xOqShEIcdtsnsoprc=
+			3w1shBP6qm30EmMvWVBbWotHfWY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +39,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o/bc7B54fv7p4nS5qjp5rVNp7n0=
+			7eb0o0Dtkjgw/bOrSrOxhriV5Yc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,7 +57,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6NrL1CSCRG79BEXznWeh3G8ODOE=
+			LhCheb/reYaYbdAFxegADn5w6zk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,7 +66,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jDSTo/aBO6+ud+7uaZS/XE5kSPg=
+			n8m+03cIBdLmZgyBmbu3CpqoD+I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -71,14 +75,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x5acnLVfxY8gqNfNozZNIzHP9s0=
+			PyM/gt/XyLBmXFYX9QLtBLWdg9Q=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/AZDropdownMenu.framework/AZDropdownMenu</key>
 		<data>
-		tBhWJm5NfpvHyq69rlUvB9f2LA8=
+		dfqHo4wsRC1rvc9LNxEOSyN+ceE=
 		</data>
 		<key>Frameworks/AZDropdownMenu.framework/Info.plist</key>
 		<data>
@@ -99,42 +103,6 @@
 		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
 		<data>
 		g/lYbywDQTtUQTtoChefYj2FAuM=
-		</data>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu</key>
-		<data>
-		pWgCf7ATLyKOj37f1jdFUubMmlU=
-		</data>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/arrow_down_icon.png</key>
-		<data>
-		2jfpUpalEJYz74Bn+wOzM8JfXE4=
-		</data>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/arrow_down_icon@2x.png</key>
-		<data>
-		4u6OHdQxEaQ5nnbcyaD9Vm0+Jvo=
-		</data>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/arrow_down_icon@3x.png</key>
-		<data>
-		Lf2cHfMF60xPJVgailuwOqr+p8M=
-		</data>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/checkmark_icon.png</key>
-		<data>
-		QsIL09b/oE6I+Ldw1mMFjKm5fFI=
-		</data>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/checkmark_icon@2x.png</key>
-		<data>
-		4+Mm79B62+VUWZRiZKwP2+/8tAI=
-		</data>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/checkmark_icon@3x.png</key>
-		<data>
-		njM517zMO4Sj4WDPdxLBLDC5vqw=
-		</data>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/Info.plist</key>
-		<data>
-		dczt12KjBMau/Ehr5QX1WH3blfc=
-		</data>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/_CodeSignature/CodeResources</key>
-		<data>
-		bijmSzZlxHNNIUPJ71/aAuEmAis=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -195,15 +163,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S6svILnhEh4oIyrRoJM5dzUDUWU=
+			</data>
+			<key>hash2</key>
+			<data>
+			1FkqH1Vw/oKPXsrvWwY55EU6JIoSgEdDC4R6Xr2mv4Q=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SQePT6369AWIJNIG4umEakV7dSg=
+			Tzsxcn3vVZil9nWw3EoemKmMOOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			EwnBwIpcoN1sR8mMgBrcmBavNSgAG4BqacxubmaC+yA=
+			O67mXrTKiOokxfCfeehsAAy+Y/jbXxwcYRCPgFuDYI0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -225,11 +204,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lpVwZCQSM3xOqShEIcdtsnsoprc=
+			3w1shBP6qm30EmMvWVBbWotHfWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7ZwX+BTA85RjCdDREmY3E+OPtOAjwYUdMjQ5kwWcuPs=
+			jWTp/vvO+QahmzKJ+ou91P6lN2hk7UtLJZwriMpraXU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -238,11 +217,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o/bc7B54fv7p4nS5qjp5rVNp7n0=
+			7eb0o0Dtkjgw/bOrSrOxhriV5Yc=
 			</data>
 			<key>hash2</key>
 			<data>
-			1YtHLLdzHxSThuA0PXrfMFq6tOHWBt7ZB8m6SJO+E3s=
+			JtFDw+67bO2VLoKqvCYMIiwLvv6FHQICFbOKrhFAhbU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -264,11 +243,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6NrL1CSCRG79BEXznWeh3G8ODOE=
+			LhCheb/reYaYbdAFxegADn5w6zk=
 			</data>
 			<key>hash2</key>
 			<data>
-			YuD7XeXuDxLxCXdjdG5fW358dnw4eS7gGWE32++3ulI=
+			BS0pBhwiNOwkeF39M7tNzq9qz48JpHJ72/WQGBkZFL8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -277,11 +256,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jDSTo/aBO6+ud+7uaZS/XE5kSPg=
+			n8m+03cIBdLmZgyBmbu3CpqoD+I=
 			</data>
 			<key>hash2</key>
 			<data>
-			utqPkMrO9pDdquc4Ziw/cJBCAKmY+vtAiyp3mvyvQ8U=
+			Plc5glJhkYoqDDhz4Cj8Ve0KsqQsyVwtce5lT/ZdjN8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -290,11 +269,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x5acnLVfxY8gqNfNozZNIzHP9s0=
+			PyM/gt/XyLBmXFYX9QLtBLWdg9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			IgE0oYmZ8EzFENWkYBNcJnC1277cjgTdTm1nU0kg/oI=
+			bUfVQmhgnb5y+8LAE+5CiREtvDbtcR+eCpIIEARw78M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -303,11 +282,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tBhWJm5NfpvHyq69rlUvB9f2LA8=
+			dfqHo4wsRC1rvc9LNxEOSyN+ceE=
 			</data>
 			<key>hash2</key>
 			<data>
-			H/tCdUuyFEtH2Ya23MQbCwmJqx/LUGtCZdTYI4EfNK0=
+			Mbqty6rf3p40wBriQ29/QwNZbckqp5KDmcT/Ny2NZcE=
 			</data>
 		</dict>
 		<key>Frameworks/AZDropdownMenu.framework/Info.plist</key>
@@ -363,105 +342,6 @@
 			<key>hash2</key>
 			<data>
 			NiKcpmTcJNdInsLIkE9aHUuiVBV++ubwcdFXtVVoPEE=
-			</data>
-		</dict>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pWgCf7ATLyKOj37f1jdFUubMmlU=
-			</data>
-			<key>hash2</key>
-			<data>
-			SDwnpU7gO8/oiSVFVia38KcUkKNB3lMX8WxwsyZB8QA=
-			</data>
-		</dict>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/arrow_down_icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jfpUpalEJYz74Bn+wOzM8JfXE4=
-			</data>
-			<key>hash2</key>
-			<data>
-			RKJle04ha939WY6voa74J/5z3aqIZfGzw3qfWV8kMWY=
-			</data>
-		</dict>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/arrow_down_icon@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4u6OHdQxEaQ5nnbcyaD9Vm0+Jvo=
-			</data>
-			<key>hash2</key>
-			<data>
-			HRjLjCdeXg6W3LQms2c6a3BKRFwE4BNKC9qWB6s2QEs=
-			</data>
-		</dict>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/arrow_down_icon@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Lf2cHfMF60xPJVgailuwOqr+p8M=
-			</data>
-			<key>hash2</key>
-			<data>
-			pmQzEWtzBKwQwEc7nbS0jMhPzpSYV0Ewm9/GAHnL7YY=
-			</data>
-		</dict>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/checkmark_icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QsIL09b/oE6I+Ldw1mMFjKm5fFI=
-			</data>
-			<key>hash2</key>
-			<data>
-			FvyRZt9c37D8p1DtJNdQqxGrtB6qtSrDc6/ZWllUcHo=
-			</data>
-		</dict>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/checkmark_icon@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4+Mm79B62+VUWZRiZKwP2+/8tAI=
-			</data>
-			<key>hash2</key>
-			<data>
-			OplI1+uKx+M8QGSaoxtCc+Tsv5jVeISbI/1yOdCKmwY=
-			</data>
-		</dict>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/BTNavigationDropdownMenu.bundle/checkmark_icon@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			njM517zMO4Sj4WDPdxLBLDC5vqw=
-			</data>
-			<key>hash2</key>
-			<data>
-			iqNK1QB7PEJx5TmBLDFlhzjTCfhSpIOEgDOh/o//uDw=
-			</data>
-		</dict>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dczt12KjBMau/Ehr5QX1WH3blfc=
-			</data>
-			<key>hash2</key>
-			<data>
-			sEjEcV7uJDx1690H/GmK/3Tb+pb4zB0EWS96VQhdmLg=
-			</data>
-		</dict>
-		<key>Frameworks/BTNavigationDropdownMenu.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bijmSzZlxHNNIUPJ71/aAuEmAis=
-			</data>
-			<key>hash2</key>
-			<data>
-			kXNhLjUQnYGFSKtWmITECfiomdyhh03zW7g+RHrqPRw=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>

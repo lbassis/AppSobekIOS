@@ -151,10 +151,15 @@ SWIFT_CLASS("_TtC5sobek21InitialViewController")
 @property (nonatomic, weak) IBOutlet UINavigationItem * _Null_unspecified navBar;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified textField;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified confirmButton;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified aboutBar;
 @property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loadingIndicator;
 @property (nonatomic, readonly) NSInteger IDSIZE;
+@property (nonatomic) NSInteger language;
 - (IBAction)aboutButtonWithSender:(UIBarButtonItem * _Nonnull)sender;
 - (IBAction)aboutOkWithSender:(UIButton * _Nonnull)sender;
+- (IBAction)ptLang:(id _Nonnull)sender;
+- (IBAction)enLang:(id _Nonnull)sender;
+- (void)updateLanguage;
 - (void)hideNavBar;
 - (IBAction)sendRequest:(UIButton * _Nonnull)sender;
 - (void)viewDidLoad;
@@ -175,6 +180,7 @@ SWIFT_CLASS("_TtC5sobek14ViewController")
 @property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified optionsButton;
 @property (nonatomic, weak) IBOutlet UIWebView * _Null_unspecified mWebView;
 @property (nonatomic, copy) NSString * _Nonnull id;
+@property (nonatomic) NSInteger language;
 @property (nonatomic, strong) AZDropdownMenu * _Nonnull menu;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull titles;
 - (IBAction)optionPress:(id _Nonnull)sender;

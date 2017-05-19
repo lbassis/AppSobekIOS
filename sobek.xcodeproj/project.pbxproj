@@ -139,9 +139,9 @@
 				A02338221E8B50930099855E /* ViewController.swift */,
 				A02338241E8B50930099855E /* Main.storyboard */,
 				A02338271E8B50930099855E /* Assets.xcassets */,
+				A01314491E9EEBB100693A71 /* sobek.png */,
 				A02338291E8B50930099855E /* LaunchScreen.storyboard */,
 				A023382C1E8B50930099855E /* Info.plist */,
-				A01314491E9EEBB100693A71 /* sobek.png */,
 			);
 			path = sobek;
 			sourceTree = "<group>";

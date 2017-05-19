@@ -14,15 +14,15 @@ provides-member:
 - ["O14AZDropdownMenu27AZDropdownMenuItemAlignment", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AZDropdownMenuBaseCell"
-- "AZDropdownMenuItemAlignment"
+- "UITableViewCell"
 - "AZDropdownMenuItemData"
 - "AZDropdownMenuCellProtocol"
+- "AZDropdownMenuItemAlignment"
+- !private "UIFont"
+- "AZDropdownMenuConfig"
+- "AZDropdownMenuBaseCell"
 - "=="
 - "AssignmentPrecedence"
-- "UITableViewCell"
-- "AZDropdownMenuConfig"
-- !private "UIFont"
 depends-member:
 - ["C14AZDropdownMenu22AZDropdownMenuBaseCell", "AZDropdownMenuConfig"]
 - ["C14AZDropdownMenu22AZDropdownMenuBaseCell", "AZDropdownMenuItemData"]

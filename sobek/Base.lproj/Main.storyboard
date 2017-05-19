@@ -4,9 +4,9 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,7 +38,7 @@
                         <rect key="frame" x="0.0" y="64" width="667" height="311"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v6L-XK-LKp">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Insira a URL desejada" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v6L-XK-LKp">
                                 <rect key="frame" x="210" y="225" width="247" height="21"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -61,10 +61,10 @@
                                 <rect key="frame" x="231" y="8" width="206" height="155"/>
                             </imageView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="quc-bv-m72">
-                                <rect key="frame" x="234" y="56" width="200" height="199"/>
+                                <rect key="frame" x="184" y="83" width="300" height="220"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="WlU-1c-GHP"/>
+                                    <constraint firstAttribute="width" constant="300" id="lDg-gj-VhS"/>
                                 </constraints>
                             </activityIndicatorView>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WqQ-Zj-oyD">
@@ -102,22 +102,39 @@ http://sobek.ufrgs.br</string>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="RSG-Mh-vW3" firstAttribute="top" secondItem="CH1-8y-RCV" secondAttribute="bottom" constant="6" id="1LD-Fk-hJ1"/>
-                            <constraint firstItem="quc-bv-m72" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="56" id="8b0-kK-Yc2"/>
+                            <constraint firstItem="quc-bv-m72" firstAttribute="centerY" secondItem="Bpq-y5-an3" secondAttribute="centerY" constant="37.5" id="1zT-Hu-Cdd"/>
+                            <constraint firstItem="quc-bv-m72" firstAttribute="centerX" secondItem="v6L-XK-LKp" secondAttribute="centerX" id="3dM-yQ-Qqz"/>
                             <constraint firstItem="WqQ-Zj-oyD" firstAttribute="leading" secondItem="Bpq-y5-an3" secondAttribute="leading" constant="122" id="8h5-hS-fsS"/>
                             <constraint firstItem="6sq-e9-gWv" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="AIF-VT-H2s"/>
                             <constraint firstItem="v6L-XK-LKp" firstAttribute="centerX" secondItem="CH1-8y-RCV" secondAttribute="centerX" id="H8t-Rd-Rni"/>
-                            <constraint firstItem="WqQ-Zj-oyD" firstAttribute="centerX" secondItem="quc-bv-m72" secondAttribute="centerX" id="SXp-qJ-oWr"/>
-                            <constraint firstItem="WqQ-Zj-oyD" firstAttribute="centerY" secondItem="quc-bv-m72" secondAttribute="centerY" id="Vx8-T8-Tik"/>
+                            <constraint firstItem="quc-bv-m72" firstAttribute="centerX" secondItem="Bpq-y5-an3" secondAttribute="centerX" id="ORf-sQ-JAq"/>
                             <constraint firstItem="CH1-8y-RCV" firstAttribute="top" secondItem="v6L-XK-LKp" secondAttribute="bottom" constant="29" id="gbj-9B-Nfu"/>
                             <constraint firstItem="6sq-e9-gWv" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="8" symbolic="YES" id="l5Z-Fy-Dyu"/>
                             <constraint firstItem="WqQ-Zj-oyD" firstAttribute="centerY" secondItem="Bpq-y5-an3" secondAttribute="centerY" id="mBh-oW-oeU"/>
                             <constraint firstItem="WqQ-Zj-oyD" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="17" id="mfx-vQ-GLS"/>
-                            <constraint firstItem="quc-bv-m72" firstAttribute="centerX" secondItem="v6L-XK-LKp" secondAttribute="centerX" id="w1W-Hu-vy4"/>
+                            <constraint firstItem="quc-bv-m72" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="83" id="pky-7j-vby"/>
                             <constraint firstItem="6sq-e9-gWv" firstAttribute="centerX" secondItem="v6L-XK-LKp" secondAttribute="centerX" id="w3B-JB-3rn"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="WqQ-Zj-oyD"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Sobek" id="BlW-4I-dbG">
-                        <barButtonItem key="rightBarButtonItem" title="About" id="wUG-dZ-iw0">
+                        <leftBarButtonItems>
+                            <barButtonItem image="ic_flag_brazil.png" style="plain" id="g9u-57-mpf">
+                                <connections>
+                                    <action selector="ptLang:" destination="lp5-C5-z5G" id="6Fl-44-WbG"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="ic_flag_uk.png" style="plain" id="dCj-WJ-1rJ">
+                                <connections>
+                                    <action selector="enLang:" destination="lp5-C5-z5G" id="crh-8A-LaR"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" title="Sobre" id="wUG-dZ-iw0">
                             <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="aboutButtonWithSender:" destination="lp5-C5-z5G" id="1s3-3P-wCD"/>
@@ -129,6 +146,7 @@ http://sobek.ufrgs.br</string>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
+                        <outlet property="aboutBar" destination="wUG-dZ-iw0" id="Ihr-jf-Yo7"/>
                         <outlet property="aboutView" destination="WqQ-Zj-oyD" id="FCu-uJ-hDF"/>
                         <outlet property="confirmButton" destination="CH1-8y-RCV" id="f5q-e1-hhB"/>
                         <outlet property="loadingIndicator" destination="quc-bv-m72" id="tUf-Yl-GuB"/>
@@ -179,7 +197,7 @@ http://sobek.ufrgs.br</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fBw-6j-YXP">
-                        <barButtonItem key="rightBarButtonItem" title="Options" id="ORr-eM-SWo">
+                        <barButtonItem key="rightBarButtonItem" title="Opções" id="ORr-eM-SWo">
                             <connections>
                                 <action selector="optionPress:" destination="BYZ-38-t0r" id="eJh-bA-COS"/>
                             </connections>
@@ -196,6 +214,8 @@ http://sobek.ufrgs.br</string>
         </scene>
     </scenes>
     <resources>
+        <image name="ic_flag_brazil.png" width="32" height="32"/>
+        <image name="ic_flag_uk.png" width="32" height="32"/>
         <image name="sobek.png" width="206" height="155"/>
     </resources>
     <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
