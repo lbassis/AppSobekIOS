@@ -6,55 +6,52 @@ provides-nominal:
 provides-member:
 - ["C5sobek14ViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "mWebView"
-- "optionsView"
-- "tapBlurButton"
-- "fullGraph"
-- "printMode"
-- "language"
-- "menuButtonSetup"
-- "id"
-- "optionsButton"
-- "menuButton"
 - "fullGraphButton"
+- "id"
+- "menuButton"
 - "viewDidLoad"
-- "touch"
-- "printModeButton"
+- "menuButtonSetup"
+- "fullGraph"
+- "didReceiveMemoryWarning"
 - "itemTouched"
-- "tapGesture"
+- "printModeButton"
+- "printMode"
+- "mWebView"
+- "language"
+- "touch"
 depends-top-level:
-- "CGSize"
-- "UIGestureRecognizerDelegate"
-- !private "NSURLRequest"
-- !private "=="
-- "AssignmentPrecedence"
-- "CastingPrecedence"
-- "UIViewController"
-- !private "URL"
-- !private "print"
-- "CGPoint"
-- "UIImage"
-- "ViewController"
-- "CGRect"
-- "UIView"
-- !private "URLRequest"
-- !private "+"
-- "ExpandingMenuButton"
-- !private "-"
-- "UIBarButtonItem"
-- !private "NotificationCenter"
-- "UITapGestureRecognizer"
-- "Void"
-- !private "Array"
-- "UIWebView"
-- "String"
-- "ExpandingMenuItem"
-- "StringLiteralType"
-- !private "NSNotification"
 - !private "UIColor"
+- !private "NSURLRequest"
+- "NSNotification"
+- "UIImage"
+- "CastingPrecedence"
+- !private "-"
+- "AssignmentPrecedence"
+- !private "=="
+- !private "~="
+- "ExpandingMenuButton"
+- "ExpandingMenuItem"
+- "CGRect"
+- !private "print"
+- !private "Array"
+- "CGPoint"
+- !private "URL"
+- "ViewController"
+- !private "URLRequest"
+- "CGSize"
+- "UIWebView"
+- !private "+"
+- "Void"
+- "String"
+- !private "NotificationCenter"
+- "StringLiteralType"
+- "UIViewController"
+- !private "Int"
+- !private "UnicodeScalarType"
+- "UIGestureRecognizerDelegate"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Stride"]
+- !private ["Vs11AnyHashable", "deinit"]
 - ["Ps9AnyObject", "CGPoint"]
 - ["Ps9AnyObject", "CGRect"]
 - ["Ps9AnyObject", "CGSize"]
@@ -66,10 +63,7 @@ depends-member:
 - !private ["Ps9AnyObject", "NotificationCenter"]
 - !private ["Ps9AnyObject", "UIColor"]
 - ["Ps9AnyObject", "UIImage"]
-- ["Ps9AnyObject", "UITapGestureRecognizer"]
 - !private ["Ps9AnyObject", "URL"]
-- ["Ps9AnyObject", "ViewController"]
-- !private ["Ps9AnyObject", "addGestureRecognizer"]
 - !private ["Ps9AnyObject", "addMenuItems"]
 - !private ["Ps9AnyObject", "addObserver"]
 - !private ["Ps9AnyObject", "addSubview"]
@@ -77,7 +71,6 @@ depends-member:
 - !private ["Ps9AnyObject", "bounds"]
 - !private ["Ps9AnyObject", "center"]
 - !private ["Ps9AnyObject", "default"]
-- !private ["Ps9AnyObject", "description"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - ["Ps9AnyObject", "fullGraph"]
 - ["Ps9AnyObject", "fullGraphButton"]
@@ -91,18 +84,14 @@ depends-member:
 - ["Ps9AnyObject", "mWebView"]
 - ["Ps9AnyObject", "menuButton"]
 - ["Ps9AnyObject", "menuButtonSetup"]
-- ["Ps9AnyObject", "optionsButton"]
-- ["Ps9AnyObject", "optionsView"]
 - !private ["Ps9AnyObject", "print"]
 - ["Ps9AnyObject", "printMode"]
 - ["Ps9AnyObject", "printModeButton"]
-- ["Ps9AnyObject", "self"]
 - !private ["Ps9AnyObject", "stringByEvaluatingJavaScript"]
-- ["Ps9AnyObject", "tapBlurButton"]
-- ["Ps9AnyObject", "tapGesture"]
 - !private ["Ps9AnyObject", "title"]
 - !private ["Ps9AnyObject", "titleColor"]
 - ["Ps9AnyObject", "touch"]
+- !private ["Ps9AnyObject", "userInfo"]
 - !private ["Ps9AnyObject", "view"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
@@ -114,7 +103,6 @@ depends-member:
 - !private ["Ps17BitwiseOperations", "Stride"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]
-- !private ["PSo15CALayerDelegate", "addGestureRecognizer"]
 - !private ["PSo15CALayerDelegate", "addMenuItems"]
 - !private ["PSo15CALayerDelegate", "addSubview"]
 - !private ["PSo15CALayerDelegate", "bounds"]
@@ -141,17 +129,18 @@ depends-member:
 - !private ["Ps7CVarArg", "Element"]
 - ["Ps7CVarArg", "ExpandingMenuButton"]
 - ["Ps7CVarArg", "ExpandingMenuItem"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IndexDistance"]
 - !private ["Ps7CVarArg", "NSNotification"]
 - !private ["Ps7CVarArg", "NSURLRequest"]
 - !private ["Ps7CVarArg", "Name"]
 - !private ["Ps7CVarArg", "NotificationCenter"]
 - !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "SubSequence"]
 - !private ["Ps7CVarArg", "UIColor"]
 - ["Ps7CVarArg", "UIImage"]
-- ["Ps7CVarArg", "UITapGestureRecognizer"]
 - !private ["Ps7CVarArg", "URL"]
-- ["Ps7CVarArg", "ViewController"]
-- !private ["Ps7CVarArg", "addGestureRecognizer"]
+- !private ["Ps7CVarArg", "_Element"]
 - !private ["Ps7CVarArg", "addMenuItems"]
 - !private ["Ps7CVarArg", "addObserver"]
 - !private ["Ps7CVarArg", "addSubview"]
@@ -159,7 +148,6 @@ depends-member:
 - !private ["Ps7CVarArg", "bounds"]
 - !private ["Ps7CVarArg", "center"]
 - !private ["Ps7CVarArg", "default"]
-- !private ["Ps7CVarArg", "description"]
 - ["Ps7CVarArg", "didReceiveMemoryWarning"]
 - ["Ps7CVarArg", "fullGraph"]
 - ["Ps7CVarArg", "fullGraphButton"]
@@ -173,42 +161,48 @@ depends-member:
 - ["Ps7CVarArg", "mWebView"]
 - ["Ps7CVarArg", "menuButton"]
 - ["Ps7CVarArg", "menuButtonSetup"]
-- ["Ps7CVarArg", "optionsButton"]
-- ["Ps7CVarArg", "optionsView"]
 - !private ["Ps7CVarArg", "print"]
 - ["Ps7CVarArg", "printMode"]
 - ["Ps7CVarArg", "printModeButton"]
-- ["Ps7CVarArg", "self"]
 - !private ["Ps7CVarArg", "stringByEvaluatingJavaScript"]
-- ["Ps7CVarArg", "tapBlurButton"]
-- ["Ps7CVarArg", "tapGesture"]
+- !private ["Ps7CVarArg", "subscript"]
 - !private ["Ps7CVarArg", "title"]
 - !private ["Ps7CVarArg", "titleColor"]
 - ["Ps7CVarArg", "touch"]
+- !private ["Ps7CVarArg", "userInfo"]
 - !private ["Ps7CVarArg", "view"]
 - ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
+- !private ["Vs11ClosedRange", "deinit"]
 - !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
 - !private ["Ps10Comparable", "Stride"]
-- !private ["Ps10Comparable", "description"]
 - ["Ps10Comparable", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
 - ["Ps28CustomDebugStringConvertible", "CGPoint"]
 - ["Ps28CustomDebugStringConvertible", "CGRect"]
 - ["Ps28CustomDebugStringConvertible", "CGSize"]
 - !private ["Ps28CustomDebugStringConvertible", "Element"]
 - ["Ps28CustomDebugStringConvertible", "ExpandingMenuButton"]
 - ["Ps28CustomDebugStringConvertible", "ExpandingMenuItem"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
 - !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
 - !private ["Ps28CustomDebugStringConvertible", "NSURLRequest"]
 - !private ["Ps28CustomDebugStringConvertible", "Name"]
 - !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
 - !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
 - ["Ps28CustomDebugStringConvertible", "UIImage"]
-- ["Ps28CustomDebugStringConvertible", "UITapGestureRecognizer"]
 - !private ["Ps28CustomDebugStringConvertible", "URL"]
-- ["Ps28CustomDebugStringConvertible", "ViewController"]
-- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - !private ["Ps28CustomDebugStringConvertible", "addMenuItems"]
 - !private ["Ps28CustomDebugStringConvertible", "addObserver"]
 - !private ["Ps28CustomDebugStringConvertible", "addSubview"]
@@ -216,7 +210,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "bounds"]
 - !private ["Ps28CustomDebugStringConvertible", "center"]
 - !private ["Ps28CustomDebugStringConvertible", "default"]
-- !private ["Ps28CustomDebugStringConvertible", "description"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps28CustomDebugStringConvertible", "fullGraph"]
 - ["Ps28CustomDebugStringConvertible", "fullGraphButton"]
@@ -231,18 +224,15 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "mWebView"]
 - ["Ps28CustomDebugStringConvertible", "menuButton"]
 - ["Ps28CustomDebugStringConvertible", "menuButtonSetup"]
-- ["Ps28CustomDebugStringConvertible", "optionsButton"]
-- ["Ps28CustomDebugStringConvertible", "optionsView"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - ["Ps28CustomDebugStringConvertible", "printMode"]
 - ["Ps28CustomDebugStringConvertible", "printModeButton"]
-- ["Ps28CustomDebugStringConvertible", "self"]
 - !private ["Ps28CustomDebugStringConvertible", "stringByEvaluatingJavaScript"]
-- ["Ps28CustomDebugStringConvertible", "tapBlurButton"]
-- ["Ps28CustomDebugStringConvertible", "tapGesture"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "title"]
 - !private ["Ps28CustomDebugStringConvertible", "titleColor"]
 - ["Ps28CustomDebugStringConvertible", "touch"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - !private ["Ps28CustomDebugStringConvertible", "width"]
@@ -250,17 +240,20 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "description"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "height"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "width"]
 - ["Ps29CustomPlaygroundQuickLookable", "zero"]
 - !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
 - !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_Element"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
-- !private ["Ps17CustomReflectable", "description"]
 - !private ["Ps17CustomReflectable", "height"]
 - ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
 - !private ["Ps17CustomReflectable", "width"]
 - ["Ps17CustomReflectable", "zero"]
 - ["Ps23CustomStringConvertible", "CGPoint"]
@@ -269,18 +262,19 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "Element"]
 - ["Ps23CustomStringConvertible", "ExpandingMenuButton"]
 - ["Ps23CustomStringConvertible", "ExpandingMenuItem"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
 - !private ["Ps23CustomStringConvertible", "NSNotification"]
 - !private ["Ps23CustomStringConvertible", "NSURLRequest"]
 - !private ["Ps23CustomStringConvertible", "Name"]
 - !private ["Ps23CustomStringConvertible", "NotificationCenter"]
 - !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
 - !private ["Ps23CustomStringConvertible", "UIColor"]
 - ["Ps23CustomStringConvertible", "UIImage"]
-- ["Ps23CustomStringConvertible", "UITapGestureRecognizer"]
 - !private ["Ps23CustomStringConvertible", "URL"]
-- ["Ps23CustomStringConvertible", "ViewController"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
 - !private ["Ps23CustomStringConvertible", "addMenuItems"]
 - !private ["Ps23CustomStringConvertible", "addObserver"]
 - !private ["Ps23CustomStringConvertible", "addSubview"]
@@ -288,7 +282,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "bounds"]
 - !private ["Ps23CustomStringConvertible", "center"]
 - !private ["Ps23CustomStringConvertible", "default"]
-- !private ["Ps23CustomStringConvertible", "description"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps23CustomStringConvertible", "fullGraph"]
 - ["Ps23CustomStringConvertible", "fullGraphButton"]
@@ -302,21 +295,25 @@ depends-member:
 - ["Ps23CustomStringConvertible", "mWebView"]
 - ["Ps23CustomStringConvertible", "menuButton"]
 - ["Ps23CustomStringConvertible", "menuButtonSetup"]
-- ["Ps23CustomStringConvertible", "optionsButton"]
-- ["Ps23CustomStringConvertible", "optionsView"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - ["Ps23CustomStringConvertible", "printMode"]
 - ["Ps23CustomStringConvertible", "printModeButton"]
-- ["Ps23CustomStringConvertible", "self"]
 - !private ["Ps23CustomStringConvertible", "stringByEvaluatingJavaScript"]
-- ["Ps23CustomStringConvertible", "tapBlurButton"]
-- ["Ps23CustomStringConvertible", "tapGesture"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Ps23CustomStringConvertible", "title"]
 - !private ["Ps23CustomStringConvertible", "titleColor"]
 - ["Ps23CustomStringConvertible", "touch"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
 - !private ["Ps23CustomStringConvertible", "view"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "IndexDistance"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "_Element"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs15DictionaryIndex", "deinit"]
 - !private ["Sd", "Stride"]
 - ["Sd", "deinit"]
 - ["Ps9Equatable", "CGPoint"]
@@ -331,11 +328,8 @@ depends-member:
 - !private ["Ps9Equatable", "Stride"]
 - !private ["Ps9Equatable", "UIColor"]
 - ["Ps9Equatable", "UIImage"]
-- ["Ps9Equatable", "UITapGestureRecognizer"]
 - !private ["Ps9Equatable", "URL"]
-- ["Ps9Equatable", "ViewController"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
-- !private ["Ps9Equatable", "addGestureRecognizer"]
 - !private ["Ps9Equatable", "addMenuItems"]
 - !private ["Ps9Equatable", "addObserver"]
 - !private ["Ps9Equatable", "addSubview"]
@@ -343,7 +337,6 @@ depends-member:
 - !private ["Ps9Equatable", "bounds"]
 - !private ["Ps9Equatable", "center"]
 - !private ["Ps9Equatable", "default"]
-- !private ["Ps9Equatable", "description"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
 - ["Ps9Equatable", "fullGraph"]
 - ["Ps9Equatable", "fullGraphButton"]
@@ -358,24 +351,19 @@ depends-member:
 - ["Ps9Equatable", "mWebView"]
 - ["Ps9Equatable", "menuButton"]
 - ["Ps9Equatable", "menuButtonSetup"]
-- ["Ps9Equatable", "optionsButton"]
-- ["Ps9Equatable", "optionsView"]
 - !private ["Ps9Equatable", "print"]
 - ["Ps9Equatable", "printMode"]
 - ["Ps9Equatable", "printModeButton"]
-- ["Ps9Equatable", "self"]
 - !private ["Ps9Equatable", "stringByEvaluatingJavaScript"]
-- ["Ps9Equatable", "tapBlurButton"]
-- ["Ps9Equatable", "tapGesture"]
 - !private ["Ps9Equatable", "title"]
 - !private ["Ps9Equatable", "titleColor"]
 - ["Ps9Equatable", "touch"]
+- !private ["Ps9Equatable", "userInfo"]
 - !private ["Ps9Equatable", "view"]
 - ["Ps9Equatable", "viewDidLoad"]
 - !private ["Ps9Equatable", "width"]
 - ["Ps9Equatable", "zero"]
 - ["Ps9Equatable", ""]
-- !private ["C13ExpandingMenu19ExpandingMenuButton", "addGestureRecognizer"]
 - !private ["C13ExpandingMenu19ExpandingMenuButton", "addMenuItems"]
 - !private ["C13ExpandingMenu19ExpandingMenuButton", "center"]
 - ["C13ExpandingMenu19ExpandingMenuButton", "deinit"]
@@ -386,15 +374,16 @@ depends-member:
 - !private ["C13ExpandingMenu17ExpandingMenuItem", "titleColor"]
 - !private ["Ps25ExpressibleByArrayLiteral", "Element"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "description"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps25ExpressibleByFloatLiteral", "Stride"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
-- !private ["Ps32ExpressibleByStringInterpolation", "description"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
-- !private ["Ps26ExpressibleByStringLiteral", "description"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "description"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps13FloatingPoint", "Stride"]
 - ["Ps8Hashable", "CGPoint"]
@@ -409,11 +398,8 @@ depends-member:
 - !private ["Ps8Hashable", "Stride"]
 - !private ["Ps8Hashable", "UIColor"]
 - ["Ps8Hashable", "UIImage"]
-- ["Ps8Hashable", "UITapGestureRecognizer"]
 - !private ["Ps8Hashable", "URL"]
-- ["Ps8Hashable", "ViewController"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
-- !private ["Ps8Hashable", "addGestureRecognizer"]
 - !private ["Ps8Hashable", "addMenuItems"]
 - !private ["Ps8Hashable", "addObserver"]
 - !private ["Ps8Hashable", "addSubview"]
@@ -421,7 +407,6 @@ depends-member:
 - !private ["Ps8Hashable", "bounds"]
 - !private ["Ps8Hashable", "center"]
 - !private ["Ps8Hashable", "default"]
-- !private ["Ps8Hashable", "description"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
 - ["Ps8Hashable", "fullGraph"]
 - ["Ps8Hashable", "fullGraphButton"]
@@ -435,34 +420,42 @@ depends-member:
 - ["Ps8Hashable", "mWebView"]
 - ["Ps8Hashable", "menuButton"]
 - ["Ps8Hashable", "menuButtonSetup"]
-- ["Ps8Hashable", "optionsButton"]
-- ["Ps8Hashable", "optionsView"]
 - !private ["Ps8Hashable", "print"]
 - ["Ps8Hashable", "printMode"]
 - ["Ps8Hashable", "printModeButton"]
-- ["Ps8Hashable", "self"]
 - !private ["Ps8Hashable", "stringByEvaluatingJavaScript"]
-- ["Ps8Hashable", "tapBlurButton"]
-- ["Ps8Hashable", "tapGesture"]
 - !private ["Ps8Hashable", "title"]
 - !private ["Ps8Hashable", "titleColor"]
 - ["Ps8Hashable", "touch"]
+- !private ["Ps8Hashable", "userInfo"]
 - !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
 - ["SQ", "deinit"]
 - !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
 - !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
 - !private ["Si", "Stride"]
 - ["Si", "deinit"]
 - !private ["Ps7Integer", "Stride"]
 - !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps16IteratorProtocol", "Element"]
 - !private ["Ps25LosslessStringConvertible", "Stride"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps25LosslessStringConvertible", "description"]
 - ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "Stride"]
-- !private ["Ps10MirrorPath", "description"]
 - ["Ps10MirrorPath", "init"]
 - !private ["Ps17MutableCollection", "Element"]
 - !private ["Ps16MutableIndexable", "Element"]
@@ -478,16 +471,12 @@ depends-member:
 - !private ["PSo8NSCoding", "NotificationCenter"]
 - !private ["PSo8NSCoding", "UIColor"]
 - ["PSo8NSCoding", "UIImage"]
-- ["PSo8NSCoding", "UITapGestureRecognizer"]
 - !private ["PSo8NSCoding", "URL"]
-- ["PSo8NSCoding", "ViewController"]
-- !private ["PSo8NSCoding", "addGestureRecognizer"]
 - !private ["PSo8NSCoding", "addMenuItems"]
 - !private ["PSo8NSCoding", "addSubview"]
 - !private ["PSo8NSCoding", "black"]
 - !private ["PSo8NSCoding", "bounds"]
 - !private ["PSo8NSCoding", "center"]
-- !private ["PSo8NSCoding", "description"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "fullGraph"]
 - ["PSo8NSCoding", "fullGraphButton"]
@@ -501,25 +490,21 @@ depends-member:
 - ["PSo8NSCoding", "mWebView"]
 - ["PSo8NSCoding", "menuButton"]
 - ["PSo8NSCoding", "menuButtonSetup"]
-- ["PSo8NSCoding", "optionsButton"]
-- ["PSo8NSCoding", "optionsView"]
 - !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "printMode"]
 - ["PSo8NSCoding", "printModeButton"]
-- ["PSo8NSCoding", "self"]
 - !private ["PSo8NSCoding", "stringByEvaluatingJavaScript"]
-- ["PSo8NSCoding", "tapBlurButton"]
-- ["PSo8NSCoding", "tapGesture"]
 - !private ["PSo8NSCoding", "title"]
 - !private ["PSo8NSCoding", "titleColor"]
 - ["PSo8NSCoding", "touch"]
+- !private ["PSo8NSCoding", "userInfo"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "Name"]
 - !private ["PSo9NSCopying", "black"]
-- !private ["PSo9NSCopying", "description"]
 - ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "userInfo"]
 - ["PSo26NSExtensionRequestHandling", "CGPoint"]
 - ["PSo26NSExtensionRequestHandling", "CGRect"]
 - ["PSo26NSExtensionRequestHandling", "CGSize"]
@@ -530,9 +515,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "NotificationCenter"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - ["PSo26NSExtensionRequestHandling", "UIImage"]
-- ["PSo26NSExtensionRequestHandling", "UITapGestureRecognizer"]
 - !private ["PSo26NSExtensionRequestHandling", "URL"]
-- ["PSo26NSExtensionRequestHandling", "ViewController"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "fullGraph"]
 - ["PSo26NSExtensionRequestHandling", "fullGraphButton"]
@@ -545,42 +528,34 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "mWebView"]
 - ["PSo26NSExtensionRequestHandling", "menuButton"]
 - ["PSo26NSExtensionRequestHandling", "menuButtonSetup"]
-- ["PSo26NSExtensionRequestHandling", "optionsButton"]
-- ["PSo26NSExtensionRequestHandling", "optionsView"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "printMode"]
 - ["PSo26NSExtensionRequestHandling", "printModeButton"]
-- ["PSo26NSExtensionRequestHandling", "self"]
-- ["PSo26NSExtensionRequestHandling", "tapBlurButton"]
-- ["PSo26NSExtensionRequestHandling", "tapGesture"]
 - ["PSo26NSExtensionRequestHandling", "touch"]
 - !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
-- !private ["PSo16NSMutableCopying", "description"]
 - ["PSo16NSMutableCopying", "init"]
 - !private ["CSo14NSNotification", "Name"]
+- ["CSo14NSNotification", "deinit"]
+- !private ["CSo14NSNotification", "userInfo"]
 - ["CSo8NSObject", "CGPoint"]
 - ["CSo8NSObject", "CGRect"]
 - ["CSo8NSObject", "CGSize"]
 - ["CSo8NSObject", "ExpandingMenuButton"]
 - ["CSo8NSObject", "ExpandingMenuItem"]
-- !private ["CSo8NSObject", "NSNotification"]
+- !private ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSNotification"]
 - !private ["CSo8NSObject", "NSURLRequest"]
 - !private ["CSo8NSObject", "Name"]
 - !private ["CSo8NSObject", "NotificationCenter"]
 - ["CSo8NSObject", "String"]
-- ["CSo8NSObject", "UIBarButtonItem"]
 - !private ["CSo8NSObject", "UIColor"]
 - ["CSo8NSObject", "UIImage"]
-- ["CSo8NSObject", "UITapGestureRecognizer"]
-- ["CSo8NSObject", "UIView"]
 - ["CSo8NSObject", "UIWebView"]
 - !private ["CSo8NSObject", "URL"]
 - !private ["CSo8NSObject", "URLRequest"]
-- ["CSo8NSObject", "ViewController"]
 - ["CSo8NSObject", "Void"]
-- !private ["CSo8NSObject", "addGestureRecognizer"]
 - !private ["CSo8NSObject", "addMenuItems"]
 - !private ["CSo8NSObject", "addObserver"]
 - !private ["CSo8NSObject", "addSubview"]
@@ -588,7 +563,6 @@ depends-member:
 - !private ["CSo8NSObject", "bounds"]
 - !private ["CSo8NSObject", "center"]
 - !private ["CSo8NSObject", "default"]
-- !private ["CSo8NSObject", "description"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "fullGraph"]
 - ["CSo8NSObject", "fullGraphButton"]
@@ -602,18 +576,14 @@ depends-member:
 - ["CSo8NSObject", "mWebView"]
 - ["CSo8NSObject", "menuButton"]
 - ["CSo8NSObject", "menuButtonSetup"]
-- ["CSo8NSObject", "optionsButton"]
-- ["CSo8NSObject", "optionsView"]
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "printMode"]
 - ["CSo8NSObject", "printModeButton"]
-- ["CSo8NSObject", "self"]
 - !private ["CSo8NSObject", "stringByEvaluatingJavaScript"]
-- ["CSo8NSObject", "tapBlurButton"]
-- ["CSo8NSObject", "tapGesture"]
 - !private ["CSo8NSObject", "title"]
 - !private ["CSo8NSObject", "titleColor"]
 - ["CSo8NSObject", "touch"]
+- !private ["CSo8NSObject", "userInfo"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "CGPoint"]
@@ -627,10 +597,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "NotificationCenter"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - ["PSo16NSObjectProtocol", "UIImage"]
-- ["PSo16NSObjectProtocol", "UITapGestureRecognizer"]
 - !private ["PSo16NSObjectProtocol", "URL"]
-- ["PSo16NSObjectProtocol", "ViewController"]
-- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
 - !private ["PSo16NSObjectProtocol", "addMenuItems"]
 - !private ["PSo16NSObjectProtocol", "addObserver"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
@@ -638,7 +605,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "bounds"]
 - !private ["PSo16NSObjectProtocol", "center"]
 - !private ["PSo16NSObjectProtocol", "default"]
-- !private ["PSo16NSObjectProtocol", "description"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "fullGraph"]
 - ["PSo16NSObjectProtocol", "fullGraphButton"]
@@ -652,25 +618,19 @@ depends-member:
 - ["PSo16NSObjectProtocol", "mWebView"]
 - ["PSo16NSObjectProtocol", "menuButton"]
 - ["PSo16NSObjectProtocol", "menuButtonSetup"]
-- ["PSo16NSObjectProtocol", "optionsButton"]
-- ["PSo16NSObjectProtocol", "optionsView"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "printMode"]
 - ["PSo16NSObjectProtocol", "printModeButton"]
-- ["PSo16NSObjectProtocol", "self"]
 - !private ["PSo16NSObjectProtocol", "stringByEvaluatingJavaScript"]
-- ["PSo16NSObjectProtocol", "tapBlurButton"]
-- ["PSo16NSObjectProtocol", "tapGesture"]
 - !private ["PSo16NSObjectProtocol", "title"]
 - !private ["PSo16NSObjectProtocol", "titleColor"]
 - ["PSo16NSObjectProtocol", "touch"]
+- !private ["PSo16NSObjectProtocol", "userInfo"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "black"]
-- !private ["PSo14NSSecureCoding", "description"]
 - ["PSo14NSSecureCoding", "init"]
-- !private ["CSo8NSString", "description"]
 - ["CSo8NSString", "init"]
 - ["CSo12NSURLRequest", "deinit"]
 - !private ["CSo12NSURLRequest", "init"]
@@ -682,24 +642,30 @@ depends-member:
 - ["Sq", "deinit"]
 - !private ["Ps22RandomAccessCollection", "Element"]
 - !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Vs5Range", "deinit"]
 - !private ["Ps26RangeReplaceableCollection", "Element"]
 - !private ["Ps25RangeReplaceableIndexable", "Element"]
 - !private ["Ps16RawRepresentable", "init"]
 - !private ["P10Foundation20ReferenceConvertible", "init"]
 - ["V10ObjectiveC8Selector", "deinit"]
-- !private ["V10ObjectiveC8Selector", "init"]
 - !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
 - !private ["Ps13SignedInteger", "Stride"]
 - !private ["Ps12SignedNumber", "Stride"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
 - !private ["Ps10Strideable", "Stride"]
 - ["SS", "deinit"]
-- !private ["SS", "description"]
 - ["SS", "init"]
-- !private ["Ps16TextOutputStream", "description"]
 - ["Ps16TextOutputStream", "init"]
-- !private ["Ps20TextOutputStreamable", "description"]
 - ["Ps20TextOutputStreamable", "init"]
-- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
 - !private ["PSo29UIAccessibilityIdentification", "addMenuItems"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "bounds"]
@@ -709,7 +675,6 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "stringByEvaluatingJavaScript"]
 - !private ["PSo29UIAccessibilityIdentification", "title"]
 - !private ["PSo29UIAccessibilityIdentification", "titleColor"]
-- !private ["PSo12UIAppearance", "addGestureRecognizer"]
 - !private ["PSo12UIAppearance", "addMenuItems"]
 - !private ["PSo12UIAppearance", "addSubview"]
 - !private ["PSo12UIAppearance", "bounds"]
@@ -729,10 +694,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "NotificationCenter"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
 - ["PSo21UIAppearanceContainer", "UIImage"]
-- ["PSo21UIAppearanceContainer", "UITapGestureRecognizer"]
 - !private ["PSo21UIAppearanceContainer", "URL"]
-- ["PSo21UIAppearanceContainer", "ViewController"]
-- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
 - !private ["PSo21UIAppearanceContainer", "addMenuItems"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
 - !private ["PSo21UIAppearanceContainer", "bounds"]
@@ -750,15 +712,10 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "mWebView"]
 - ["PSo21UIAppearanceContainer", "menuButton"]
 - ["PSo21UIAppearanceContainer", "menuButtonSetup"]
-- ["PSo21UIAppearanceContainer", "optionsButton"]
-- ["PSo21UIAppearanceContainer", "optionsView"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "printMode"]
 - ["PSo21UIAppearanceContainer", "printModeButton"]
-- ["PSo21UIAppearanceContainer", "self"]
 - !private ["PSo21UIAppearanceContainer", "stringByEvaluatingJavaScript"]
-- ["PSo21UIAppearanceContainer", "tapBlurButton"]
-- ["PSo21UIAppearanceContainer", "tapGesture"]
 - !private ["PSo21UIAppearanceContainer", "title"]
 - !private ["PSo21UIAppearanceContainer", "titleColor"]
 - ["PSo21UIAppearanceContainer", "touch"]
@@ -777,9 +734,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "NotificationCenter"]
 - !private ["PSo18UIContentContainer", "UIColor"]
 - ["PSo18UIContentContainer", "UIImage"]
-- ["PSo18UIContentContainer", "UITapGestureRecognizer"]
 - !private ["PSo18UIContentContainer", "URL"]
-- ["PSo18UIContentContainer", "ViewController"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "fullGraph"]
 - ["PSo18UIContentContainer", "fullGraphButton"]
@@ -792,19 +747,13 @@ depends-member:
 - ["PSo18UIContentContainer", "mWebView"]
 - ["PSo18UIContentContainer", "menuButton"]
 - ["PSo18UIContentContainer", "menuButtonSetup"]
-- ["PSo18UIContentContainer", "optionsButton"]
-- ["PSo18UIContentContainer", "optionsView"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "printMode"]
 - ["PSo18UIContentContainer", "printModeButton"]
-- ["PSo18UIContentContainer", "self"]
-- ["PSo18UIContentContainer", "tapBlurButton"]
-- ["PSo18UIContentContainer", "tapGesture"]
 - ["PSo18UIContentContainer", "touch"]
 - !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
-- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
 - !private ["PSo17UICoordinateSpace", "addMenuItems"]
 - !private ["PSo17UICoordinateSpace", "addSubview"]
 - !private ["PSo17UICoordinateSpace", "bounds"]
@@ -814,7 +763,6 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "stringByEvaluatingJavaScript"]
 - !private ["PSo17UICoordinateSpace", "title"]
 - !private ["PSo17UICoordinateSpace", "titleColor"]
-- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
 - !private ["PSo13UIDynamicItem", "addMenuItems"]
 - !private ["PSo13UIDynamicItem", "addSubview"]
 - !private ["PSo13UIDynamicItem", "bounds"]
@@ -834,10 +782,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "NotificationCenter"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
 - ["PSo18UIFocusEnvironment", "UIImage"]
-- ["PSo18UIFocusEnvironment", "UITapGestureRecognizer"]
 - !private ["PSo18UIFocusEnvironment", "URL"]
-- ["PSo18UIFocusEnvironment", "ViewController"]
-- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
 - !private ["PSo18UIFocusEnvironment", "addMenuItems"]
 - !private ["PSo18UIFocusEnvironment", "addSubview"]
 - !private ["PSo18UIFocusEnvironment", "bounds"]
@@ -855,22 +800,16 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "mWebView"]
 - ["PSo18UIFocusEnvironment", "menuButton"]
 - ["PSo18UIFocusEnvironment", "menuButtonSetup"]
-- ["PSo18UIFocusEnvironment", "optionsButton"]
-- ["PSo18UIFocusEnvironment", "optionsView"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "printMode"]
 - ["PSo18UIFocusEnvironment", "printModeButton"]
-- ["PSo18UIFocusEnvironment", "self"]
 - !private ["PSo18UIFocusEnvironment", "stringByEvaluatingJavaScript"]
-- ["PSo18UIFocusEnvironment", "tapBlurButton"]
-- ["PSo18UIFocusEnvironment", "tapGesture"]
 - !private ["PSo18UIFocusEnvironment", "title"]
 - !private ["PSo18UIFocusEnvironment", "titleColor"]
 - ["PSo18UIFocusEnvironment", "touch"]
 - !private ["PSo18UIFocusEnvironment", "view"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
-- !private ["PSo11UIFocusItem", "addGestureRecognizer"]
 - !private ["PSo11UIFocusItem", "addMenuItems"]
 - !private ["PSo11UIFocusItem", "addSubview"]
 - !private ["PSo11UIFocusItem", "bounds"]
@@ -880,7 +819,6 @@ depends-member:
 - !private ["PSo11UIFocusItem", "stringByEvaluatingJavaScript"]
 - !private ["PSo11UIFocusItem", "title"]
 - !private ["PSo11UIFocusItem", "titleColor"]
-- ["CSo19UIGestureRecognizer", "init"]
 - ["PSo27UIGestureRecognizerDelegate", "CGPoint"]
 - ["PSo27UIGestureRecognizerDelegate", "CGRect"]
 - ["PSo27UIGestureRecognizerDelegate", "CGSize"]
@@ -891,12 +829,10 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "NotificationCenter"]
 - !private ["PSo27UIGestureRecognizerDelegate", "UIColor"]
 - ["PSo27UIGestureRecognizerDelegate", "UIImage"]
-- ["PSo27UIGestureRecognizerDelegate", "UITapGestureRecognizer"]
 - !private ["PSo27UIGestureRecognizerDelegate", "URL"]
-- ["PSo27UIGestureRecognizerDelegate", "ViewController"]
-- !private ["PSo27UIGestureRecognizerDelegate", "addGestureRecognizer"]
 - !private ["PSo27UIGestureRecognizerDelegate", "addMenuItems"]
 - !private ["PSo27UIGestureRecognizerDelegate", "center"]
+- !private ["PSo27UIGestureRecognizerDelegate", "fullGraph"]
 - !private ["PSo27UIGestureRecognizerDelegate", "fullGraphButton"]
 - ["PSo27UIGestureRecognizerDelegate", "gestureRecognizer"]
 - ["PSo27UIGestureRecognizerDelegate", "gestureRecognizerShouldBegin"]
@@ -908,10 +844,8 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "menuButton"]
 - !private ["PSo27UIGestureRecognizerDelegate", "menuButtonSetup"]
 - !private ["PSo27UIGestureRecognizerDelegate", "print"]
+- !private ["PSo27UIGestureRecognizerDelegate", "printMode"]
 - !private ["PSo27UIGestureRecognizerDelegate", "printModeButton"]
-- ["PSo27UIGestureRecognizerDelegate", "self"]
-- ["PSo27UIGestureRecognizerDelegate", "tapBlurButton"]
-- !private ["PSo27UIGestureRecognizerDelegate", "tapGesture"]
 - !private ["PSo27UIGestureRecognizerDelegate", "touch"]
 - !private ["PSo27UIGestureRecognizerDelegate", "view"]
 - ["PSo27UIGestureRecognizerDelegate", ""]
@@ -922,21 +856,17 @@ depends-member:
 - ["CSo11UIResponder", "CGSize"]
 - ["CSo11UIResponder", "ExpandingMenuButton"]
 - ["CSo11UIResponder", "ExpandingMenuItem"]
-- !private ["CSo11UIResponder", "NSNotification"]
+- !private ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSNotification"]
 - !private ["CSo11UIResponder", "NSURLRequest"]
 - !private ["CSo11UIResponder", "NotificationCenter"]
 - ["CSo11UIResponder", "String"]
-- ["CSo11UIResponder", "UIBarButtonItem"]
 - !private ["CSo11UIResponder", "UIColor"]
 - ["CSo11UIResponder", "UIImage"]
-- ["CSo11UIResponder", "UITapGestureRecognizer"]
-- ["CSo11UIResponder", "UIView"]
 - ["CSo11UIResponder", "UIWebView"]
 - !private ["CSo11UIResponder", "URL"]
 - !private ["CSo11UIResponder", "URLRequest"]
-- ["CSo11UIResponder", "ViewController"]
 - ["CSo11UIResponder", "Void"]
-- !private ["CSo11UIResponder", "addGestureRecognizer"]
 - !private ["CSo11UIResponder", "addMenuItems"]
 - !private ["CSo11UIResponder", "addSubview"]
 - !private ["CSo11UIResponder", "bounds"]
@@ -954,15 +884,10 @@ depends-member:
 - ["CSo11UIResponder", "mWebView"]
 - ["CSo11UIResponder", "menuButton"]
 - ["CSo11UIResponder", "menuButtonSetup"]
-- ["CSo11UIResponder", "optionsButton"]
-- ["CSo11UIResponder", "optionsView"]
 - !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "printMode"]
 - ["CSo11UIResponder", "printModeButton"]
-- ["CSo11UIResponder", "self"]
 - !private ["CSo11UIResponder", "stringByEvaluatingJavaScript"]
-- ["CSo11UIResponder", "tapBlurButton"]
-- ["CSo11UIResponder", "tapGesture"]
 - !private ["CSo11UIResponder", "title"]
 - !private ["CSo11UIResponder", "titleColor"]
 - ["CSo11UIResponder", "touch"]
@@ -978,10 +903,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "NotificationCenter"]
 - !private ["PSo30UIResponderStandardEditActions", "UIColor"]
 - ["PSo30UIResponderStandardEditActions", "UIImage"]
-- ["PSo30UIResponderStandardEditActions", "UITapGestureRecognizer"]
 - !private ["PSo30UIResponderStandardEditActions", "URL"]
-- ["PSo30UIResponderStandardEditActions", "ViewController"]
-- !private ["PSo30UIResponderStandardEditActions", "addGestureRecognizer"]
 - !private ["PSo30UIResponderStandardEditActions", "addMenuItems"]
 - !private ["PSo30UIResponderStandardEditActions", "addSubview"]
 - !private ["PSo30UIResponderStandardEditActions", "bounds"]
@@ -999,15 +921,10 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "mWebView"]
 - ["PSo30UIResponderStandardEditActions", "menuButton"]
 - ["PSo30UIResponderStandardEditActions", "menuButtonSetup"]
-- ["PSo30UIResponderStandardEditActions", "optionsButton"]
-- ["PSo30UIResponderStandardEditActions", "optionsView"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
 - ["PSo30UIResponderStandardEditActions", "printMode"]
 - ["PSo30UIResponderStandardEditActions", "printModeButton"]
-- ["PSo30UIResponderStandardEditActions", "self"]
 - !private ["PSo30UIResponderStandardEditActions", "stringByEvaluatingJavaScript"]
-- ["PSo30UIResponderStandardEditActions", "tapBlurButton"]
-- ["PSo30UIResponderStandardEditActions", "tapGesture"]
 - !private ["PSo30UIResponderStandardEditActions", "title"]
 - !private ["PSo30UIResponderStandardEditActions", "titleColor"]
 - ["PSo30UIResponderStandardEditActions", "touch"]
@@ -1026,9 +943,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "NotificationCenter"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
 - ["PSo16UIStateRestoring", "UIImage"]
-- ["PSo16UIStateRestoring", "UITapGestureRecognizer"]
 - !private ["PSo16UIStateRestoring", "URL"]
-- ["PSo16UIStateRestoring", "ViewController"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "fullGraph"]
 - ["PSo16UIStateRestoring", "fullGraphButton"]
@@ -1041,20 +956,13 @@ depends-member:
 - ["PSo16UIStateRestoring", "mWebView"]
 - ["PSo16UIStateRestoring", "menuButton"]
 - ["PSo16UIStateRestoring", "menuButtonSetup"]
-- ["PSo16UIStateRestoring", "optionsButton"]
-- ["PSo16UIStateRestoring", "optionsView"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "printMode"]
 - ["PSo16UIStateRestoring", "printModeButton"]
-- ["PSo16UIStateRestoring", "self"]
-- ["PSo16UIStateRestoring", "tapBlurButton"]
-- ["PSo16UIStateRestoring", "tapGesture"]
 - ["PSo16UIStateRestoring", "touch"]
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
-- ["CSo22UITapGestureRecognizer", "deinit"]
-- ["CSo22UITapGestureRecognizer", "init"]
 - ["PSo18UITraitEnvironment", "CGPoint"]
 - ["PSo18UITraitEnvironment", "CGRect"]
 - ["PSo18UITraitEnvironment", "CGSize"]
@@ -1065,10 +973,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "NotificationCenter"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
 - ["PSo18UITraitEnvironment", "UIImage"]
-- ["PSo18UITraitEnvironment", "UITapGestureRecognizer"]
 - !private ["PSo18UITraitEnvironment", "URL"]
-- ["PSo18UITraitEnvironment", "ViewController"]
-- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
 - !private ["PSo18UITraitEnvironment", "addMenuItems"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
 - !private ["PSo18UITraitEnvironment", "bounds"]
@@ -1086,22 +991,16 @@ depends-member:
 - ["PSo18UITraitEnvironment", "mWebView"]
 - ["PSo18UITraitEnvironment", "menuButton"]
 - ["PSo18UITraitEnvironment", "menuButtonSetup"]
-- ["PSo18UITraitEnvironment", "optionsButton"]
-- ["PSo18UITraitEnvironment", "optionsView"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "printMode"]
 - ["PSo18UITraitEnvironment", "printModeButton"]
-- ["PSo18UITraitEnvironment", "self"]
 - !private ["PSo18UITraitEnvironment", "stringByEvaluatingJavaScript"]
-- ["PSo18UITraitEnvironment", "tapBlurButton"]
-- ["PSo18UITraitEnvironment", "tapGesture"]
 - !private ["PSo18UITraitEnvironment", "title"]
 - !private ["PSo18UITraitEnvironment", "titleColor"]
 - ["PSo18UITraitEnvironment", "touch"]
 - !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
-- !private ["CSo6UIView", "addGestureRecognizer"]
 - !private ["CSo6UIView", "addMenuItems"]
 - !private ["CSo6UIView", "addSubview"]
 - !private ["CSo6UIView", "bounds"]
@@ -1115,19 +1014,16 @@ depends-member:
 - ["CSo16UIViewController", "CGSize"]
 - ["CSo16UIViewController", "ExpandingMenuButton"]
 - ["CSo16UIViewController", "ExpandingMenuItem"]
-- !private ["CSo16UIViewController", "NSNotification"]
+- !private ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "NSNotification"]
 - !private ["CSo16UIViewController", "NSURLRequest"]
 - !private ["CSo16UIViewController", "NotificationCenter"]
 - ["CSo16UIViewController", "String"]
-- ["CSo16UIViewController", "UIBarButtonItem"]
 - !private ["CSo16UIViewController", "UIColor"]
 - ["CSo16UIViewController", "UIImage"]
-- ["CSo16UIViewController", "UITapGestureRecognizer"]
-- ["CSo16UIViewController", "UIView"]
 - ["CSo16UIViewController", "UIWebView"]
 - !private ["CSo16UIViewController", "URL"]
 - !private ["CSo16UIViewController", "URLRequest"]
-- ["CSo16UIViewController", "ViewController"]
 - ["CSo16UIViewController", "Void"]
 - ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
@@ -1142,14 +1038,9 @@ depends-member:
 - ["CSo16UIViewController", "mWebView"]
 - ["CSo16UIViewController", "menuButton"]
 - ["CSo16UIViewController", "menuButtonSetup"]
-- ["CSo16UIViewController", "optionsButton"]
-- ["CSo16UIViewController", "optionsView"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "printMode"]
 - ["CSo16UIViewController", "printModeButton"]
-- ["CSo16UIViewController", "self"]
-- ["CSo16UIViewController", "tapBlurButton"]
-- ["CSo16UIViewController", "tapGesture"]
 - ["CSo16UIViewController", "touch"]
 - !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
@@ -1158,7 +1049,6 @@ depends-member:
 - !private ["CSo9UIWebView", "stringByEvaluatingJavaScript"]
 - ["V10Foundation3URL", "deinit"]
 - !private ["V10Foundation3URL", "init"]
-- !private ["P9Alamofire14URLConvertible", "description"]
 - ["P9Alamofire14URLConvertible", "init"]
 - ["V10Foundation10URLRequest", "deinit"]
 - ["C5sobek14ViewController", "CGPoint"]
@@ -1166,19 +1056,16 @@ depends-member:
 - ["C5sobek14ViewController", "CGSize"]
 - ["C5sobek14ViewController", "ExpandingMenuButton"]
 - ["C5sobek14ViewController", "ExpandingMenuItem"]
-- !private ["C5sobek14ViewController", "NSNotification"]
+- !private ["C5sobek14ViewController", "Int"]
+- ["C5sobek14ViewController", "NSNotification"]
 - !private ["C5sobek14ViewController", "NSURLRequest"]
 - !private ["C5sobek14ViewController", "NotificationCenter"]
 - ["C5sobek14ViewController", "String"]
-- ["C5sobek14ViewController", "UIBarButtonItem"]
 - !private ["C5sobek14ViewController", "UIColor"]
 - ["C5sobek14ViewController", "UIImage"]
-- ["C5sobek14ViewController", "UITapGestureRecognizer"]
-- ["C5sobek14ViewController", "UIView"]
 - ["C5sobek14ViewController", "UIWebView"]
 - !private ["C5sobek14ViewController", "URL"]
 - !private ["C5sobek14ViewController", "URLRequest"]
-- ["C5sobek14ViewController", "ViewController"]
 - ["C5sobek14ViewController", "Void"]
 - ["C5sobek14ViewController", "deinit"]
 - ["C5sobek14ViewController", "didReceiveMemoryWarning"]
@@ -1193,21 +1080,15 @@ depends-member:
 - ["C5sobek14ViewController", "mWebView"]
 - ["C5sobek14ViewController", "menuButton"]
 - ["C5sobek14ViewController", "menuButtonSetup"]
-- ["C5sobek14ViewController", "optionsButton"]
-- ["C5sobek14ViewController", "optionsView"]
 - !private ["C5sobek14ViewController", "print"]
 - ["C5sobek14ViewController", "printMode"]
 - ["C5sobek14ViewController", "printModeButton"]
-- ["C5sobek14ViewController", "self"]
-- ["C5sobek14ViewController", "tapBlurButton"]
-- ["C5sobek14ViewController", "tapGesture"]
 - ["C5sobek14ViewController", "touch"]
 - !private ["C5sobek14ViewController", "view"]
 - ["C5sobek14ViewController", "viewDidLoad"]
 - !private ["Ps14_ArrayProtocol", "Element"]
 - !private ["Ps15_CVarArgAligned", "Stride"]
 - !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
-- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addGestureRecognizer"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addMenuItems"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
@@ -1219,22 +1100,18 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "titleColor"]
 - !private ["Ps24_DestructorSafeContainer", "Element"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "description"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "Stride"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "description"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "description"]
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "description"]
 - ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps26_ExpressibleByColorLiteral", "black"]
 - !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
 - ["Ps26_ExpressibleByImageLiteral", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
-- !private ["Ps35_HasCustomAnyHashableRepresentation", "description"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "userInfo"]
 - ["Ps9_Hashable", "CGPoint"]
 - ["Ps9_Hashable", "CGRect"]
 - ["Ps9_Hashable", "CGSize"]
@@ -1247,11 +1124,8 @@ depends-member:
 - !private ["Ps9_Hashable", "Stride"]
 - !private ["Ps9_Hashable", "UIColor"]
 - ["Ps9_Hashable", "UIImage"]
-- ["Ps9_Hashable", "UITapGestureRecognizer"]
 - !private ["Ps9_Hashable", "URL"]
-- ["Ps9_Hashable", "ViewController"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
-- !private ["Ps9_Hashable", "addGestureRecognizer"]
 - !private ["Ps9_Hashable", "addMenuItems"]
 - !private ["Ps9_Hashable", "addObserver"]
 - !private ["Ps9_Hashable", "addSubview"]
@@ -1259,7 +1133,7 @@ depends-member:
 - !private ["Ps9_Hashable", "bounds"]
 - !private ["Ps9_Hashable", "center"]
 - !private ["Ps9_Hashable", "default"]
-- !private ["Ps9_Hashable", "description"]
+- !private ["Ps9_Hashable", "deinit"]
 - ["Ps9_Hashable", "didReceiveMemoryWarning"]
 - ["Ps9_Hashable", "fullGraph"]
 - ["Ps9_Hashable", "fullGraphButton"]
@@ -1273,18 +1147,14 @@ depends-member:
 - ["Ps9_Hashable", "mWebView"]
 - ["Ps9_Hashable", "menuButton"]
 - ["Ps9_Hashable", "menuButtonSetup"]
-- ["Ps9_Hashable", "optionsButton"]
-- ["Ps9_Hashable", "optionsView"]
 - !private ["Ps9_Hashable", "print"]
 - ["Ps9_Hashable", "printMode"]
 - ["Ps9_Hashable", "printModeButton"]
-- ["Ps9_Hashable", "self"]
 - !private ["Ps9_Hashable", "stringByEvaluatingJavaScript"]
-- ["Ps9_Hashable", "tapBlurButton"]
-- ["Ps9_Hashable", "tapGesture"]
 - !private ["Ps9_Hashable", "title"]
 - !private ["Ps9_Hashable", "titleColor"]
 - ["Ps9_Hashable", "touch"]
+- !private ["Ps9_Hashable", "userInfo"]
 - !private ["Ps9_Hashable", "view"]
 - ["Ps9_Hashable", "viewDidLoad"]
 - ["Ps9_Hashable", ""]
@@ -1292,18 +1162,24 @@ depends-member:
 - !private ["Ps8_Integer", "Stride"]
 - !private ["Ps18_IntegerArithmetic", "Stride"]
 - !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
 - !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "description"]
 - !private ["Ps21_ObjectiveCBridgeable", "height"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
 - !private ["Ps21_ObjectiveCBridgeable", "width"]
 - ["Ps21_ObjectiveCBridgeable", "zero"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps14_SignedInteger", "Stride"]
 - !private ["Ps11_Strideable", "Stride"]
 - !private ["Ps20_SwiftNewtypeWrapper", "init"]
 depends-nominal:
 - !private "Ps16AbsoluteValuable"
+- !private "Vs11AnyHashable"
 - "Ps9AnyObject"
 - "Sa"
 - !private "Ps23BidirectionalCollection"
@@ -1317,18 +1193,24 @@ depends-nominal:
 - "VSC6CGRect"
 - "VSC6CGSize"
 - "Ps7CVarArg"
+- !private "Vs11ClosedRange"
 - !private "Ps10Collection"
 - "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
 - "Ps28CustomDebugStringConvertible"
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Vs15DictionaryIndex"
 - "Sd"
 - "Ps9Equatable"
 - "C13ExpandingMenu19ExpandingMenuButton"
 - "C13ExpandingMenu17ExpandingMenuItem"
 - !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps25ExpressibleByFloatLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
@@ -1340,9 +1222,11 @@ depends-nominal:
 - "SQ"
 - !private "Ps9Indexable"
 - !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
 - "Si"
 - !private "Ps7Integer"
 - !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
 - !private "Ps17MutableCollection"
@@ -1352,7 +1236,7 @@ depends-nominal:
 - "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
 - "PSo16NSMutableCopying"
-- !private "CSo14NSNotification"
+- "CSo14NSNotification"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
@@ -1363,6 +1247,7 @@ depends-nominal:
 - "Sq"
 - !private "Ps22RandomAccessCollection"
 - !private "Ps21RandomAccessIndexable"
+- !private "Vs5Range"
 - !private "Ps26RangeReplaceableCollection"
 - !private "Ps25RangeReplaceableIndexable"
 - !private "Ps16RawRepresentable"
@@ -1371,6 +1256,7 @@ depends-nominal:
 - !private "Ps8Sequence"
 - !private "Ps13SignedInteger"
 - !private "Ps12SignedNumber"
+- !private "Vs5Slice"
 - !private "Ps10Strideable"
 - "SS"
 - "Ps16TextOutputStream"
@@ -1384,14 +1270,12 @@ depends-nominal:
 - "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
 - "PSo11UIFocusItem"
-- "CSo19UIGestureRecognizer"
 - "PSo27UIGestureRecognizerDelegate"
 - "CSo7UIImage"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
 - !private "PSo20UIScrollViewDelegate"
 - "PSo16UIStateRestoring"
-- "CSo22UITapGestureRecognizer"
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
@@ -1421,6 +1305,7 @@ depends-nominal:
 - !private "Ps8_Integer"
 - !private "Ps18_IntegerArithmetic"
 - "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
 - !private "Ps14_SignedInteger"
 - !private "Ps11_Strideable"
 - !private "Ps20_SwiftNewtypeWrapper"
@@ -1440,13 +1325,9 @@ depends-external:
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Modules/AZDropdownMenu.swiftmodule/x86_64.swiftmodule"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-Swift.h"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-umbrella.h"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Modules/module.modulemap"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Modules/ExpandingMenu.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers/ExpandingMenu-Swift.h"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers/ExpandingMenu-umbrella.h"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Modules/module.modulemap"
-interface-hash: "36c500e620143362edf17538ddb5cdf2"
+interface-hash: "4e9d80baf48422db51c887f619d7f589"

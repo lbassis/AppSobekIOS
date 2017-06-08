@@ -174,7 +174,7 @@ open class ExpandingMenuButton: UIView, UIGestureRecognizerDelegate {
     // MARK: - Menu Item Tapped Action
     open func menuItemTapped(_ item: ExpandingMenuItem) {
         
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: touch), object: nil)
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: touch), object:nil, userInfo: ["index":item.index])
 
         
         

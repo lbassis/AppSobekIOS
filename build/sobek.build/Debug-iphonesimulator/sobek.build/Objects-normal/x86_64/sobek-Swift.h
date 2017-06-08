@@ -172,14 +172,12 @@ SWIFT_CLASS("_TtC5sobek21InitialViewController")
 @end
 
 @class ExpandingMenuButton;
-@class UITapGestureRecognizer;
 @class ExpandingMenuItem;
+@class NSNotification;
 @class UIWebView;
 
 SWIFT_CLASS("_TtC5sobek14ViewController")
 @interface ViewController : UIViewController <UIGestureRecognizerDelegate>
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified optionsView;
-@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified optionsButton;
 @property (nonatomic, weak) IBOutlet UIWebView * _Null_unspecified mWebView;
 @property (nonatomic, copy) NSString * _Nonnull id;
 @property (nonatomic) NSInteger language;
@@ -187,12 +185,10 @@ SWIFT_CLASS("_TtC5sobek14ViewController")
 @property (nonatomic) NSInteger fullGraph;
 @property (nonatomic, readonly, copy) NSString * _Nonnull touch;
 @property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton;
-@property (nonatomic, readonly, strong) UITapGestureRecognizer * _Nonnull tapGesture;
 @property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull fullGraphButton;
 @property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull printModeButton;
-- (void)tapBlurButton:(UITapGestureRecognizer * _Nonnull)sender;
 - (void)menuButtonSetup;
-- (void)itemTouched;
+- (void)itemTouched:(NSNotification * _Nonnull)notification;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

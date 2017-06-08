@@ -50,7 +50,7 @@ class InitialViewController: UIViewController {
 		else {
 			self.confirmButton.setTitle("Extract", for: .normal)
 			self.textField.placeholder = "Insert the desired URL"
-			//self.aboutBar.title! = "About"
+			self.aboutBar.title = "About"
 		}
 	}
 	
@@ -87,8 +87,6 @@ class InitialViewController: UIViewController {
 			
 			self.performSegue(withIdentifier: "segue", sender: result)
 			
-			let transform: CGAffineTransform = CGAffineTransform(scaleX: 10, y: 10)
-			self.loadingIndicator.transform = transform
 			self.loadingIndicator.isHidden = true
 			self.navigationController?.navigationBar.alpha = 1
 			self.view.isUserInteractionEnabled = true

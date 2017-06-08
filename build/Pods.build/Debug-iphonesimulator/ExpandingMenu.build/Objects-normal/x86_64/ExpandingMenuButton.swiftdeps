@@ -15,85 +15,86 @@ provides-member:
 - ["OC13ExpandingMenu19ExpandingMenuButton18ExpandingDirection", ""]
 - ["OC13ExpandingMenu19ExpandingMenuButton18MenuTitleDirection", ""]
 provides-dynamic-lookup:
-- "didDismissMenuItems"
-- "bottomViewColor"
-- "titleTappedActionEnabled"
-- "didPresentMenuItems"
-- "centerButtonTapped"
-- "expandingSoundPath"
-- "menuItemMargin"
+- "allowSounds"
 - "menuItemTapped"
-- "touch"
-- "foldSoundPath"
+- "centerButtonTapped"
 - "touchesBegan"
 - "bottomViewAlpha"
-- "selectedSoundPath"
-- "allowSounds"
-- "willDismissMenuItems"
-- "gestureRecognizerShouldBegin"
 - "willPresentMenuItems"
+- "expandingSoundPath"
 - "addMenuItems"
+- "willDismissMenuItems"
+- "bottomViewColor"
+- "didDismissMenuItems"
+- "selectedSoundPath"
+- "menuItemMargin"
+- "touch"
+- "gestureRecognizerShouldBegin"
+- "titleTappedActionEnabled"
 - "gestureRecognizer"
+- "didPresentMenuItems"
+- "foldSoundPath"
 depends-top-level:
-- "CGRect"
-- "SystemSoundID"
-- "UIImage"
-- "UIScreen"
-- "CGPoint"
-- !private "AudioServicesDisposeSystemSoundID"
-- !private "M_PI"
-- "ExpandingMenuButton"
-- "OptionSet"
-- !private "AudioServicesCreateSystemSoundID"
-- !private "CAAnimationGroup"
-- "String"
-- "UIEvent"
-- "NSCoder"
-- "Void"
-- "Bundle"
-- "UIGestureRecognizerDelegate"
-- !private "UIViewAnimationOptions"
-- "CGFloat"
-- "UITouch"
-- "Bool"
-- !private "-"
-- !private "*"
-- !private "+"
-- !private "+="
-- !private "URL"
-- "BooleanLiteralType"
-- !private "kCAMediaTimingFunctionLinear"
-- !private "CGMutablePath"
-- !private "UIControlState"
-- !private "/"
-- "UIButton"
-- "??"
-- !private "CGAffineTransform"
-- "UIView"
-- !private "CFURL"
-- "AnimationOptions"
-- "Array"
-- !private "sinf"
-- "StringLiteralType"
 - !private "NSNotification"
-- "Set"
-- !private "Float"
-- "ExpandingMenuItem"
-- !private "CastingPrecedence"
-- !private "cosf"
+- !private "AudioServicesPlaySystemSound"
+- !private "M_PI"
+- "CGRect"
+- "UIImage"
+- "BooleanLiteralType"
+- "StringLiteralType"
+- !private "NotificationCenter"
+- !private "CAAnimationGroup"
 - "=="
 - "AssignmentPrecedence"
-- "Int"
-- !private "AudioServicesPlaySystemSound"
-- "IntegerLiteralType"
+- !private "CastingPrecedence"
+- "UIEvent"
 - "CGSize"
+- "Int"
+- !private "AudioServicesCreateSystemSoundID"
+- !private "+"
+- !private "CAMediaTimingFunction"
+- "CGPoint"
+- !private "UIViewAnimationOptions"
+- !private "CFURL"
+- "Set"
+- "UITouch"
+- "FloatLiteralType"
+- "OptionSet"
+- !private "Dictionary"
 - !private "UIControlEvents"
+- "Array"
+- "IntegerLiteralType"
+- !private "/"
+- "Void"
+- "UIGestureRecognizerDelegate"
+- !private "sinf"
+- !private "kCAMediaTimingFunctionLinear"
+- "AnimationOptions"
+- "Bool"
+- !private "CGMutablePath"
+- !private "-"
+- "UIButton"
+- !private "URL"
+- "UIView"
+- !private "cosf"
+- "ExpandingMenuItem"
+- !private "Float"
+- !private "+="
+- "??"
+- !private "UIControlState"
+- !private "CGAffineTransform"
+- "Bundle"
+- "String"
+- "ExpandingMenuButton"
+- !private "*"
+- !private "AudioServicesDisposeSystemSoundID"
+- "CGFloat"
+- "SystemSoundID"
 - !private "CAKeyframeAnimation"
 - "UIGestureRecognizer"
 - "UIColor"
-- !private "CAMediaTimingFunction"
-- "FloatLiteralType"
-- !private "NotificationCenter"
+- "UIScreen"
+- "NSCoder"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - ["V13ExpandingMenu16AnimationOptions", "All"]
@@ -126,6 +127,7 @@ depends-member:
 - ["V13ExpandingMenu16AnimationOptions", "symmetricDifference"]
 - ["V13ExpandingMenu16AnimationOptions", "union"]
 - ["V13ExpandingMenu16AnimationOptions", "update"]
+- !private ["Vs11AnyHashable", "deinit"]
 - !private ["Ps9AnyObject", "AudioServicesCreateSystemSoundID"]
 - !private ["Ps9AnyObject", "AudioServicesDisposeSystemSoundID"]
 - !private ["Ps9AnyObject", "AudioServicesPlaySystemSound"]
@@ -456,6 +458,7 @@ depends-member:
 - ["Ps7CVarArg", "ExpandingMenuButton"]
 - !private ["Ps7CVarArg", "Float"]
 - !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Key"]
 - !private ["Ps7CVarArg", "M_PI"]
 - ["Ps7CVarArg", "MenuTitleDirection"]
 - !private ["Ps7CVarArg", "NSNotification"]
@@ -470,6 +473,7 @@ depends-member:
 - ["Ps7CVarArg", "UIView"]
 - !private ["Ps7CVarArg", "UIViewAnimationOptions"]
 - !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "Value"]
 - !private ["Ps7CVarArg", "_Element"]
 - !private ["Ps7CVarArg", "add"]
 - !private ["Ps7CVarArg", "addGestureRecognizer"]
@@ -561,6 +565,8 @@ depends-member:
 - ["Ps7CVarArg", ""]
 - !private ["Ps10Collection", "Element"]
 - !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
 - !private ["Ps10Collection", "_Element"]
 - !private ["Ps10Collection", "append"]
 - !private ["Ps10Collection", "enumerated"]
@@ -584,6 +590,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "ExpandingMenuButton"]
 - !private ["Ps28CustomDebugStringConvertible", "Float"]
 - !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
 - !private ["Ps28CustomDebugStringConvertible", "M_PI"]
 - ["Ps28CustomDebugStringConvertible", "MenuTitleDirection"]
 - !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
@@ -598,6 +605,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "UIView"]
 - !private ["Ps28CustomDebugStringConvertible", "UIViewAnimationOptions"]
 - !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
 - !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - !private ["Ps28CustomDebugStringConvertible", "add"]
 - !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
@@ -704,6 +712,8 @@ depends-member:
 - ["Ps29CustomPlaygroundQuickLookable", "zero"]
 - !private ["Ps17CustomReflectable", "Element"]
 - !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
 - !private ["Ps17CustomReflectable", "_Element"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "append"]
@@ -735,6 +745,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "ExpandingMenuButton"]
 - !private ["Ps23CustomStringConvertible", "Float"]
 - !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Key"]
 - !private ["Ps23CustomStringConvertible", "M_PI"]
 - ["Ps23CustomStringConvertible", "MenuTitleDirection"]
 - !private ["Ps23CustomStringConvertible", "NSNotification"]
@@ -749,6 +760,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "UIView"]
 - !private ["Ps23CustomStringConvertible", "UIViewAnimationOptions"]
 - !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "Value"]
 - !private ["Ps23CustomStringConvertible", "_Element"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "add"]
@@ -839,6 +851,9 @@ depends-member:
 - ["Ps23CustomStringConvertible", "willDismissMenuItems"]
 - ["Ps23CustomStringConvertible", "willPresentMenuItems"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
 - ["Sd", "deinit"]
 - !private ["Vs18EnumeratedIterator", "Element"]
 - !private ["Vs18EnumeratedSequence", "Iterator"]
@@ -1157,6 +1172,8 @@ depends-member:
 - ["Ps25ExpressibleByArrayLiteral", "update"]
 - ["Ps25ExpressibleByArrayLiteral", ""]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps25ExpressibleByFloatLiteral", "init"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
@@ -1291,11 +1308,15 @@ depends-member:
 - ["Ps8Hashable", ""]
 - !private ["Ps9Indexable", "Element"]
 - !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
 - !private ["Ps9Indexable", "_Element"]
 - !private ["Ps9Indexable", "append"]
 - !private ["Ps9Indexable", "enumerated"]
 - !private ["Ps13IndexableBase", "Element"]
 - !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
 - !private ["Ps13IndexableBase", "_Element"]
 - !private ["Ps13IndexableBase", "append"]
 - !private ["Ps13IndexableBase", "enumerated"]
@@ -1791,6 +1812,8 @@ depends-member:
 - !private ["V10ObjectiveC8Selector", "deinit"]
 - !private ["Ps8Sequence", "Element"]
 - ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
 - !private ["Ps8Sequence", "_Element"]
 - !private ["Ps8Sequence", "append"]
 - !private ["Ps8Sequence", "enumerated"]
@@ -3353,6 +3376,8 @@ depends-member:
 - !private ["Ps18_IntegerArithmetic", "hashValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
 - !private ["Ps21_ObjectiveCBridgeable", "_Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "append"]
@@ -3373,6 +3398,7 @@ depends-member:
 depends-nominal:
 - !private "Ps16AbsoluteValuable"
 - "V13ExpandingMenu16AnimationOptions"
+- !private "Vs11AnyHashable"
 - "Ps9AnyObject"
 - "Sa"
 - !private "Ps23BidirectionalCollection"
@@ -3405,6 +3431,7 @@ depends-nominal:
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
 - "Sd"
 - !private "Vs18EnumeratedIterator"
 - "Vs18EnumeratedSequence"
@@ -3414,6 +3441,7 @@ depends-nominal:
 - "C13ExpandingMenu17ExpandingMenuItem"
 - "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps25ExpressibleByFloatLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
