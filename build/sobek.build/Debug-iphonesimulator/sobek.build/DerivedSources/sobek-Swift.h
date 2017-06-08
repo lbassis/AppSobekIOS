@@ -171,7 +171,8 @@ SWIFT_CLASS("_TtC5sobek21InitialViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class AZDropdownMenu;
+@class ExpandingMenuButton;
+@class ExpandingMenuItem;
 @class UIWebView;
 
 SWIFT_CLASS("_TtC5sobek14ViewController")
@@ -181,10 +182,18 @@ SWIFT_CLASS("_TtC5sobek14ViewController")
 @property (nonatomic, weak) IBOutlet UIWebView * _Null_unspecified mWebView;
 @property (nonatomic, copy) NSString * _Nonnull id;
 @property (nonatomic) NSInteger language;
-@property (nonatomic, strong) AZDropdownMenu * _Nonnull menu;
-@property (nonatomic, copy) NSArray<NSString *> * _Nonnull titles;
-- (IBAction)optionPress:(id _Nonnull)sender;
-- (void)handleOptionWithIndex:(NSInteger)index;
+@property (nonatomic) NSInteger printMode;
+@property (nonatomic) NSInteger fullGraph;
+@property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton1;
+@property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton2;
+@property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton3;
+@property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton4;
+@property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull fullGraphButton;
+@property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull printModeButton;
+@property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull subGraphButton;
+@property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull normalModeButton;
++ (void)updateMenuButton;
+- (void)menuButtonSetup;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

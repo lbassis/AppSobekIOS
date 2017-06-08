@@ -71,17 +71,21 @@ class InitialViewController: UIViewController {
 		self.navigationController?.navigationBar.alpha = 0.85
 		
 		
-		let serverUrl = "http://192.168.25.210/sobek/receiver.php"
+		//let serverUrl = "http://192.168.25.210/sobek/receiver.php"
 		//let serverUrl = "http://192.168.0.78/sobek_request_receiver/receiver.php"
+        let serverUrl = "http://192.168.25.107/~Lucas/Sobek/receiver.php"
 
 		let id = randomID()
 		let url = textField.text
+        
+        print(url)
 		
 		let postString: [String:String] = ["TODO":"true", "ADJ":"true", "TOHAVE":"true", "VERBS":"true", "ADV":"true", "NOUNS":"true", "AVGCON":"", "INTER":"true", "LANG":"2", "PRON":"true", "MOB_ID":id, "URL":url!, "TOBE":"true", "FREQ":"", "THES":"false"]
 		
 		Alamofire.request(serverUrl, method: .post, parameters: postString).responseString { response in
 			
 			let result = ["id":id, "language":self.language] as [String : Any]
+            print (response.description)
 			
 			self.performSegue(withIdentifier: "segue", sender: result)
 			

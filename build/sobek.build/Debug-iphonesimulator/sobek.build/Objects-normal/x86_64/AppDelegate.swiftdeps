@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C5sobek11AppDelegate", ""]
 provides-dynamic-lookup:
-- "application"
-- "applicationWillEnterForeground"
-- "window"
-- "applicationWillTerminate"
 - "applicationDidBecomeActive"
+- "applicationWillEnterForeground"
 - "applicationWillResignActive"
+- "window"
 - "applicationDidEnterBackground"
+- "application"
+- "applicationWillTerminate"
 depends-top-level:
-- "UIWindow"
-- "Bool"
-- "UIApplicationDelegate"
 - "UIResponder"
-- "AppDelegate"
-- !private "BooleanLiteralType"
 - "UIApplicationLaunchOptionsKey"
+- "AppDelegate"
+- "Bool"
+- "UIWindow"
+- !private "BooleanLiteralType"
+- "UIApplicationDelegate"
 - "UIApplication"
 depends-member:
 - ["Ps9AnyObject", "application"]
@@ -267,4 +267,9 @@ depends-external:
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-Swift.h"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-umbrella.h"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Modules/module.modulemap"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Modules/ExpandingMenu.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers/ExpandingMenu-Swift.h"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers/ExpandingMenu-umbrella.h"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Modules/module.modulemap"
 interface-hash: "7e85a999868267b7cde0941f4dd635ac"

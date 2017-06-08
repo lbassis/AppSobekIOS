@@ -1,0 +1,10 @@
+framework module ExpandingMenu {
+  umbrella header "ExpandingMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ExpandingMenu.__Swift {
+    exclude header "ExpandingMenu-Swift.h"
+}

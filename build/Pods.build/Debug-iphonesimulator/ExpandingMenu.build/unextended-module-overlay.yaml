@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/Lucas/Documents/SobekIOS/build/Pods.build/Debug-iphonesimulator/ExpandingMenu.build/unextended-module.modulemap',
+    }]
+  }]
+}

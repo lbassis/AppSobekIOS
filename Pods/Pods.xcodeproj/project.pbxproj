@@ -7,79 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18B65A8C875558134D503B1A95AB6322 /* AZDropdownMenuConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581E0FB6D0DF45B527DE81D89F0A56FD /* AZDropdownMenuConfig.swift */; };
-		1D673463A985686A447362511BA5ABB4 /* AZDropdownMenuDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94198721233F69C45804B80ACC25124 /* AZDropdownMenuDefaultCell.swift */; };
-		4C2B7867E6398FC7A627CC9C98653A3F /* AZDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F19BD0D332F3BF262B207C410C0A4 /* AZDropdownMenu.swift */; };
-		60C7A7D3061653368C2D77F41CD62C59 /* AZDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A73CF1D468912A524A93C08AA55334 /* AZDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61A57444A15ABAC54615D40FF1F5B768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		18B65A8C875558134D503B1A95AB6322 /* AZDropdownMenuConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E97F415427158EC0A1981F6A4B1DC /* AZDropdownMenuConfig.swift */; };
+		1C70E75A25802A1E1042713C29BAA829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAFDA9777C21790C4EFBE4837BB2576 /* Foundation.framework */; };
+		1D673463A985686A447362511BA5ABB4 /* AZDropdownMenuDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE343D6787ADF414629554C20C72F37 /* AZDropdownMenuDefaultCell.swift */; };
+		3E820183589C10E2C0CD87C9F4628268 /* ExpandingMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C3B64C4F20D7A4758F862AA716D1A /* ExpandingMenuButton.swift */; };
+		41245F3FA2CFD6D8C33957EA3E81733F /* selected.caf in Resources */ = {isa = PBXBuildFile; fileRef = F7096E75D489FFB53B34CF4F87C4ECD2 /* selected.caf */; };
+		43B8E0DE26A85AAADC62BF0B47C4E963 /* ExpandingMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37ABC0BB97E8C83F116C92C8BD85F953 /* ExpandingMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		483F2E61AE30F429944AC32FA62A4F2E /* expanding.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5DED9C8A55BF968242076FB2691EDBB8 /* expanding.caf */; };
+		49223BDFB662E64EA35A0663CE90623E /* AudioToolBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E29F0D4DE877C13DFCE366CECA159D /* AudioToolBox.framework */; };
+		4C2B7867E6398FC7A627CC9C98653A3F /* AZDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6832B0435382EC7869647BACC905BCCC /* AZDropdownMenu.swift */; };
+		57B403E074A78E52B30335D9A29A26F3 /* ExpandingMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAD75620AF43AB5464C3AC409DFF6C4D /* ExpandingMenu.bundle */; };
+		60C7A7D3061653368C2D77F41CD62C59 /* AZDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE63350FBE8F9A0C04A8CE708F809DF /* AZDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A57444A15ABAC54615D40FF1F5B768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAFDA9777C21790C4EFBE4837BB2576 /* Foundation.framework */; };
 		6A574A65E4290777CD4F0BA190F6E8A6 /* Pods-sobekUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD068E22A18A23442E9C9123C79D1C2A /* Pods-sobekUITests-dummy.m */; };
-		70F1AE0DB2D3B1A81A14468BB6EBB399 /* Pods-sobek-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BD3C33A07C34A3B7C178DBDA428B37 /* Pods-sobek-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD9ADE006CA83465345059BE0FDD746 /* AZDropdownMenuBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243CAFCC6EAC2C6CFC6989D93869B69 /* AZDropdownMenuBaseCell.swift */; };
+		8CD9ADE006CA83465345059BE0FDD746 /* AZDropdownMenuBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EF589044C3BAAA816260CFAAA698DC /* AZDropdownMenuBaseCell.swift */; };
+		8F7C17870524B50092D5394FAE808560 /* fold.caf in Resources */ = {isa = PBXBuildFile; fileRef = C831F987AC78B9370EA116964744BBD1 /* fold.caf */; };
+		984377028E1DF027AA9C034D23B2CCE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAFDA9777C21790C4EFBE4837BB2576 /* Foundation.framework */; };
 		9AD4EA92387E89EB53B1F7E91B788C60 /* Pods-sobekTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C44F5CA4F0B593914A8DFF750859A42 /* Pods-sobekTests-dummy.m */; };
-		9FAD0169B7AE5C0F9436CBC515360850 /* AZDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6291BCE27200D36DD5234137FB5B7 /* AZDropdownMenu-dummy.m */; };
-		A62D10727856937B6597E67A676279A3 /* Pods-sobek-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D712D7CF31868E44C99270D11645F98 /* Pods-sobek-dummy.m */; };
-		A93BF8FECACFF7BD31DEBC8CC1C0DA55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B9F245301F091CD52EF62EFF17834BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9FAD0169B7AE5C0F9436CBC515360850 /* AZDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34955DA31D325A3D95D226148A91751B /* AZDropdownMenu-dummy.m */; };
+		A93BF8FECACFF7BD31DEBC8CC1C0DA55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAFDA9777C21790C4EFBE4837BB2576 /* Foundation.framework */; };
+		AAD555707AAC82E004B1AA8497377038 /* Pods-sobek-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BD3C33A07C34A3B7C178DBDA428B37 /* Pods-sobek-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9F245301F091CD52EF62EFF17834BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAFDA9777C21790C4EFBE4837BB2576 /* Foundation.framework */; };
+		BA01E5EDAD34AD70456E9EAA01428DC1 /* ExpandingMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C6F9AA414866D7AABBB23EB6C23C41 /* ExpandingMenu-dummy.m */; };
+		BA634A66AF5E6ACDA6724C4E7065A5E1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7183F99A6A0D972C487DCEAB410D285C /* QuartzCore.framework */; };
 		CC22A8D2ABA5D432888CE34039987522 /* Pods-sobekUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4026D1C675AB81E12EACB246CDFC8CD /* Pods-sobekUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E82E4EC41A9D1C95018E9F3A93C716A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CE6544633F7C907D97BB98164DDE8EAD /* ExpandingMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A9FCC7EABF9F8AD981D0A1F4A40F5 /* ExpandingMenuItem.swift */; };
 		EEEE20C99FFFD3697C2FAD4A6F413518 /* Pods-sobekTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 487B09ABBE217CA8DA456CF11BE3F01F /* Pods-sobekTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6F12DAE385CC23CF8B83729046B5BC4 /* Pods-sobek-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D712D7CF31868E44C99270D11645F98 /* Pods-sobek-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1CE19E6C56D847A6B0E908DD22D87F7A /* PBXContainerItemProxy */ = {
+		5C8F8A88D00785A86EA2AC693F94B7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3C30C12812E277147F8CAC42660691;
+			remoteInfo = ExpandingMenu;
+		};
+		5CB479C6477C818FC7635E2380229300 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0BA6525597C1B817693051CCA494E16A;
 			remoteInfo = AZDropdownMenu;
 		};
+		B74F7A8D09EFB1A97FD25BCAFBE89049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7409E312376929E18E79DC1DE95F21FF;
+			remoteInfo = "ExpandingMenu-ExpandingMenu";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0109FD136CE66C72C2E7514D42887E8F /* Pods-sobekUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobekUITests-resources.sh"; sourceTree = "<group>"; };
 		01C7E04DBFEE1F34968822709AAF2E70 /* Pods-sobek-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sobek-acknowledgements.plist"; sourceTree = "<group>"; };
-		028D3FA93CCD57E87F6E23D21010A1E9 /* Pods_sobek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sobek.framework; path = "Pods-sobek.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047B148BF305DE1698DAC42FB0339419 /* Pods-sobek-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobek-frameworks.sh"; sourceTree = "<group>"; };
 		08A1550EA14749C63851F37EACC4E69A /* Pods-sobekTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobekTests-resources.sh"; sourceTree = "<group>"; };
+		096A04FF86D84178796673F4B13C784B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B0EF79790D6097DD4E0FA6437840803 /* Pods-sobekUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sobekUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BE63350FBE8F9A0C04A8CE708F809DF /* AZDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		0DE343D6787ADF414629554C20C72F37 /* AZDropdownMenuDefaultCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuDefaultCell.swift; path = Pod/Classes/AZDropdownMenuDefaultCell.swift; sourceTree = "<group>"; };
+		11DC58AF94FE9D95C0F3FF71F9D74BCE /* ExpandingMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ExpandingMenu.modulemap; sourceTree = "<group>"; };
 		121AB90052DC2A0702F16D9A526276D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15DE9B81A48387D024C9FF6806472B21 /* Pods_sobekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sobekUITests.framework; path = "Pods-sobekUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		174C56E6241CB02BD0502DCF10E9C258 /* Pods-sobekTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sobekTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		201D8665484B5876B108743E18F42758 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6E97F415427158EC0A1981F6A4B1DC /* AZDropdownMenuConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuConfig.swift; path = Pod/Classes/AZDropdownMenuConfig.swift; sourceTree = "<group>"; };
 		21D25AD821AB9FF92554F1EF67B474CA /* Pods-sobekTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sobekTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2243CAFCC6EAC2C6CFC6989D93869B69 /* AZDropdownMenuBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuBaseCell.swift; path = Pod/Classes/AZDropdownMenuBaseCell.swift; sourceTree = "<group>"; };
 		25EB3FB7040747F55F22DAF90762631F /* Pods-sobek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobek.release.xcconfig"; sourceTree = "<group>"; };
+		28C0115E429EEF67C2AFC4640B6EB4A3 /* AZDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AZDropdownMenu.modulemap; sourceTree = "<group>"; };
+		2C1F93402B65185BF594271AC6784D01 /* ExpandingMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpandingMenu.xcconfig; sourceTree = "<group>"; };
+		34955DA31D325A3D95D226148A91751B /* AZDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZDropdownMenu-dummy.m"; sourceTree = "<group>"; };
+		37ABC0BB97E8C83F116C92C8BD85F953 /* ExpandingMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpandingMenu-umbrella.h"; sourceTree = "<group>"; };
 		388E90467E1B4548635B83ABDF1381FE /* Pods-sobek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobek.debug.xcconfig"; sourceTree = "<group>"; };
+		3EAFDA9777C21790C4EFBE4837BB2576 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44DCC637D3539E3173A6CB5DDA11FA39 /* ExpandingMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpandingMenu-prefix.pch"; sourceTree = "<group>"; };
 		487B09ABBE217CA8DA456CF11BE3F01F /* Pods-sobekTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sobekTests-umbrella.h"; sourceTree = "<group>"; };
+		4B7A9FCC7EABF9F8AD981D0A1F4A40F5 /* ExpandingMenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandingMenuItem.swift; path = ExpandingMenu/Classes/ExpandingMenuItem.swift; sourceTree = "<group>"; };
 		4D712D7CF31868E44C99270D11645F98 /* Pods-sobek-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sobek-dummy.m"; sourceTree = "<group>"; };
 		562244B868D558502D9F92DB196F6264 /* Pods-sobekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobekUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		581E0FB6D0DF45B527DE81D89F0A56FD /* AZDropdownMenuConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuConfig.swift; path = Pod/Classes/AZDropdownMenuConfig.swift; sourceTree = "<group>"; };
-		5C464EFA42257207BF175E47091EFDAD /* AZDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66A73CF1D468912A524A93C08AA55334 /* AZDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		59E29F0D4DE877C13DFCE366CECA159D /* AudioToolBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolBox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolBox.framework; sourceTree = DEVELOPER_DIR; };
+		5DED9C8A55BF968242076FB2691EDBB8 /* expanding.caf */ = {isa = PBXFileReference; includeInIndex = 1; name = expanding.caf; path = ExpandingMenu/Assets/Sounds/expanding.caf; sourceTree = "<group>"; };
 		6726358F5BA2250D7488231FB00F5E93 /* Pods-sobekUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sobekUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		701DCF559D3E0BF5B39929E9BE2BE656 /* AZDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AZDropdownMenu.modulemap; sourceTree = "<group>"; };
+		6832B0435382EC7869647BACC905BCCC /* AZDropdownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenu.swift; path = Pod/Classes/AZDropdownMenu.swift; sourceTree = "<group>"; };
+		69C90E427BA315742BCE572475A037AD /* Pods_sobekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sobekUITests.framework; path = "Pods-sobekUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5B072AF4047F7FB808A882F6371FDC /* AZDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZDropdownMenu.xcconfig; sourceTree = "<group>"; };
+		7183F99A6A0D972C487DCEAB410D285C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		74E500D0F4760A889AE5D6575BF40C77 /* ExpandingMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ExpandingMenu.framework; path = ExpandingMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		767338CEF42ABDF0D59DE82671EDA545 /* Pods-sobekTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobekTests-frameworks.sh"; sourceTree = "<group>"; };
 		83452B553747D52DF0350F79CDC798E8 /* Pods-sobek-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobek-resources.sh"; sourceTree = "<group>"; };
+		89C6F9AA414866D7AABBB23EB6C23C41 /* ExpandingMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpandingMenu-dummy.m"; sourceTree = "<group>"; };
 		8C44F5CA4F0B593914A8DFF750859A42 /* Pods-sobekTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sobekTests-dummy.m"; sourceTree = "<group>"; };
+		8D3C3B64C4F20D7A4758F862AA716D1A /* ExpandingMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandingMenuButton.swift; path = ExpandingMenu/Classes/ExpandingMenuButton.swift; sourceTree = "<group>"; };
 		90ED5970693EDD73336C560CABE60F2E /* Pods-sobek-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sobek-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AC4BC3119E61E4C50272355DD68F092 /* AZDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZDropdownMenu.xcconfig; sourceTree = "<group>"; };
 		A0C2916B9A4B52F92BE133D26B0D2051 /* Pods-sobekTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-sobekTests.modulemap"; sourceTree = "<group>"; };
 		AC4AEED2BE9D741676B59E482384FBBE /* Pods-sobekUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sobekUITests-frameworks.sh"; sourceTree = "<group>"; };
-		B5C3EC8EBB208CEAE16B42D3FF0514A0 /* Pods_sobekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sobekTests.framework; path = "Pods-sobekTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B65F19BD0D332F3BF262B207C410C0A4 /* AZDropdownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenu.swift; path = Pod/Classes/AZDropdownMenu.swift; sourceTree = "<group>"; };
-		B94198721233F69C45804B80ACC25124 /* AZDropdownMenuDefaultCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuDefaultCell.swift; path = Pod/Classes/AZDropdownMenuDefaultCell.swift; sourceTree = "<group>"; };
+		ACE890D19D762E79D411510116CCA238 /* Pods_sobekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sobekTests.framework; path = "Pods-sobekTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45F3B6BE0CD7DF1723ACBE586A8313B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C692387E3F2D446C8B8E6595FD52C77D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74FAFE53247AE05B421648F014E672A /* ResourceBundle-ExpandingMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ExpandingMenu-Info.plist"; sourceTree = "<group>"; };
+		C831F987AC78B9370EA116964744BBD1 /* fold.caf */ = {isa = PBXFileReference; includeInIndex = 1; name = fold.caf; path = ExpandingMenu/Assets/Sounds/fold.caf; sourceTree = "<group>"; };
+		CAE566ACA5BBD71A169FB7E5E9556D49 /* Pods_sobek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sobek.framework; path = "Pods-sobek.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F9AE5084A7DE0D52BD047E4D67CCD5 /* AZDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZDropdownMenu.framework; path = AZDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4026D1C675AB81E12EACB246CDFC8CD /* Pods-sobekUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sobekUITests-umbrella.h"; sourceTree = "<group>"; };
 		D4BD3C33A07C34A3B7C178DBDA428B37 /* Pods-sobek-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sobek-umbrella.h"; sourceTree = "<group>"; };
 		D83A545A2DE8A5034223AD786E4FDBEE /* Pods-sobekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobekTests.release.xcconfig"; sourceTree = "<group>"; };
 		D98D5B44AA781EB2119BD257D0CD784C /* Pods-sobekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobekTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DDD6291BCE27200D36DD5234137FB5B7 /* AZDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZDropdownMenu-dummy.m"; sourceTree = "<group>"; };
 		EA7A75A0A59A46BF2A9A6EF8F1840E46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD75620AF43AB5464C3AC409DFF6C4D /* ExpandingMenu.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ExpandingMenu.bundle; path = ExpandingMenu.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB9D89BCA4472C656FEC26CBA1EED8E /* Pods-sobek.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-sobek.modulemap"; sourceTree = "<group>"; };
+		F0467435620E3F56D1EFC1EA2CF819E3 /* AZDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
 		F60A5E87C52679600AC1C60C75C039F3 /* Pods-sobekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sobekUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FAEEB641920440DD7A556C567AFA3E12 /* AZDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZDropdownMenu.framework; path = AZDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7096E75D489FFB53B34CF4F87C4ECD2 /* selected.caf */ = {isa = PBXFileReference; includeInIndex = 1; name = selected.caf; path = ExpandingMenu/Assets/Sounds/selected.caf; sourceTree = "<group>"; };
+		F8EF589044C3BAAA816260CFAAA698DC /* AZDropdownMenuBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuBaseCell.swift; path = Pod/Classes/AZDropdownMenuBaseCell.swift; sourceTree = "<group>"; };
 		FBA326F7E34202C76320E7FEAD3C16E8 /* Pods-sobekUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-sobekUITests.modulemap"; sourceTree = "<group>"; };
 		FD068E22A18A23442E9C9123C79D1C2A /* Pods-sobekUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sobekUITests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,11 +142,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9A401389931AEA7E57B1283CF295EC0 /* Frameworks */ = {
+		81DD16F2456655338FF578B75C91DD09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82E4EC41A9D1C95018E9F3A93C716A7 /* Foundation.framework in Frameworks */,
+				49223BDFB662E64EA35A0663CE90623E /* AudioToolBox.framework in Frameworks */,
+				1C70E75A25802A1E1042713C29BAA829 /* Foundation.framework in Frameworks */,
+				BA634A66AF5E6ACDA6724C4E7065A5E1 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870759B4747A151C5067113B98F685DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,9 +167,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F24453C996E89689E71F7A2301A935DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984377028E1DF027AA9C034D23B2CCE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C97C71F972A06A01AECAC1A104507C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		12CADC5D7FD28E3F0A0ECF0ED9BF14B9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,61 +196,59 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5161239CBCA8192BE4350431F7C8C3EC /* Support Files */ = {
+		42C97C71F972A06A01AECAC1A104507C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				701DCF559D3E0BF5B39929E9BE2BE656 /* AZDropdownMenu.modulemap */,
-				9AC4BC3119E61E4C50272355DD68F092 /* AZDropdownMenu.xcconfig */,
-				DDD6291BCE27200D36DD5234137FB5B7 /* AZDropdownMenu-dummy.m */,
-				5C464EFA42257207BF175E47091EFDAD /* AZDropdownMenu-prefix.pch */,
-				66A73CF1D468912A524A93C08AA55334 /* AZDropdownMenu-umbrella.h */,
-				201D8665484B5876B108743E18F42758 /* Info.plist */,
+				59E29F0D4DE877C13DFCE366CECA159D /* AudioToolBox.framework */,
+				3EAFDA9777C21790C4EFBE4837BB2576 /* Foundation.framework */,
+				7183F99A6A0D972C487DCEAB410D285C /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		54CC805A40E69B6AC675F56808A93080 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DED9C8A55BF968242076FB2691EDBB8 /* expanding.caf */,
+				C831F987AC78B9370EA116964744BBD1 /* fold.caf */,
+				F7096E75D489FFB53B34CF4F87C4ECD2 /* selected.caf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6FC3F4F96A180D4B75776ACA915F4495 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11DC58AF94FE9D95C0F3FF71F9D74BCE /* ExpandingMenu.modulemap */,
+				2C1F93402B65185BF594271AC6784D01 /* ExpandingMenu.xcconfig */,
+				89C6F9AA414866D7AABBB23EB6C23C41 /* ExpandingMenu-dummy.m */,
+				44DCC637D3539E3173A6CB5DDA11FA39 /* ExpandingMenu-prefix.pch */,
+				37ABC0BB97E8C83F116C92C8BD85F953 /* ExpandingMenu-umbrella.h */,
+				C692387E3F2D446C8B8E6595FD52C77D /* Info.plist */,
+				C74FAFE53247AE05B421648F014E672A /* ResourceBundle-ExpandingMenu-Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AZDropdownMenu";
-			sourceTree = "<group>";
-		};
-		54A2076D8EE86D6FA5E5239BD6FCAB25 /* AZDropdownMenu */ = {
-			isa = PBXGroup;
-			children = (
-				B65F19BD0D332F3BF262B207C410C0A4 /* AZDropdownMenu.swift */,
-				2243CAFCC6EAC2C6CFC6989D93869B69 /* AZDropdownMenuBaseCell.swift */,
-				581E0FB6D0DF45B527DE81D89F0A56FD /* AZDropdownMenuConfig.swift */,
-				B94198721233F69C45804B80ACC25124 /* AZDropdownMenuDefaultCell.swift */,
-				5161239CBCA8192BE4350431F7C8C3EC /* Support Files */,
-			);
-			name = AZDropdownMenu;
-			path = AZDropdownMenu;
-			sourceTree = "<group>";
-		};
-		5546C6C75C02B138FB78F1F10EE8F6E4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FAEEB641920440DD7A556C567AFA3E12 /* AZDropdownMenu.framework */,
-				028D3FA93CCD57E87F6E23D21010A1E9 /* Pods_sobek.framework */,
-				B5C3EC8EBB208CEAE16B42D3FF0514A0 /* Pods_sobekTests.framework */,
-				15DE9B81A48387D024C9FF6806472B21 /* Pods_sobekUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5EFBE4AFDBAF1243664DC8D73F75BB24 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				54A2076D8EE86D6FA5E5239BD6FCAB25 /* AZDropdownMenu */,
-			);
-			name = Pods;
+			path = "../Target Support Files/ExpandingMenu";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				5EFBE4AFDBAF1243664DC8D73F75BB24 /* Pods */,
-				5546C6C75C02B138FB78F1F10EE8F6E4 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				856D12D17033B57EFEDEF61D0D1BE315 /* Pods */,
+				A803C72562D684834FBCE9558A6B1FAE /* Products */,
 				12CADC5D7FD28E3F0A0ECF0ED9BF14B9 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		856D12D17033B57EFEDEF61D0D1BE315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF0FD013678E48C4FAE52973E727A6 /* AZDropdownMenu */,
+				B9011AE3B65F504B962015CD8FCDA3F2 /* ExpandingMenu */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		8D10046552AF09FCF7F99D1967D7B269 /* Pods-sobekUITests */ = {
@@ -223,20 +287,56 @@
 			path = "Target Support Files/Pods-sobek";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A474A40D54341CD9FA795B292DD95396 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				28C0115E429EEF67C2AFC4640B6EB4A3 /* AZDropdownMenu.modulemap */,
+				6F5B072AF4047F7FB808A882F6371FDC /* AZDropdownMenu.xcconfig */,
+				34955DA31D325A3D95D226148A91751B /* AZDropdownMenu-dummy.m */,
+				F0467435620E3F56D1EFC1EA2CF819E3 /* AZDropdownMenu-prefix.pch */,
+				0BE63350FBE8F9A0C04A8CE708F809DF /* AZDropdownMenu-umbrella.h */,
+				096A04FF86D84178796673F4B13C784B /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/AZDropdownMenu";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		A803C72562D684834FBCE9558A6B1FAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				D1F9AE5084A7DE0D52BD047E4D67CCD5 /* AZDropdownMenu.framework */,
+				EAD75620AF43AB5464C3AC409DFF6C4D /* ExpandingMenu.bundle */,
+				74E500D0F4760A889AE5D6575BF40C77 /* ExpandingMenu.framework */,
+				CAE566ACA5BBD71A169FB7E5E9556D49 /* Pods_sobek.framework */,
+				ACE890D19D762E79D411510116CCA238 /* Pods_sobekTests.framework */,
+				69C90E427BA315742BCE572475A037AD /* Pods_sobekUITests.framework */,
 			);
-			name = iOS;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9011AE3B65F504B962015CD8FCDA3F2 /* ExpandingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8D3C3B64C4F20D7A4758F862AA716D1A /* ExpandingMenuButton.swift */,
+				4B7A9FCC7EABF9F8AD981D0A1F4A40F5 /* ExpandingMenuItem.swift */,
+				54CC805A40E69B6AC675F56808A93080 /* Resources */,
+				6FC3F4F96A180D4B75776ACA915F4495 /* Support Files */,
+			);
+			name = ExpandingMenu;
+			path = ExpandingMenu;
+			sourceTree = "<group>";
+		};
+		E6CF0FD013678E48C4FAE52973E727A6 /* AZDropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6832B0435382EC7869647BACC905BCCC /* AZDropdownMenu.swift */,
+				F8EF589044C3BAAA816260CFAAA698DC /* AZDropdownMenuBaseCell.swift */,
+				1C6E97F415427158EC0A1981F6A4B1DC /* AZDropdownMenuConfig.swift */,
+				0DE343D6787ADF414629554C20C72F37 /* AZDropdownMenuDefaultCell.swift */,
+				A474A40D54341CD9FA795B292DD95396 /* Support Files */,
+			);
+			name = AZDropdownMenu;
+			path = AZDropdownMenu;
 			sourceTree = "<group>";
 		};
 		F52C88659146B27EB5F38ABC7C610A7C /* Pods-sobekTests */ = {
@@ -268,11 +368,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61A75356BBE6E8C9079D0A6F9E93052A /* Headers */ = {
+		9D83C276873AA0F0EEEA19AAC33D6836 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70F1AE0DB2D3B1A81A14468BB6EBB399 /* Pods-sobek-umbrella.h in Headers */,
+				43B8E0DE26A85AAADC62BF0B47C4E963 /* ExpandingMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +392,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF409327FE514F63B264FEE633E811EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD555707AAC82E004B1AA8497377038 /* Pods-sobek-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		019A27288014852DEC11569306AD6F9E /* Pods-sobek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A34D6CBDEC66221FB93F75C3459AA2E /* Build configuration list for PBXNativeTarget "Pods-sobek" */;
+			buildPhases = (
+				5824CB035880F17AE6BDB3803705C2DA /* Sources */,
+				F24453C996E89689E71F7A2301A935DE /* Frameworks */,
+				EF409327FE514F63B264FEE633E811EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FFAB4C27630BEF69147E029FD5AA993 /* PBXTargetDependency */,
+				8FF4278B788E4607A2795D08E45D1FCF /* PBXTargetDependency */,
+			);
+			name = "Pods-sobek";
+			productName = "Pods-sobek";
+			productReference = CAE566ACA5BBD71A169FB7E5E9556D49 /* Pods_sobek.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		0BA6525597C1B817693051CCA494E16A /* AZDropdownMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4500DE545E75E9ED99E96DFD33207214 /* Build configuration list for PBXNativeTarget "AZDropdownMenu" */;
@@ -309,7 +436,7 @@
 			);
 			name = AZDropdownMenu;
 			productName = AZDropdownMenu;
-			productReference = FAEEB641920440DD7A556C567AFA3E12 /* AZDropdownMenu.framework */;
+			productReference = D1F9AE5084A7DE0D52BD047E4D67CCD5 /* AZDropdownMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		500C185A64F1B9EBDACE0D355D353AAB /* Pods-sobekUITests */ = {
@@ -326,25 +453,7 @@
 			);
 			name = "Pods-sobekUITests";
 			productName = "Pods-sobekUITests";
-			productReference = 15DE9B81A48387D024C9FF6806472B21 /* Pods_sobekUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5223B5788575E083EA87CC090D5E0E74 /* Pods-sobek */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DA8A53E0E670F662F01F9EC47533C97 /* Build configuration list for PBXNativeTarget "Pods-sobek" */;
-			buildPhases = (
-				5ABAEB0A67161408B7420CE62FA7EEB0 /* Sources */,
-				A9A401389931AEA7E57B1283CF295EC0 /* Frameworks */,
-				61A75356BBE6E8C9079D0A6F9E93052A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3C44FF84968C1F8D1CE33D303F69AA9D /* PBXTargetDependency */,
-			);
-			name = "Pods-sobek";
-			productName = "Pods-sobek";
-			productReference = 028D3FA93CCD57E87F6E23D21010A1E9 /* Pods_sobek.framework */;
+			productReference = 69C90E427BA315742BCE572475A037AD /* Pods_sobekUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		54B92DD4EE10EB5E00811C0D836A3447 /* Pods-sobekTests */ = {
@@ -361,7 +470,43 @@
 			);
 			name = "Pods-sobekTests";
 			productName = "Pods-sobekTests";
-			productReference = B5C3EC8EBB208CEAE16B42D3FF0514A0 /* Pods_sobekTests.framework */;
+			productReference = ACE890D19D762E79D411510116CCA238 /* Pods_sobekTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7409E312376929E18E79DC1DE95F21FF /* ExpandingMenu-ExpandingMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1E1FE600E20EB968667426A71E6FE9 /* Build configuration list for PBXNativeTarget "ExpandingMenu-ExpandingMenu" */;
+			buildPhases = (
+				DE89ADE01EC5D0887808926020ACE29C /* Sources */,
+				870759B4747A151C5067113B98F685DB /* Frameworks */,
+				55F276F7398AA85BBB056ECED7A07ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExpandingMenu-ExpandingMenu";
+			productName = "ExpandingMenu-ExpandingMenu";
+			productReference = EAD75620AF43AB5464C3AC409DFF6C4D /* ExpandingMenu.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EB3C30C12812E277147F8CAC42660691 /* ExpandingMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CEFE185EB30E9041D9EE9953CF3B66A /* Build configuration list for PBXNativeTarget "ExpandingMenu" */;
+			buildPhases = (
+				77A4D6DF7B39C1229C487E6393B695BC /* Sources */,
+				81DD16F2456655338FF578B75C91DD09 /* Frameworks */,
+				B7A5DEA02571A80336113D9EE7FEBF26 /* Resources */,
+				9D83C276873AA0F0EEEA19AAC33D6836 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F21672CD9283941093BB17B9B1ED90F /* PBXTargetDependency */,
+			);
+			name = ExpandingMenu;
+			productName = ExpandingMenu;
+			productReference = 74E500D0F4760A889AE5D6575BF40C77 /* ExpandingMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -381,17 +526,40 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5546C6C75C02B138FB78F1F10EE8F6E4 /* Products */;
+			productRefGroup = A803C72562D684834FBCE9558A6B1FAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0BA6525597C1B817693051CCA494E16A /* AZDropdownMenu */,
-				5223B5788575E083EA87CC090D5E0E74 /* Pods-sobek */,
+				EB3C30C12812E277147F8CAC42660691 /* ExpandingMenu */,
+				7409E312376929E18E79DC1DE95F21FF /* ExpandingMenu-ExpandingMenu */,
+				019A27288014852DEC11569306AD6F9E /* Pods-sobek */,
 				54B92DD4EE10EB5E00811C0D836A3447 /* Pods-sobekTests */,
 				500C185A64F1B9EBDACE0D355D353AAB /* Pods-sobekUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F276F7398AA85BBB056ECED7A07ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483F2E61AE30F429944AC32FA62A4F2E /* expanding.caf in Resources */,
+				8F7C17870524B50092D5394FAE808560 /* fold.caf in Resources */,
+				41245F3FA2CFD6D8C33957EA3E81733F /* selected.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A5DEA02571A80336113D9EE7FEBF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B403E074A78E52B30335D9A29A26F3 /* ExpandingMenu.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1115834E18D8522D17CA82A71BBE0B69 /* Sources */ = {
@@ -402,11 +570,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5ABAEB0A67161408B7420CE62FA7EEB0 /* Sources */ = {
+		5824CB035880F17AE6BDB3803705C2DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A62D10727856937B6597E67A676279A3 /* Pods-sobek-dummy.m in Sources */,
+				F6F12DAE385CC23CF8B83729046B5BC4 /* Pods-sobek-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4D6DF7B39C1229C487E6393B695BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01E5EDAD34AD70456E9EAA01428DC1 /* ExpandingMenu-dummy.m in Sources */,
+				3E820183589C10E2C0CD87C9F4628268 /* ExpandingMenuButton.swift in Sources */,
+				CE6544633F7C907D97BB98164DDE8EAD /* ExpandingMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,19 +608,143 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE89ADE01EC5D0887808926020ACE29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C44FF84968C1F8D1CE33D303F69AA9D /* PBXTargetDependency */ = {
+		0FFAB4C27630BEF69147E029FD5AA993 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AZDropdownMenu;
 			target = 0BA6525597C1B817693051CCA494E16A /* AZDropdownMenu */;
-			targetProxy = 1CE19E6C56D847A6B0E908DD22D87F7A /* PBXContainerItemProxy */;
+			targetProxy = 5CB479C6477C818FC7635E2380229300 /* PBXContainerItemProxy */;
+		};
+		8FF4278B788E4607A2795D08E45D1FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExpandingMenu;
+			target = EB3C30C12812E277147F8CAC42660691 /* ExpandingMenu */;
+			targetProxy = 5C8F8A88D00785A86EA2AC693F94B7CA /* PBXContainerItemProxy */;
+		};
+		9F21672CD9283941093BB17B9B1ED90F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ExpandingMenu-ExpandingMenu";
+			target = 7409E312376929E18E79DC1DE95F21FF /* ExpandingMenu-ExpandingMenu */;
+			targetProxy = B74F7A8D09EFB1A97FD25BCAFBE89049 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+		167723C9E15CA5F9FA8B49E8B792641D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60A5E87C52679600AC1C60C75C039F3 /* Pods-sobekUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-sobekUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sobekUITests/Pods-sobekUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_sobekUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2646190148974D39B836A8CE7D7CD2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1F93402B65185BF594271AC6784D01 /* ExpandingMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ExpandingMenu/ExpandingMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ExpandingMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ExpandingMenu/ExpandingMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ExpandingMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30973245DD522CA1858304209457B1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5B072AF4047F7FB808A882F6371FDC /* AZDropdownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AZDropdownMenu/AZDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZDropdownMenu/AZDropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AZDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -482,7 +784,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -490,81 +792,9 @@
 			};
 			name = Debug;
 		};
-		1B9D5E0F3E968A7F541436952A6D7709 /* Debug */ = {
+		4E90D9D25D6AA7767A42D2C89C0721D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 562244B868D558502D9F92DB196F6264 /* Pods-sobekUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-sobekUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sobekUITests/Pods-sobekUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_sobekUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2202AB5BE6094E67369D12190265F56F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D98D5B44AA781EB2119BD257D0CD784C /* Pods-sobekTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-sobekTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sobekTests/Pods-sobekTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_sobekTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		30973245DD522CA1858304209457B1F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AC4BC3119E61E4C50272355DD68F092 /* AZDropdownMenu.xcconfig */;
+			baseConfigurationReference = 2C1F93402B65185BF594271AC6784D01 /* ExpandingMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -578,14 +808,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AZDropdownMenu/AZDropdownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AZDropdownMenu/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ExpandingMenu/ExpandingMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ExpandingMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AZDropdownMenu/AZDropdownMenu.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ExpandingMenu/ExpandingMenu.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AZDropdownMenu;
+				PRODUCT_NAME = ExpandingMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -596,153 +826,7 @@
 			};
 			name = Release;
 		};
-		44112410D8F035539428AE3964FE215E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D83A545A2DE8A5034223AD786E4FDBEE /* Pods-sobekTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-sobekTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sobekTests/Pods-sobekTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_sobekTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		57DAD028E917246DDDB208EDAA9B2A40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 388E90467E1B4548635B83ABDF1381FE /* Pods-sobek.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-sobek/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sobek/Pods-sobek.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_sobek;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B748E92BB0E9663D834C92020CFC1A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F60A5E87C52679600AC1C60C75C039F3 /* Pods-sobekUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-sobekUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sobekUITests/Pods-sobekUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_sobekUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8BEB795EC60BB68FC1967BD76B1DF716 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AC4BC3119E61E4C50272355DD68F092 /* AZDropdownMenu.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AZDropdownMenu/AZDropdownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AZDropdownMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AZDropdownMenu/AZDropdownMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AZDropdownMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9C461BBB5DB7B58F2246A423158F0949 /* Release */ = {
+		594F66505563BA8D475B0060BA32FA14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25EB3FB7040747F55F22DAF90762631F /* Pods-sobek.release.xcconfig */;
 			buildSettings = {
@@ -760,7 +844,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-sobek/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-sobek/Pods-sobek.modulemap";
@@ -780,7 +864,134 @@
 			};
 			name = Release;
 		};
-		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+		61713EE201DAA573B4F7776A9BC7118C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83A545A2DE8A5034223AD786E4FDBEE /* Pods-sobekTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-sobekTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sobekTests/Pods-sobekTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_sobekTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E15D23C9042D12A17C32192D3357C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1F93402B65185BF594271AC6784D01 /* ExpandingMenu.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ExpandingMenu";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ExpandingMenu/ResourceBundle-ExpandingMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ExpandingMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8BEB795EC60BB68FC1967BD76B1DF716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5B072AF4047F7FB808A882F6371FDC /* AZDropdownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AZDropdownMenu/AZDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZDropdownMenu/AZDropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AZDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5BAD7DFD60B239B13A9FA44FCFA034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388E90467E1B4548635B83ABDF1381FE /* Pods-sobek.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-sobek/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sobek/Pods-sobek.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_sobek;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -816,7 +1027,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -824,23 +1035,112 @@
 			};
 			name = Release;
 		};
+		C7A0D50DA644D15A1F4D23730A20EA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562244B868D558502D9F92DB196F6264 /* Pods-sobekUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-sobekUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sobekUITests/Pods-sobekUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_sobekUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBB15B7E765333B3B9ECAF86541B043A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98D5B44AA781EB2119BD257D0CD784C /* Pods-sobekTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-sobekTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sobekTests/Pods-sobekTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_sobekTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F06E12CD5501E84FC9456411CF031A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1F93402B65185BF594271AC6784D01 /* ExpandingMenu.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ExpandingMenu";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ExpandingMenu/ResourceBundle-ExpandingMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ExpandingMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		08A0208B6F5F6DD891FC17339B2AF7E7 /* Build configuration list for PBXNativeTarget "Pods-sobekUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B9D5E0F3E968A7F541436952A6D7709 /* Debug */,
-				8B748E92BB0E9663D834C92020CFC1A0 /* Release */,
+				C7A0D50DA644D15A1F4D23730A20EA22 /* Debug */,
+				167723C9E15CA5F9FA8B49E8B792641D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DA8A53E0E670F662F01F9EC47533C97 /* Build configuration list for PBXNativeTarget "Pods-sobek" */ = {
+		2CEFE185EB30E9041D9EE9953CF3B66A /* Build configuration list for PBXNativeTarget "ExpandingMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57DAD028E917246DDDB208EDAA9B2A40 /* Debug */,
-				9C461BBB5DB7B58F2246A423158F0949 /* Release */,
+				2646190148974D39B836A8CE7D7CD2A0 /* Debug */,
+				4E90D9D25D6AA7767A42D2C89C0721D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -848,8 +1148,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
-				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -863,11 +1163,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5A34D6CBDEC66221FB93F75C3459AA2E /* Build configuration list for PBXNativeTarget "Pods-sobek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BAD7DFD60B239B13A9FA44FCFA034A /* Debug */,
+				594F66505563BA8D475B0060BA32FA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D1E1FE600E20EB968667426A71E6FE9 /* Build configuration list for PBXNativeTarget "ExpandingMenu-ExpandingMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06E12CD5501E84FC9456411CF031A43 /* Debug */,
+				7E15D23C9042D12A17C32192D3357C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		84FC7F5DFC233992048DDACB08FC19D0 /* Build configuration list for PBXNativeTarget "Pods-sobekTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2202AB5BE6094E67369D12190265F56F /* Debug */,
-				44112410D8F035539428AE3964FE215E /* Release */,
+				CBB15B7E765333B3B9ECAF86541B043A /* Debug */,
+				61713EE201DAA573B4F7776A9BC7118C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

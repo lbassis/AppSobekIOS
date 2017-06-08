@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ExpandingMenu-ExpandingMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ExpandingMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-sobek.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,6 +37,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>019A27288014852DEC11569306AD6F9E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0BA6525597C1B817693051CCA494E16A</key>
 		<dict>
 			<key>primary</key>
@@ -37,12 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5223B5788575E083EA87CC090D5E0E74</key>
+		<key>54B92DD4EE10EB5E00811C0D836A3447</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>54B92DD4EE10EB5E00811C0D836A3447</key>
+		<key>7409E312376929E18E79DC1DE95F21FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB3C30C12812E277147F8CAC42660691</key>
 		<dict>
 			<key>primary</key>
 			<true/>

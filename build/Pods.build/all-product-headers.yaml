@@ -31,6 +31,33 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ExpandingMenu-Swift.h",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers/ExpandingMenu-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ExpandingMenu-umbrella.h",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/Pods/Target Support Files/ExpandingMenu/ExpandingMenu-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Lucas/Documents/SobekIOS/build/Pods.build/Debug-iphonesimulator/ExpandingMenu.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/Pods_sobek.framework/Headers",
       'contents': [
         {

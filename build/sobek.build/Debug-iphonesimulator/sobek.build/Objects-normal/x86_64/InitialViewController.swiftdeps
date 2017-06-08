@@ -6,55 +6,56 @@ provides-nominal:
 provides-member:
 - ["C5sobek21InitialViewController", ""]
 provides-dynamic-lookup:
-- "sendRequest"
-- "aboutView"
-- "aboutButton"
+- "confirmButton"
 - "viewDidLoad"
+- "loadingIndicator"
 - "enLang"
-- "aboutBar"
+- "IDSIZE"
 - "language"
-- "viewWillAppear"
-- "aboutOk"
-- "didReceiveMemoryWarning"
-- "updateLanguage"
+- "navBar"
 - "textField"
 - "ptLang"
-- "IDSIZE"
-- "navBar"
 - "hideNavBar"
-- "prepare"
+- "updateLanguage"
+- "sendRequest"
+- "aboutBar"
+- "aboutOk"
+- "aboutButton"
+- "viewWillAppear"
+- "didReceiveMemoryWarning"
 - "randomID"
-- "loadingIndicator"
-- "confirmButton"
+- "prepare"
+- "aboutView"
 depends-top-level:
+- "UIActivityIndicatorView"
 - "Bool"
-- !private "+"
-- "UITextField"
 - !private "Dictionary"
-- "CastingPrecedence"
+- !private "StringLiteralType"
 - !private "Int"
-- "AssignmentPrecedence"
-- !private "=="
-- "UIView"
 - !private "arc4random_uniform"
-- !private "CGAffineTransform"
-- !private "UIImage"
+- "UINavigationItem"
+- "InitialViewController"
+- !private "BooleanLiteralType"
+- !private "UnicodeScalarType"
+- !private "print"
+- !private "Alamofire"
+- !private "+="
+- !private "+"
+- "UIButton"
 - "UIViewController"
 - "UIBarButtonItem"
-- !private "UIBarMetrics"
-- !private "Alamofire"
-- "UIButton"
+- !private "CGAffineTransform"
 - !private "<"
-- "UINavigationItem"
-- "String"
-- "UIStoryboardSegue"
-- !private "BooleanLiteralType"
-- "InitialViewController"
-- !private "UnicodeScalarType"
-- !private "StringLiteralType"
-- !private "+="
 - !private "ViewController"
-- "UIActivityIndicatorView"
+- "UIStoryboardSegue"
+- !private "UIImage"
+- "UIView"
+- "CastingPrecedence"
+- "UITextField"
+- !private "UIBarMetrics"
+- "String"
+- "AssignmentPrecedence"
+- !private "=="
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Stride"]
 - !private ["Ps9AnyObject", "Alamofire"]
@@ -88,6 +89,7 @@ depends-member:
 - !private ["Ps9AnyObject", "performSegue"]
 - !private ["Ps9AnyObject", "placeholder"]
 - ["Ps9AnyObject", "prepare"]
+- !private ["Ps9AnyObject", "print"]
 - ["Ps9AnyObject", "ptLang"]
 - ["Ps9AnyObject", "randomID"]
 - !private ["Ps9AnyObject", "responseString"]
@@ -161,6 +163,7 @@ depends-member:
 - !private ["Ps7CVarArg", "performSegue"]
 - !private ["Ps7CVarArg", "placeholder"]
 - ["Ps7CVarArg", "prepare"]
+- !private ["Ps7CVarArg", "print"]
 - ["Ps7CVarArg", "ptLang"]
 - ["Ps7CVarArg", "randomID"]
 - ["Ps7CVarArg", "sendRequest"]
@@ -206,6 +209,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "alpha"]
 - !private ["Ps28CustomDebugStringConvertible", "arc4random_uniform"]
 - ["Ps28CustomDebugStringConvertible", "confirmButton"]
+- !private ["Ps28CustomDebugStringConvertible", "description"]
 - !private ["Ps28CustomDebugStringConvertible", "destination"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps28CustomDebugStringConvertible", "enLang"]
@@ -223,6 +227,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "performSegue"]
 - !private ["Ps28CustomDebugStringConvertible", "placeholder"]
 - ["Ps28CustomDebugStringConvertible", "prepare"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
 - ["Ps28CustomDebugStringConvertible", "ptLang"]
 - ["Ps28CustomDebugStringConvertible", "randomID"]
 - !private ["Ps28CustomDebugStringConvertible", "responseString"]
@@ -274,6 +279,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "alpha"]
 - !private ["Ps23CustomStringConvertible", "arc4random_uniform"]
 - ["Ps23CustomStringConvertible", "confirmButton"]
+- !private ["Ps23CustomStringConvertible", "description"]
 - !private ["Ps23CustomStringConvertible", "destination"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps23CustomStringConvertible", "enLang"]
@@ -291,6 +297,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "performSegue"]
 - !private ["Ps23CustomStringConvertible", "placeholder"]
 - ["Ps23CustomStringConvertible", "prepare"]
+- !private ["Ps23CustomStringConvertible", "print"]
 - ["Ps23CustomStringConvertible", "ptLang"]
 - ["Ps23CustomStringConvertible", "randomID"]
 - !private ["Ps23CustomStringConvertible", "responseString"]
@@ -310,6 +317,8 @@ depends-member:
 - ["Ps23CustomStringConvertible", ""]
 - ["C9Alamofire11DataRequest", "deinit"]
 - !private ["C9Alamofire11DataRequest", "responseString"]
+- !private ["V9Alamofire12DataResponse", "deinit"]
+- !private ["V9Alamofire12DataResponse", "description"]
 - !private ["Vs10Dictionary", "Index"]
 - !private ["Vs10Dictionary", "Key"]
 - !private ["Vs10Dictionary", "SubSequence"]
@@ -355,6 +364,7 @@ depends-member:
 - !private ["Ps9Equatable", "placeholder"]
 - !private ["Ps9Equatable", "post"]
 - ["Ps9Equatable", "prepare"]
+- !private ["Ps9Equatable", "print"]
 - ["Ps9Equatable", "ptLang"]
 - ["Ps9Equatable", "randomID"]
 - ["Ps9Equatable", "sendRequest"]
@@ -428,6 +438,7 @@ depends-member:
 - !private ["Ps8Hashable", "placeholder"]
 - !private ["Ps8Hashable", "post"]
 - ["Ps8Hashable", "prepare"]
+- !private ["Ps8Hashable", "print"]
 - ["Ps8Hashable", "ptLang"]
 - ["Ps8Hashable", "randomID"]
 - ["Ps8Hashable", "sendRequest"]
@@ -492,6 +503,7 @@ depends-member:
 - !private ["C5sobek21InitialViewController", "navigationController"]
 - !private ["C5sobek21InitialViewController", "performSegue"]
 - ["C5sobek21InitialViewController", "prepare"]
+- !private ["C5sobek21InitialViewController", "print"]
 - ["C5sobek21InitialViewController", "ptLang"]
 - ["C5sobek21InitialViewController", "randomID"]
 - ["C5sobek21InitialViewController", "sendRequest"]
@@ -554,6 +566,7 @@ depends-member:
 - !private ["PSo8NSCoding", "performSegue"]
 - !private ["PSo8NSCoding", "placeholder"]
 - ["PSo8NSCoding", "prepare"]
+- !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "ptLang"]
 - ["PSo8NSCoding", "randomID"]
 - ["PSo8NSCoding", "sendRequest"]
@@ -595,6 +608,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "navigationController"]
 - !private ["PSo26NSExtensionRequestHandling", "performSegue"]
 - ["PSo26NSExtensionRequestHandling", "prepare"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "ptLang"]
 - ["PSo26NSExtensionRequestHandling", "randomID"]
 - ["PSo26NSExtensionRequestHandling", "sendRequest"]
@@ -646,6 +660,7 @@ depends-member:
 - !private ["CSo8NSObject", "performSegue"]
 - !private ["CSo8NSObject", "placeholder"]
 - ["CSo8NSObject", "prepare"]
+- !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "ptLang"]
 - ["CSo8NSObject", "randomID"]
 - ["CSo8NSObject", "sendRequest"]
@@ -691,6 +706,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "performSegue"]
 - !private ["PSo16NSObjectProtocol", "placeholder"]
 - ["PSo16NSObjectProtocol", "prepare"]
+- !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "ptLang"]
 - ["PSo16NSObjectProtocol", "randomID"]
 - ["PSo16NSObjectProtocol", "sendRequest"]
@@ -715,6 +731,7 @@ depends-member:
 - !private ["Ps16RawRepresentable", "normal"]
 - !private ["Ps16RawRepresentable", "post"]
 - !private ["C9Alamofire7Request", "responseString"]
+- !private ["P9Alamofire8Response", "description"]
 - !private ["Ps8Sequence", "Element"]
 - !private ["Ps8Sequence", "Index"]
 - !private ["Ps8Sequence", "Iterator"]
@@ -794,6 +811,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "performSegue"]
 - !private ["PSo21UIAppearanceContainer", "placeholder"]
 - ["PSo21UIAppearanceContainer", "prepare"]
+- !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "ptLang"]
 - ["PSo21UIAppearanceContainer", "randomID"]
 - ["PSo21UIAppearanceContainer", "sendRequest"]
@@ -842,6 +860,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "navigationController"]
 - !private ["PSo18UIContentContainer", "performSegue"]
 - ["PSo18UIContentContainer", "prepare"]
+- !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "ptLang"]
 - ["PSo18UIContentContainer", "randomID"]
 - ["PSo18UIContentContainer", "sendRequest"]
@@ -908,6 +927,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "performSegue"]
 - !private ["PSo18UIFocusEnvironment", "placeholder"]
 - ["PSo18UIFocusEnvironment", "prepare"]
+- !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "ptLang"]
 - ["PSo18UIFocusEnvironment", "randomID"]
 - ["PSo18UIFocusEnvironment", "sendRequest"]
@@ -982,6 +1002,7 @@ depends-member:
 - !private ["CSo11UIResponder", "performSegue"]
 - !private ["CSo11UIResponder", "placeholder"]
 - ["CSo11UIResponder", "prepare"]
+- !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "ptLang"]
 - ["CSo11UIResponder", "randomID"]
 - ["CSo11UIResponder", "sendRequest"]
@@ -1025,6 +1046,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "performSegue"]
 - !private ["PSo30UIResponderStandardEditActions", "placeholder"]
 - ["PSo30UIResponderStandardEditActions", "prepare"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
 - ["PSo30UIResponderStandardEditActions", "ptLang"]
 - ["PSo30UIResponderStandardEditActions", "randomID"]
 - ["PSo30UIResponderStandardEditActions", "sendRequest"]
@@ -1064,6 +1086,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "navigationController"]
 - !private ["PSo16UIStateRestoring", "performSegue"]
 - ["PSo16UIStateRestoring", "prepare"]
+- !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "ptLang"]
 - ["PSo16UIStateRestoring", "randomID"]
 - ["PSo16UIStateRestoring", "sendRequest"]
@@ -1111,6 +1134,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "performSegue"]
 - !private ["PSo18UITraitEnvironment", "placeholder"]
 - ["PSo18UITraitEnvironment", "prepare"]
+- !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "ptLang"]
 - ["PSo18UITraitEnvironment", "randomID"]
 - ["PSo18UITraitEnvironment", "sendRequest"]
@@ -1170,6 +1194,7 @@ depends-member:
 - !private ["CSo16UIViewController", "navigationController"]
 - !private ["CSo16UIViewController", "performSegue"]
 - ["CSo16UIViewController", "prepare"]
+- !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "ptLang"]
 - ["CSo16UIViewController", "randomID"]
 - ["CSo16UIViewController", "sendRequest"]
@@ -1260,6 +1285,7 @@ depends-member:
 - !private ["Ps9_Hashable", "placeholder"]
 - !private ["Ps9_Hashable", "post"]
 - ["Ps9_Hashable", "prepare"]
+- !private ["Ps9_Hashable", "print"]
 - ["Ps9_Hashable", "ptLang"]
 - ["Ps9_Hashable", "randomID"]
 - ["Ps9_Hashable", "sendRequest"]
@@ -1317,6 +1343,7 @@ depends-nominal:
 - !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "C9Alamofire11DataRequest"
+- !private "V9Alamofire12DataResponse"
 - "Vs10Dictionary"
 - !private "Sd"
 - "Ps9Equatable"
@@ -1364,6 +1391,7 @@ depends-nominal:
 - "Sq"
 - !private "Ps16RawRepresentable"
 - !private "C9Alamofire7Request"
+- !private "P9Alamofire8Response"
 - !private "Ps8Sequence"
 - !private "Ps10SetAlgebra"
 - !private "Ps13SignedInteger"
@@ -1453,4 +1481,9 @@ depends-external:
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-Swift.h"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-umbrella.h"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Modules/module.modulemap"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Modules/ExpandingMenu.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers/ExpandingMenu-Swift.h"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers/ExpandingMenu-umbrella.h"
+- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Modules/module.modulemap"
 interface-hash: "7978bde912f98198f930204953ffe23d"

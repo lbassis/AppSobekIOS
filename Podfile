@@ -6,6 +6,7 @@ target 'sobek' do
   use_frameworks!
 
 pod 'AZDropdownMenu'
+pod ‘ExpandingMenu’
 
 
   # Pods for sobek
