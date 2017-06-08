@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C5sobek11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidEnterBackground"
-- "application"
-- "applicationWillEnterForeground"
 - "applicationWillResignActive"
-- "window"
 - "applicationWillTerminate"
 - "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "window"
+- "applicationWillEnterForeground"
+- "application"
 depends-top-level:
-- "AppDelegate"
-- "UIResponder"
-- "UIWindow"
-- "UIApplication"
-- "UIApplicationLaunchOptionsKey"
-- !private "BooleanLiteralType"
 - "UIApplicationDelegate"
 - "Bool"
+- "UIWindow"
+- "UIApplication"
+- "UIResponder"
+- "AppDelegate"
+- !private "BooleanLiteralType"
+- "UIApplicationLaunchOptionsKey"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
@@ -263,10 +263,6 @@ depends-external:
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
 - "/Users/Lucas/Documents/SobekIOS/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Modules/AZDropdownMenu.swiftmodule/x86_64.swiftmodule"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-Swift.h"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Headers/AZDropdownMenu-umbrella.h"
-- "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/AZDropdownMenu/AZDropdownMenu.framework/Modules/module.modulemap"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Modules/ExpandingMenu.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers/ExpandingMenu-Swift.h"

@@ -6,55 +6,57 @@ provides-nominal:
 provides-member:
 - ["C5sobek21InitialViewController", ""]
 provides-dynamic-lookup:
-- "enLang"
-- "aboutView"
-- "randomID"
-- "viewDidLoad"
-- "language"
-- "aboutBar"
 - "hideNavBar"
+- "language"
+- "enLang"
+- "didReceiveMemoryWarning"
+- "viewWillAppear"
+- "aboutText"
 - "prepare"
 - "textField"
-- "IDSIZE"
+- "sendRequest"
+- "updateLanguage"
+- "aboutView"
+- "loadingIndicator"
+- "viewDidLoad"
+- "randomID"
+- "confirmButton"
 - "navBar"
 - "aboutButton"
-- "viewWillAppear"
-- "didReceiveMemoryWarning"
-- "sendRequest"
 - "ptLang"
+- "aboutBarButton"
 - "aboutOk"
-- "loadingIndicator"
-- "updateLanguage"
-- "confirmButton"
+- "IDSIZE"
 depends-top-level:
-- "UITextField"
-- !private "arc4random_uniform"
-- !private "UIImage"
-- "UIView"
-- "CastingPrecedence"
-- "AssignmentPrecedence"
-- !private "=="
-- !private "print"
-- "UIViewController"
-- "UIBarButtonItem"
-- !private "<"
-- !private "Alamofire"
-- !private "StringLiteralType"
-- !private "ViewController"
-- "UIButton"
-- "UINavigationItem"
-- "UIStoryboardSegue"
-- "InitialViewController"
-- !private "UnicodeScalarType"
 - !private "Dictionary"
-- !private "+"
+- "UITextView"
+- !private "+="
+- !private "print"
+- !private "StringLiteralType"
+- !private "UIBarMetrics"
+- !private "Alamofire"
+- "UITextField"
 - "Bool"
 - "String"
 - !private "Int"
+- !private "+"
+- "InitialViewController"
+- !private "arc4random_uniform"
 - !private "BooleanLiteralType"
-- !private "+="
+- !private "UIImage"
+- "UIView"
 - "UIActivityIndicatorView"
-- !private "UIBarMetrics"
+- !private "ViewController"
+- "UIViewController"
+- "UIButton"
+- "UIStoryboardSegue"
+- !private "UnicodeScalarType"
+- "UINavigationItem"
+- "CastingPrecedence"
+- "UIBarButtonItem"
+- "AssignmentPrecedence"
+- !private "<"
+- !private "=="
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Stride"]
 - !private ["Ps9AnyObject", "Alamofire"]
@@ -63,9 +65,10 @@ depends-member:
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "UIBarMetrics"]
 - !private ["Ps9AnyObject", "UIImage"]
-- ["Ps9AnyObject", "aboutBar"]
+- ["Ps9AnyObject", "aboutBarButton"]
 - ["Ps9AnyObject", "aboutButton"]
 - ["Ps9AnyObject", "aboutOk"]
+- ["Ps9AnyObject", "aboutText"]
 - ["Ps9AnyObject", "aboutView"]
 - !private ["Ps9AnyObject", "alpha"]
 - !private ["Ps9AnyObject", "arc4random_uniform"]
@@ -97,7 +100,6 @@ depends-member:
 - !private ["Ps9AnyObject", "shadowImage"]
 - !private ["Ps9AnyObject", "text"]
 - ["Ps9AnyObject", "textField"]
-- !private ["Ps9AnyObject", "title"]
 - ["Ps9AnyObject", "updateLanguage"]
 - !private ["Ps9AnyObject", "view"]
 - ["Ps9AnyObject", "viewDidLoad"]
@@ -132,9 +134,10 @@ depends-member:
 - !private ["Ps7CVarArg", "UIImage"]
 - !private ["Ps7CVarArg", "Value"]
 - !private ["Ps7CVarArg", "_DisallowMixedSignArithmetic"]
-- ["Ps7CVarArg", "aboutBar"]
+- ["Ps7CVarArg", "aboutBarButton"]
 - ["Ps7CVarArg", "aboutButton"]
 - ["Ps7CVarArg", "aboutOk"]
+- ["Ps7CVarArg", "aboutText"]
 - ["Ps7CVarArg", "aboutView"]
 - !private ["Ps7CVarArg", "alpha"]
 - !private ["Ps7CVarArg", "arc4random_uniform"]
@@ -166,7 +169,6 @@ depends-member:
 - !private ["Ps7CVarArg", "subscript"]
 - !private ["Ps7CVarArg", "text"]
 - ["Ps7CVarArg", "textField"]
-- !private ["Ps7CVarArg", "title"]
 - ["Ps7CVarArg", "updateLanguage"]
 - !private ["Ps7CVarArg", "view"]
 - ["Ps7CVarArg", "viewDidLoad"]
@@ -193,9 +195,10 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "UIBarMetrics"]
 - !private ["Ps28CustomDebugStringConvertible", "UIImage"]
 - !private ["Ps28CustomDebugStringConvertible", "Value"]
-- ["Ps28CustomDebugStringConvertible", "aboutBar"]
+- ["Ps28CustomDebugStringConvertible", "aboutBarButton"]
 - ["Ps28CustomDebugStringConvertible", "aboutButton"]
 - ["Ps28CustomDebugStringConvertible", "aboutOk"]
+- ["Ps28CustomDebugStringConvertible", "aboutText"]
 - ["Ps28CustomDebugStringConvertible", "aboutView"]
 - !private ["Ps28CustomDebugStringConvertible", "alpha"]
 - !private ["Ps28CustomDebugStringConvertible", "arc4random_uniform"]
@@ -229,7 +232,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "text"]
 - ["Ps28CustomDebugStringConvertible", "textField"]
-- !private ["Ps28CustomDebugStringConvertible", "title"]
 - ["Ps28CustomDebugStringConvertible", "updateLanguage"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
@@ -261,9 +263,10 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "Value"]
 - !private ["Ps23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
-- ["Ps23CustomStringConvertible", "aboutBar"]
+- ["Ps23CustomStringConvertible", "aboutBarButton"]
 - ["Ps23CustomStringConvertible", "aboutButton"]
 - ["Ps23CustomStringConvertible", "aboutOk"]
+- ["Ps23CustomStringConvertible", "aboutText"]
 - ["Ps23CustomStringConvertible", "aboutView"]
 - !private ["Ps23CustomStringConvertible", "alpha"]
 - !private ["Ps23CustomStringConvertible", "arc4random_uniform"]
@@ -297,7 +300,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Ps23CustomStringConvertible", "text"]
 - ["Ps23CustomStringConvertible", "textField"]
-- !private ["Ps23CustomStringConvertible", "title"]
 - ["Ps23CustomStringConvertible", "updateLanguage"]
 - !private ["Ps23CustomStringConvertible", "view"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
@@ -324,9 +326,10 @@ depends-member:
 - !private ["Ps9Equatable", "UIImage"]
 - !private ["Ps9Equatable", "_DisallowMixedSignArithmetic"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
-- ["Ps9Equatable", "aboutBar"]
+- ["Ps9Equatable", "aboutBarButton"]
 - ["Ps9Equatable", "aboutButton"]
 - ["Ps9Equatable", "aboutOk"]
+- ["Ps9Equatable", "aboutText"]
 - ["Ps9Equatable", "aboutView"]
 - !private ["Ps9Equatable", "alpha"]
 - !private ["Ps9Equatable", "arc4random_uniform"]
@@ -360,7 +363,6 @@ depends-member:
 - !private ["Ps9Equatable", "shadowImage"]
 - !private ["Ps9Equatable", "text"]
 - ["Ps9Equatable", "textField"]
-- !private ["Ps9Equatable", "title"]
 - ["Ps9Equatable", "updateLanguage"]
 - !private ["Ps9Equatable", "view"]
 - ["Ps9Equatable", "viewDidLoad"]
@@ -397,9 +399,10 @@ depends-member:
 - !private ["Ps8Hashable", "UIImage"]
 - !private ["Ps8Hashable", "_DisallowMixedSignArithmetic"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
-- ["Ps8Hashable", "aboutBar"]
+- ["Ps8Hashable", "aboutBarButton"]
 - ["Ps8Hashable", "aboutButton"]
 - ["Ps8Hashable", "aboutOk"]
+- ["Ps8Hashable", "aboutText"]
 - ["Ps8Hashable", "aboutView"]
 - !private ["Ps8Hashable", "alpha"]
 - !private ["Ps8Hashable", "arc4random_uniform"]
@@ -432,7 +435,6 @@ depends-member:
 - !private ["Ps8Hashable", "shadowImage"]
 - !private ["Ps8Hashable", "text"]
 - ["Ps8Hashable", "textField"]
-- !private ["Ps8Hashable", "title"]
 - ["Ps8Hashable", "updateLanguage"]
 - !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", "viewDidLoad"]
@@ -467,11 +469,13 @@ depends-member:
 - ["C5sobek21InitialViewController", "UINavigationItem"]
 - ["C5sobek21InitialViewController", "UIStoryboardSegue"]
 - ["C5sobek21InitialViewController", "UITextField"]
+- ["C5sobek21InitialViewController", "UITextView"]
 - ["C5sobek21InitialViewController", "UIView"]
 - !private ["C5sobek21InitialViewController", "ViewController"]
-- ["C5sobek21InitialViewController", "aboutBar"]
+- ["C5sobek21InitialViewController", "aboutBarButton"]
 - ["C5sobek21InitialViewController", "aboutButton"]
 - ["C5sobek21InitialViewController", "aboutOk"]
+- ["C5sobek21InitialViewController", "aboutText"]
 - ["C5sobek21InitialViewController", "aboutView"]
 - !private ["C5sobek21InitialViewController", "arc4random_uniform"]
 - ["C5sobek21InitialViewController", "confirmButton"]
@@ -525,9 +529,10 @@ depends-member:
 - !private ["PSo8NSCoding", "String"]
 - !private ["PSo8NSCoding", "UIBarMetrics"]
 - !private ["PSo8NSCoding", "UIImage"]
-- ["PSo8NSCoding", "aboutBar"]
+- ["PSo8NSCoding", "aboutBarButton"]
 - ["PSo8NSCoding", "aboutButton"]
 - ["PSo8NSCoding", "aboutOk"]
+- ["PSo8NSCoding", "aboutText"]
 - ["PSo8NSCoding", "aboutView"]
 - !private ["PSo8NSCoding", "alpha"]
 - !private ["PSo8NSCoding", "arc4random_uniform"]
@@ -557,7 +562,6 @@ depends-member:
 - !private ["PSo8NSCoding", "shadowImage"]
 - !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "textField"]
-- !private ["PSo8NSCoding", "title"]
 - ["PSo8NSCoding", "updateLanguage"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
@@ -570,9 +574,10 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "String"]
 - !private ["PSo26NSExtensionRequestHandling", "UIBarMetrics"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
-- ["PSo26NSExtensionRequestHandling", "aboutBar"]
+- ["PSo26NSExtensionRequestHandling", "aboutBarButton"]
 - ["PSo26NSExtensionRequestHandling", "aboutButton"]
 - ["PSo26NSExtensionRequestHandling", "aboutOk"]
+- ["PSo26NSExtensionRequestHandling", "aboutText"]
 - ["PSo26NSExtensionRequestHandling", "aboutView"]
 - !private ["PSo26NSExtensionRequestHandling", "arc4random_uniform"]
 - ["PSo26NSExtensionRequestHandling", "confirmButton"]
@@ -613,11 +618,13 @@ depends-member:
 - ["CSo8NSObject", "UINavigationItem"]
 - ["CSo8NSObject", "UIStoryboardSegue"]
 - ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "UITextView"]
 - ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "ViewController"]
-- ["CSo8NSObject", "aboutBar"]
+- ["CSo8NSObject", "aboutBarButton"]
 - ["CSo8NSObject", "aboutButton"]
 - ["CSo8NSObject", "aboutOk"]
+- ["CSo8NSObject", "aboutText"]
 - ["CSo8NSObject", "aboutView"]
 - !private ["CSo8NSObject", "alpha"]
 - !private ["CSo8NSObject", "arc4random_uniform"]
@@ -648,7 +655,6 @@ depends-member:
 - !private ["CSo8NSObject", "shadowImage"]
 - !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "textField"]
-- !private ["CSo8NSObject", "title"]
 - ["CSo8NSObject", "updateLanguage"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
@@ -659,9 +665,10 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "String"]
 - !private ["PSo16NSObjectProtocol", "UIBarMetrics"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
-- ["PSo16NSObjectProtocol", "aboutBar"]
+- ["PSo16NSObjectProtocol", "aboutBarButton"]
 - ["PSo16NSObjectProtocol", "aboutButton"]
 - ["PSo16NSObjectProtocol", "aboutOk"]
+- ["PSo16NSObjectProtocol", "aboutText"]
 - ["PSo16NSObjectProtocol", "aboutView"]
 - !private ["PSo16NSObjectProtocol", "alpha"]
 - !private ["PSo16NSObjectProtocol", "arc4random_uniform"]
@@ -692,7 +699,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "shadowImage"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "textField"]
-- !private ["PSo16NSObjectProtocol", "title"]
 - ["PSo16NSObjectProtocol", "updateLanguage"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
@@ -742,7 +748,6 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "setTitle"]
 - !private ["PSo29UIAccessibilityIdentification", "shadowImage"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
-- !private ["PSo29UIAccessibilityIdentification", "title"]
 - !private ["CSo23UIActivityIndicatorView", "isHidden"]
 - !private ["PSo12UIAppearance", "alpha"]
 - !private ["PSo12UIAppearance", "isHidden"]
@@ -753,16 +758,16 @@ depends-member:
 - !private ["PSo12UIAppearance", "setTitle"]
 - !private ["PSo12UIAppearance", "shadowImage"]
 - !private ["PSo12UIAppearance", "text"]
-- !private ["PSo12UIAppearance", "title"]
 - !private ["PSo21UIAppearanceContainer", "Alamofire"]
 - ["PSo21UIAppearanceContainer", "IDSIZE"]
 - !private ["PSo21UIAppearanceContainer", "Int"]
 - !private ["PSo21UIAppearanceContainer", "String"]
 - !private ["PSo21UIAppearanceContainer", "UIBarMetrics"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
-- ["PSo21UIAppearanceContainer", "aboutBar"]
+- ["PSo21UIAppearanceContainer", "aboutBarButton"]
 - ["PSo21UIAppearanceContainer", "aboutButton"]
 - ["PSo21UIAppearanceContainer", "aboutOk"]
+- ["PSo21UIAppearanceContainer", "aboutText"]
 - ["PSo21UIAppearanceContainer", "aboutView"]
 - !private ["PSo21UIAppearanceContainer", "alpha"]
 - !private ["PSo21UIAppearanceContainer", "arc4random_uniform"]
@@ -797,8 +802,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", "viewWillAppear"]
 - ["PSo21UIAppearanceContainer", ""]
-- !private ["CSo15UIBarButtonItem", "title"]
-- !private ["CSo9UIBarItem", "title"]
 - !private ["OSC12UIBarMetrics", "default"]
 - ["OSC12UIBarMetrics", "deinit"]
 - !private ["PSo16UIBarPositioning", "alpha"]
@@ -812,9 +815,10 @@ depends-member:
 - !private ["PSo18UIContentContainer", "String"]
 - !private ["PSo18UIContentContainer", "UIBarMetrics"]
 - !private ["PSo18UIContentContainer", "UIImage"]
-- ["PSo18UIContentContainer", "aboutBar"]
+- ["PSo18UIContentContainer", "aboutBarButton"]
 - ["PSo18UIContentContainer", "aboutButton"]
 - ["PSo18UIContentContainer", "aboutOk"]
+- ["PSo18UIContentContainer", "aboutText"]
 - ["PSo18UIContentContainer", "aboutView"]
 - !private ["PSo18UIContentContainer", "arc4random_uniform"]
 - ["PSo18UIContentContainer", "confirmButton"]
@@ -871,9 +875,10 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "String"]
 - !private ["PSo18UIFocusEnvironment", "UIBarMetrics"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
-- ["PSo18UIFocusEnvironment", "aboutBar"]
+- ["PSo18UIFocusEnvironment", "aboutBarButton"]
 - ["PSo18UIFocusEnvironment", "aboutButton"]
 - ["PSo18UIFocusEnvironment", "aboutOk"]
+- ["PSo18UIFocusEnvironment", "aboutText"]
 - ["PSo18UIFocusEnvironment", "aboutView"]
 - !private ["PSo18UIFocusEnvironment", "alpha"]
 - !private ["PSo18UIFocusEnvironment", "arc4random_uniform"]
@@ -943,11 +948,13 @@ depends-member:
 - ["CSo11UIResponder", "UINavigationItem"]
 - ["CSo11UIResponder", "UIStoryboardSegue"]
 - ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "UITextView"]
 - ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "ViewController"]
-- ["CSo11UIResponder", "aboutBar"]
+- ["CSo11UIResponder", "aboutBarButton"]
 - ["CSo11UIResponder", "aboutButton"]
 - ["CSo11UIResponder", "aboutOk"]
+- ["CSo11UIResponder", "aboutText"]
 - ["CSo11UIResponder", "aboutView"]
 - !private ["CSo11UIResponder", "alpha"]
 - !private ["CSo11UIResponder", "arc4random_uniform"]
@@ -987,9 +994,10 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "String"]
 - !private ["PSo30UIResponderStandardEditActions", "UIBarMetrics"]
 - !private ["PSo30UIResponderStandardEditActions", "UIImage"]
-- ["PSo30UIResponderStandardEditActions", "aboutBar"]
+- ["PSo30UIResponderStandardEditActions", "aboutBarButton"]
 - ["PSo30UIResponderStandardEditActions", "aboutButton"]
 - ["PSo30UIResponderStandardEditActions", "aboutOk"]
+- ["PSo30UIResponderStandardEditActions", "aboutText"]
 - ["PSo30UIResponderStandardEditActions", "aboutView"]
 - !private ["PSo30UIResponderStandardEditActions", "alpha"]
 - !private ["PSo30UIResponderStandardEditActions", "arc4random_uniform"]
@@ -1024,15 +1032,17 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", "viewWillAppear"]
 - ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo12UIScrollView", "text"]
 - !private ["PSo16UIStateRestoring", "Alamofire"]
 - ["PSo16UIStateRestoring", "IDSIZE"]
 - !private ["PSo16UIStateRestoring", "Int"]
 - !private ["PSo16UIStateRestoring", "String"]
 - !private ["PSo16UIStateRestoring", "UIBarMetrics"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
-- ["PSo16UIStateRestoring", "aboutBar"]
+- ["PSo16UIStateRestoring", "aboutBarButton"]
 - ["PSo16UIStateRestoring", "aboutButton"]
 - ["PSo16UIStateRestoring", "aboutOk"]
+- ["PSo16UIStateRestoring", "aboutText"]
 - ["PSo16UIStateRestoring", "aboutView"]
 - !private ["PSo16UIStateRestoring", "arc4random_uniform"]
 - ["PSo16UIStateRestoring", "confirmButton"]
@@ -1066,15 +1076,17 @@ depends-member:
 - !private ["PSo11UITextInput", "text"]
 - !private ["PSo17UITextInputTraits", "placeholder"]
 - !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "text"]
 - !private ["PSo18UITraitEnvironment", "Alamofire"]
 - ["PSo18UITraitEnvironment", "IDSIZE"]
 - !private ["PSo18UITraitEnvironment", "Int"]
 - !private ["PSo18UITraitEnvironment", "String"]
 - !private ["PSo18UITraitEnvironment", "UIBarMetrics"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
-- ["PSo18UITraitEnvironment", "aboutBar"]
+- ["PSo18UITraitEnvironment", "aboutBarButton"]
 - ["PSo18UITraitEnvironment", "aboutButton"]
 - ["PSo18UITraitEnvironment", "aboutOk"]
+- ["PSo18UITraitEnvironment", "aboutText"]
 - ["PSo18UITraitEnvironment", "aboutView"]
 - !private ["PSo18UITraitEnvironment", "alpha"]
 - !private ["PSo18UITraitEnvironment", "arc4random_uniform"]
@@ -1131,11 +1143,13 @@ depends-member:
 - ["CSo16UIViewController", "UINavigationItem"]
 - ["CSo16UIViewController", "UIStoryboardSegue"]
 - ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "UITextView"]
 - ["CSo16UIViewController", "UIView"]
 - !private ["CSo16UIViewController", "ViewController"]
-- ["CSo16UIViewController", "aboutBar"]
+- ["CSo16UIViewController", "aboutBarButton"]
 - ["CSo16UIViewController", "aboutButton"]
 - ["CSo16UIViewController", "aboutOk"]
+- ["CSo16UIViewController", "aboutText"]
 - ["CSo16UIViewController", "aboutView"]
 - !private ["CSo16UIViewController", "arc4random_uniform"]
 - ["CSo16UIViewController", "confirmButton"]
@@ -1215,9 +1229,10 @@ depends-member:
 - !private ["Ps9_Hashable", "UIImage"]
 - !private ["Ps9_Hashable", "_DisallowMixedSignArithmetic"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
-- ["Ps9_Hashable", "aboutBar"]
+- ["Ps9_Hashable", "aboutBarButton"]
 - ["Ps9_Hashable", "aboutButton"]
 - ["Ps9_Hashable", "aboutOk"]
+- ["Ps9_Hashable", "aboutText"]
 - ["Ps9_Hashable", "aboutView"]
 - !private ["Ps9_Hashable", "alpha"]
 - !private ["Ps9_Hashable", "arc4random_uniform"]
@@ -1250,7 +1265,6 @@ depends-member:
 - !private ["Ps9_Hashable", "shadowImage"]
 - !private ["Ps9_Hashable", "text"]
 - ["Ps9_Hashable", "textField"]
-- !private ["Ps9_Hashable", "title"]
 - ["Ps9_Hashable", "updateLanguage"]
 - !private ["Ps9_Hashable", "view"]
 - ["Ps9_Hashable", "viewDidLoad"]
@@ -1359,8 +1373,6 @@ depends-nominal:
 - !private "CSo23UIActivityIndicatorView"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
-- !private "CSo15UIBarButtonItem"
-- !private "CSo9UIBarItem"
 - "OSC12UIBarMetrics"
 - !private "PSo16UIBarPositioning"
 - !private "CSo8UIButton"
@@ -1379,11 +1391,13 @@ depends-nominal:
 - "CSo22UINavigationController"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
 - "PSo16UIStateRestoring"
 - "CSo17UIStoryboardSegue"
 - !private "CSo11UITextField"
 - !private "PSo11UITextInput"
 - !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
@@ -1437,4 +1451,4 @@ depends-external:
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers/ExpandingMenu-Swift.h"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Headers/ExpandingMenu-umbrella.h"
 - "/Users/Lucas/Documents/SobekIOS/build/Debug-iphonesimulator/ExpandingMenu/ExpandingMenu.framework/Modules/module.modulemap"
-interface-hash: "7978bde912f98198f930204953ffe23d"
+interface-hash: "7fcc53f4a872d945154b8bb57bf1424b"

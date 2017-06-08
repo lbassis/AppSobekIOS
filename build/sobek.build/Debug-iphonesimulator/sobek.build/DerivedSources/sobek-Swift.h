@@ -141,17 +141,19 @@ SWIFT_CLASS("_TtC5sobek11AppDelegate")
 @class UIView;
 @class UINavigationItem;
 @class UITextField;
+@class UITextView;
 @class UIActivityIndicatorView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC5sobek21InitialViewController")
 @interface InitialViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified aboutBarButton;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified aboutView;
 @property (nonatomic, weak) IBOutlet UINavigationItem * _Null_unspecified navBar;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified textField;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified confirmButton;
-@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified aboutBar;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified aboutText;
 @property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loadingIndicator;
 @property (nonatomic, readonly) NSInteger IDSIZE;
 @property (nonatomic) NSInteger language;

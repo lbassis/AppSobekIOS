@@ -9,6 +9,7 @@
 // icone da engrenagem: http://www.flaticon.com/free-icon/settings-cog_17214
 // icone da impressora: http://www.flaticon.com/free-icon/printer_12022#term=print&page=1&position=4
 // icone medico (!): http://www.flaticon.com/free-icon/medical-shape_31996
+// infos: http://www.flaticon.com/free-icon/information-button_1176#term=info&page=1&position=9
 
 
 import UIKit
@@ -125,6 +126,9 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         let url = URL(string:"http://192.168.25.107/~Lucas/Sobek/grafo/?id=" + id)
 		let requestObj = NSURLRequest(url: url!);
 		mWebView.loadRequest(requestObj as URLRequest);
+        
+        
+        //self.navigationItem.rightBarButtonItem?.title = "fadfsfds"
 
 	}
 

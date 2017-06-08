@@ -14,7 +14,7 @@
         <scene sceneID="aIp-bm-QN4">
             <objects>
                 <navigationController id="acU-mv-wLo" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="omY-eN-Ffs">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="omY-eN-Ffs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -113,13 +113,9 @@ http://sobek.ufrgs.br</string>
                             <constraint firstItem="WqQ-Zj-oyD" firstAttribute="centerY" secondItem="Bpq-y5-an3" secondAttribute="centerY" id="mBh-oW-oeU"/>
                             <constraint firstItem="WqQ-Zj-oyD" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="17" id="mfx-vQ-GLS"/>
                             <constraint firstItem="quc-bv-m72" firstAttribute="top" secondItem="rQ9-fV-Cfc" secondAttribute="bottom" constant="83" id="pky-7j-vby"/>
+                            <constraint firstItem="WqQ-Zj-oyD" firstAttribute="centerX" secondItem="v6L-XK-LKp" secondAttribute="centerX" id="v26-pL-EIL"/>
                             <constraint firstItem="6sq-e9-gWv" firstAttribute="centerX" secondItem="v6L-XK-LKp" secondAttribute="centerX" id="w3B-JB-3rn"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="WqQ-Zj-oyD"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Sobek" id="BlW-4I-dbG">
                         <leftBarButtonItems>
@@ -134,10 +130,9 @@ http://sobek.ufrgs.br</string>
                                 </connections>
                             </barButtonItem>
                         </leftBarButtonItems>
-                        <barButtonItem key="rightBarButtonItem" title="Sobre" id="wUG-dZ-iw0">
-                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <barButtonItem key="rightBarButtonItem" image="about" style="plain" id="D81-iu-2ay">
                             <connections>
-                                <action selector="aboutButtonWithSender:" destination="lp5-C5-z5G" id="1s3-3P-wCD"/>
+                                <action selector="aboutButtonWithSender:" destination="lp5-C5-z5G" id="TBm-2l-UhW"/>
                             </connections>
                         </barButtonItem>
                         <connections>
@@ -146,7 +141,8 @@ http://sobek.ufrgs.br</string>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
-                        <outlet property="aboutBar" destination="wUG-dZ-iw0" id="Ihr-jf-Yo7"/>
+                        <outlet property="aboutBarButton" destination="D81-iu-2ay" id="XeX-0t-tkk"/>
+                        <outlet property="aboutText" destination="GTv-aT-Wrf" id="wqp-ve-UYt"/>
                         <outlet property="aboutView" destination="WqQ-Zj-oyD" id="FCu-uJ-hDF"/>
                         <outlet property="confirmButton" destination="CH1-8y-RCV" id="f5q-e1-hhB"/>
                         <outlet property="loadingIndicator" destination="quc-bv-m72" id="tUf-Yl-GuB"/>
@@ -196,7 +192,9 @@ http://sobek.ufrgs.br</string>
                             <constraint firstItem="yky-iP-aLr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="k05-wQ-YXj"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="fBw-6j-YXP"/>
+                    <navigationItem key="navigationItem" id="fBw-6j-YXP">
+                        <barButtonItem key="rightBarButtonItem" title="Opções" id="ORr-eM-SWo"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="mWebView" destination="yky-iP-aLr" id="eSu-Wh-MI6"/>
                     </connections>
@@ -207,6 +205,7 @@ http://sobek.ufrgs.br</string>
         </scene>
     </scenes>
     <resources>
+        <image name="about" width="24" height="24"/>
         <image name="ic_flag_brazil.png" width="32" height="32"/>
         <image name="ic_flag_uk.png" width="32" height="32"/>
         <image name="sobek.png" width="206" height="155"/>

@@ -11,11 +11,14 @@ import Alamofire
 
 class InitialViewController: UIViewController {
 	
+    @IBOutlet weak var aboutBarButton: UIBarButtonItem!
 	@IBOutlet weak var aboutView: UIView!
 	@IBOutlet weak var navBar: UINavigationItem!
 	@IBOutlet weak var textField: UITextField!
 	@IBOutlet weak var confirmButton: UIButton!
-	@IBOutlet weak var aboutBar: UIBarButtonItem!
+    @IBOutlet weak var aboutText: UITextView!
+    
+    
 	@IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
 	
 	let IDSIZE = 8
@@ -44,13 +47,13 @@ class InitialViewController: UIViewController {
 		if (self.language == 0) {
 			self.confirmButton.setTitle("Extrair", for: .normal)
 			self.textField.placeholder = "Insira a URL desejada"
-			self.aboutBar.title = "Sobre"
+            self.aboutText.text = "Sobek é uma ferramenta de mineração de texto que foi desenvolvida para apoiar aplicações educacionais. Ele é capaz de identificar as informações relevantes em um texto e apresentar essas informações na forma de um grafo, auxiliando a sua identificação visual. O Sobek foi desenvolvido no Programa de Pós-Graduação em Informática na Educação, na Universidade Federal do Rio Grande do Sul (UFRGS), Brasil. Para obter mais informações, visite \nhttp://sobek.ufrgs.br"
 		}
 		
 		else {
 			self.confirmButton.setTitle("Extract", for: .normal)
 			self.textField.placeholder = "Insert the desired URL"
-			self.aboutBar.title = "About"
+            self.aboutText.text = "Sobek is a text mining tool developed to assist educational applications. It is able to identify the relevant information in a text and show them as a graph, helping in its visual identification. Sobek was developed at the Programa de Pós-Graduação em Informática na Educação from the Universidade Federal do Rio Grande do Sul (UFRGS), Brazil. For more information, see \nhttp://sobek.ufrgs.br"
 		}
 	}
 	
@@ -99,7 +102,6 @@ class InitialViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-
 	}
 	
 	override func viewWillAppear(_ animated: Bool) {
