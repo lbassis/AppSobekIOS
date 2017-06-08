@@ -77,9 +77,7 @@ class InitialViewController: UIViewController {
 
 		let id = randomID()
 		let url = textField.text
-        
-        print(url)
-		
+        		
 		let postString: [String:String] = ["TODO":"true", "ADJ":"true", "TOHAVE":"true", "VERBS":"true", "ADV":"true", "NOUNS":"true", "AVGCON":"", "INTER":"true", "LANG":"2", "PRON":"true", "MOB_ID":id, "URL":url!, "TOBE":"true", "FREQ":"", "THES":"false"]
 		
 		Alamofire.request(serverUrl, method: .post, parameters: postString).responseString { response in

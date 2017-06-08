@@ -172,11 +172,12 @@ SWIFT_CLASS("_TtC5sobek21InitialViewController")
 @end
 
 @class ExpandingMenuButton;
+@class UITapGestureRecognizer;
 @class ExpandingMenuItem;
 @class UIWebView;
 
 SWIFT_CLASS("_TtC5sobek14ViewController")
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIGestureRecognizerDelegate>
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified optionsView;
 @property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified optionsButton;
 @property (nonatomic, weak) IBOutlet UIWebView * _Null_unspecified mWebView;
@@ -184,16 +185,14 @@ SWIFT_CLASS("_TtC5sobek14ViewController")
 @property (nonatomic) NSInteger language;
 @property (nonatomic) NSInteger printMode;
 @property (nonatomic) NSInteger fullGraph;
-@property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton1;
-@property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton2;
-@property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton3;
-@property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton4;
+@property (nonatomic, readonly, copy) NSString * _Nonnull touch;
+@property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton;
+@property (nonatomic, readonly, strong) UITapGestureRecognizer * _Nonnull tapGesture;
 @property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull fullGraphButton;
 @property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull printModeButton;
-@property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull subGraphButton;
-@property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull normalModeButton;
-+ (void)updateMenuButton;
+- (void)tapBlurButton:(UITapGestureRecognizer * _Nonnull)sender;
 - (void)menuButtonSetup;
+- (void)itemTouched;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

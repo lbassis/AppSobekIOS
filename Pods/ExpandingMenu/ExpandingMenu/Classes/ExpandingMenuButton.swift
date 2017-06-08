@@ -36,6 +36,7 @@ open class ExpandingMenuButton: UIView, UIGestureRecognizerDelegate {
     }
     
     // MARK: Public Properties
+    
     open var menuItemMargin: CGFloat = 16.0
     
     open var allowSounds: Bool = true {
@@ -106,6 +107,7 @@ open class ExpandingMenuButton: UIView, UIGestureRecognizerDelegate {
     fileprivate var isExpanding: Bool = false
     fileprivate var isAnimating: Bool = false
     
+    let touch = "item touched"
     
     // MARK: - Initializer
     public init(frame: CGRect, centerImage: UIImage, centerHighlightedImage: UIImage) {
@@ -153,6 +155,7 @@ open class ExpandingMenuButton: UIView, UIGestureRecognizerDelegate {
         }
         
         self.configureSounds()
+        
     }
     
     public convenience init(centerImage: UIImage, centerHighlightedImage: UIImage) {
@@ -170,6 +173,11 @@ open class ExpandingMenuButton: UIView, UIGestureRecognizerDelegate {
         
     // MARK: - Menu Item Tapped Action
     open func menuItemTapped(_ item: ExpandingMenuItem) {
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: touch), object: nil)
+
+        
+        
         self.willDismissMenuItems?(self)
         self.isAnimating = true
         

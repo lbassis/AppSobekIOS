@@ -15,82 +15,85 @@ provides-member:
 - ["OC13ExpandingMenu19ExpandingMenuButton18ExpandingDirection", ""]
 - ["OC13ExpandingMenu19ExpandingMenuButton18MenuTitleDirection", ""]
 provides-dynamic-lookup:
+- "didDismissMenuItems"
+- "bottomViewColor"
+- "titleTappedActionEnabled"
+- "didPresentMenuItems"
+- "centerButtonTapped"
+- "expandingSoundPath"
+- "menuItemMargin"
+- "menuItemTapped"
+- "touch"
+- "foldSoundPath"
+- "touchesBegan"
+- "bottomViewAlpha"
+- "selectedSoundPath"
+- "allowSounds"
 - "willDismissMenuItems"
 - "gestureRecognizerShouldBegin"
 - "willPresentMenuItems"
-- "centerButtonTapped"
-- "touchesBegan"
 - "addMenuItems"
-- "bottomViewColor"
-- "allowSounds"
-- "expandingSoundPath"
-- "bottomViewAlpha"
-- "selectedSoundPath"
-- "didPresentMenuItems"
-- "foldSoundPath"
-- "menuItemTapped"
-- "menuItemMargin"
 - "gestureRecognizer"
-- "titleTappedActionEnabled"
-- "didDismissMenuItems"
 depends-top-level:
-- "??"
-- !private "URL"
-- "Bool"
-- !private "/"
-- "ExpandingMenuItem"
-- "UIColor"
-- !private "sinf"
-- !private "-"
-- "UIGestureRecognizer"
-- "Void"
-- "UIGestureRecognizerDelegate"
-- "String"
-- "BooleanLiteralType"
-- !private "CAAnimationGroup"
-- "CGFloat"
-- !private "UIControlState"
-- "NSCoder"
-- "Bundle"
-- !private "UIViewAnimationOptions"
-- !private "+"
-- !private "CGMutablePath"
-- !private "kCAMediaTimingFunctionLinear"
-- "Array"
-- "OptionSet"
-- "ExpandingMenuButton"
-- "StringLiteralType"
-- !private "CFURL"
-- !private "CGAffineTransform"
-- "Set"
+- "CGRect"
+- "SystemSoundID"
+- "UIImage"
+- "UIScreen"
+- "CGPoint"
+- !private "AudioServicesDisposeSystemSoundID"
 - !private "M_PI"
+- "ExpandingMenuButton"
+- "OptionSet"
+- !private "AudioServicesCreateSystemSoundID"
+- !private "CAAnimationGroup"
+- "String"
 - "UIEvent"
+- "NSCoder"
+- "Void"
+- "Bundle"
+- "UIGestureRecognizerDelegate"
+- !private "UIViewAnimationOptions"
+- "CGFloat"
+- "UITouch"
+- "Bool"
+- !private "-"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "URL"
+- "BooleanLiteralType"
+- !private "kCAMediaTimingFunctionLinear"
+- !private "CGMutablePath"
+- !private "UIControlState"
+- !private "/"
+- "UIButton"
+- "??"
+- !private "CGAffineTransform"
+- "UIView"
+- !private "CFURL"
+- "AnimationOptions"
+- "Array"
+- !private "sinf"
+- "StringLiteralType"
+- !private "NSNotification"
+- "Set"
+- !private "Float"
+- "ExpandingMenuItem"
+- !private "CastingPrecedence"
+- !private "cosf"
 - "=="
 - "AssignmentPrecedence"
-- !private "CastingPrecedence"
-- !private "CAMediaTimingFunction"
+- "Int"
+- !private "AudioServicesPlaySystemSound"
+- "IntegerLiteralType"
+- "CGSize"
 - !private "UIControlEvents"
 - !private "CAKeyframeAnimation"
-- !private "AudioServicesDisposeSystemSoundID"
-- "IntegerLiteralType"
-- !private "+="
-- "AnimationOptions"
+- "UIGestureRecognizer"
+- "UIColor"
+- !private "CAMediaTimingFunction"
 - "FloatLiteralType"
-- "UIScreen"
-- "CGSize"
-- !private "AudioServicesPlaySystemSound"
-- "UIView"
-- "CGRect"
-- "UIImage"
-- !private "AudioServicesCreateSystemSoundID"
-- "CGPoint"
-- "UIButton"
-- "UITouch"
-- !private "*"
-- !private "Float"
-- "SystemSoundID"
-- "Int"
-- !private "cosf"
+- !private "NotificationCenter"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - ["V13ExpandingMenu16AnimationOptions", "All"]
@@ -141,6 +144,9 @@ depends-member:
 - !private ["Ps9AnyObject", "Float"]
 - !private ["Ps9AnyObject", "M_PI"]
 - ["Ps9AnyObject", "MenuTitleDirection"]
+- !private ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
 - ["Ps9AnyObject", "UIButton"]
 - ["Ps9AnyObject", "UIColor"]
 - !private ["Ps9AnyObject", "UIControlEvents"]
@@ -175,6 +181,7 @@ depends-member:
 - ["Ps9AnyObject", "classForCoder"]
 - ["Ps9AnyObject", "configureSounds"]
 - !private ["Ps9AnyObject", "cosf"]
+- !private ["Ps9AnyObject", "default"]
 - ["Ps9AnyObject", "defaultCenterPoint"]
 - !private ["Ps9AnyObject", "delegate"]
 - ["Ps9AnyObject", "didDismissMenuItems"]
@@ -216,6 +223,7 @@ depends-member:
 - ["Ps9AnyObject", "menuTitleDirection"]
 - !private ["Ps9AnyObject", "move"]
 - ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "post"]
 - !private ["Ps9AnyObject", "removeFromSuperview"]
 - ["Ps9AnyObject", "resizeToFoldedFrame"]
 - ["Ps9AnyObject", "selectedSound"]
@@ -227,6 +235,7 @@ depends-member:
 - !private ["Ps9AnyObject", "titleButton"]
 - !private ["Ps9AnyObject", "titleMargin"]
 - ["Ps9AnyObject", "titleTappedActionEnabled"]
+- ["Ps9AnyObject", "touch"]
 - ["Ps9AnyObject", "touchesBegan"]
 - !private ["Ps9AnyObject", "transform"]
 - ["Ps9AnyObject", "url"]
@@ -303,6 +312,8 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "Float"]
 - !private ["PSo15CALayerDelegate", "M_PI"]
 - ["PSo15CALayerDelegate", "MenuTitleDirection"]
+- !private ["PSo15CALayerDelegate", "NSNotification"]
+- !private ["PSo15CALayerDelegate", "NotificationCenter"]
 - ["PSo15CALayerDelegate", "UIButton"]
 - ["PSo15CALayerDelegate", "UIColor"]
 - !private ["PSo15CALayerDelegate", "UIControlEvents"]
@@ -378,6 +389,7 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "titleButton"]
 - !private ["PSo15CALayerDelegate", "titleMargin"]
 - ["PSo15CALayerDelegate", "titleTappedActionEnabled"]
+- ["PSo15CALayerDelegate", "touch"]
 - ["PSo15CALayerDelegate", "touchesBegan"]
 - !private ["PSo15CALayerDelegate", "transform"]
 - ["PSo15CALayerDelegate", "willDismissMenuItems"]
@@ -446,6 +458,9 @@ depends-member:
 - !private ["Ps7CVarArg", "Iterator"]
 - !private ["Ps7CVarArg", "M_PI"]
 - ["Ps7CVarArg", "MenuTitleDirection"]
+- !private ["Ps7CVarArg", "NSNotification"]
+- !private ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
 - ["Ps7CVarArg", "UIButton"]
 - ["Ps7CVarArg", "UIColor"]
 - !private ["Ps7CVarArg", "UIControlEvents"]
@@ -481,6 +496,7 @@ depends-member:
 - ["Ps7CVarArg", "classForCoder"]
 - ["Ps7CVarArg", "configureSounds"]
 - !private ["Ps7CVarArg", "cosf"]
+- !private ["Ps7CVarArg", "default"]
 - ["Ps7CVarArg", "defaultCenterPoint"]
 - !private ["Ps7CVarArg", "delegate"]
 - ["Ps7CVarArg", "didDismissMenuItems"]
@@ -523,6 +539,7 @@ depends-member:
 - ["Ps7CVarArg", "menuItems"]
 - ["Ps7CVarArg", "menuTitleDirection"]
 - ["Ps7CVarArg", "path"]
+- !private ["Ps7CVarArg", "post"]
 - !private ["Ps7CVarArg", "removeFromSuperview"]
 - ["Ps7CVarArg", "resizeToFoldedFrame"]
 - ["Ps7CVarArg", "selectedSound"]
@@ -534,6 +551,7 @@ depends-member:
 - !private ["Ps7CVarArg", "titleButton"]
 - !private ["Ps7CVarArg", "titleMargin"]
 - ["Ps7CVarArg", "titleTappedActionEnabled"]
+- ["Ps7CVarArg", "touch"]
 - ["Ps7CVarArg", "touchesBegan"]
 - !private ["Ps7CVarArg", "transform"]
 - ["Ps7CVarArg", "url"]
@@ -568,6 +586,9 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Iterator"]
 - !private ["Ps28CustomDebugStringConvertible", "M_PI"]
 - ["Ps28CustomDebugStringConvertible", "MenuTitleDirection"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
 - ["Ps28CustomDebugStringConvertible", "UIButton"]
 - ["Ps28CustomDebugStringConvertible", "UIColor"]
 - !private ["Ps28CustomDebugStringConvertible", "UIControlEvents"]
@@ -603,6 +624,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "classForCoder"]
 - ["Ps28CustomDebugStringConvertible", "configureSounds"]
 - !private ["Ps28CustomDebugStringConvertible", "cosf"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
 - ["Ps28CustomDebugStringConvertible", "defaultCenterPoint"]
 - !private ["Ps28CustomDebugStringConvertible", "delegate"]
 - ["Ps28CustomDebugStringConvertible", "didDismissMenuItems"]
@@ -646,6 +668,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "menuTitleDirection"]
 - !private ["Ps28CustomDebugStringConvertible", "origin"]
 - ["Ps28CustomDebugStringConvertible", "path"]
+- !private ["Ps28CustomDebugStringConvertible", "post"]
 - !private ["Ps28CustomDebugStringConvertible", "removeFromSuperview"]
 - ["Ps28CustomDebugStringConvertible", "resizeToFoldedFrame"]
 - ["Ps28CustomDebugStringConvertible", "selectedSound"]
@@ -657,6 +680,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "titleButton"]
 - !private ["Ps28CustomDebugStringConvertible", "titleMargin"]
 - ["Ps28CustomDebugStringConvertible", "titleTappedActionEnabled"]
+- ["Ps28CustomDebugStringConvertible", "touch"]
 - ["Ps28CustomDebugStringConvertible", "touchesBegan"]
 - !private ["Ps28CustomDebugStringConvertible", "transform"]
 - ["Ps28CustomDebugStringConvertible", "url"]
@@ -713,6 +737,9 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "Iterator"]
 - !private ["Ps23CustomStringConvertible", "M_PI"]
 - ["Ps23CustomStringConvertible", "MenuTitleDirection"]
+- !private ["Ps23CustomStringConvertible", "NSNotification"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
 - ["Ps23CustomStringConvertible", "UIButton"]
 - ["Ps23CustomStringConvertible", "UIColor"]
 - !private ["Ps23CustomStringConvertible", "UIControlEvents"]
@@ -749,6 +776,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "classForCoder"]
 - ["Ps23CustomStringConvertible", "configureSounds"]
 - !private ["Ps23CustomStringConvertible", "cosf"]
+- !private ["Ps23CustomStringConvertible", "default"]
 - ["Ps23CustomStringConvertible", "defaultCenterPoint"]
 - !private ["Ps23CustomStringConvertible", "delegate"]
 - ["Ps23CustomStringConvertible", "didDismissMenuItems"]
@@ -791,6 +819,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "menuItems"]
 - ["Ps23CustomStringConvertible", "menuTitleDirection"]
 - ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "post"]
 - !private ["Ps23CustomStringConvertible", "removeFromSuperview"]
 - ["Ps23CustomStringConvertible", "resizeToFoldedFrame"]
 - ["Ps23CustomStringConvertible", "selectedSound"]
@@ -802,6 +831,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "titleButton"]
 - !private ["Ps23CustomStringConvertible", "titleMargin"]
 - ["Ps23CustomStringConvertible", "titleTappedActionEnabled"]
+- ["Ps23CustomStringConvertible", "touch"]
 - ["Ps23CustomStringConvertible", "touchesBegan"]
 - !private ["Ps23CustomStringConvertible", "transform"]
 - ["Ps23CustomStringConvertible", "url"]
@@ -839,6 +869,9 @@ depends-member:
 - ["Ps9Equatable", "MenuItemMoving"]
 - ["Ps9Equatable", "MenuItemRotation"]
 - ["Ps9Equatable", "MenuTitleDirection"]
+- !private ["Ps9Equatable", "NSNotification"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "NotificationCenter"]
 - ["Ps9Equatable", "RawValue"]
 - ["Ps9Equatable", "UIButton"]
 - ["Ps9Equatable", "UIColor"]
@@ -880,6 +913,7 @@ depends-member:
 - !private ["Ps9Equatable", "cosf"]
 - !private ["Ps9Equatable", "curveEaseIn"]
 - !private ["Ps9Equatable", "curveLinear"]
+- !private ["Ps9Equatable", "default"]
 - ["Ps9Equatable", "defaultCenterPoint"]
 - !private ["Ps9Equatable", "delegate"]
 - ["Ps9Equatable", "didDismissMenuItems"]
@@ -935,6 +969,7 @@ depends-member:
 - !private ["Ps9Equatable", "move"]
 - !private ["Ps9Equatable", "origin"]
 - ["Ps9Equatable", "path"]
+- !private ["Ps9Equatable", "post"]
 - ["Ps9Equatable", "rawValue"]
 - ["Ps9Equatable", "remove"]
 - !private ["Ps9Equatable", "removeFromSuperview"]
@@ -953,6 +988,7 @@ depends-member:
 - !private ["Ps9Equatable", "titleMargin"]
 - ["Ps9Equatable", "titleTappedActionEnabled"]
 - ["Ps9Equatable", "top"]
+- ["Ps9Equatable", "touch"]
 - !private ["Ps9Equatable", "touchDown"]
 - ["Ps9Equatable", "touchesBegan"]
 - !private ["Ps9Equatable", "transform"]
@@ -997,6 +1033,8 @@ depends-member:
 - !private ["C13ExpandingMenu19ExpandingMenuButton", "M_PI"]
 - ["C13ExpandingMenu19ExpandingMenuButton", "MenuTitleDirection"]
 - ["C13ExpandingMenu19ExpandingMenuButton", "NSCoder"]
+- !private ["C13ExpandingMenu19ExpandingMenuButton", "NSNotification"]
+- !private ["C13ExpandingMenu19ExpandingMenuButton", "NotificationCenter"]
 - ["C13ExpandingMenu19ExpandingMenuButton", "Set"]
 - ["C13ExpandingMenu19ExpandingMenuButton", "String"]
 - ["C13ExpandingMenu19ExpandingMenuButton", "SystemSoundID"]
@@ -1066,6 +1104,7 @@ depends-member:
 - ["C13ExpandingMenu19ExpandingMenuButton", "selectedSoundPath"]
 - !private ["C13ExpandingMenu19ExpandingMenuButton", "sinf"]
 - ["C13ExpandingMenu19ExpandingMenuButton", "titleTappedActionEnabled"]
+- ["C13ExpandingMenu19ExpandingMenuButton", "touch"]
 - ["C13ExpandingMenu19ExpandingMenuButton", "touchesBegan"]
 - ["C13ExpandingMenu19ExpandingMenuButton", "willDismissMenuItems"]
 - ["C13ExpandingMenu19ExpandingMenuButton", "willPresentMenuItems"]
@@ -1146,6 +1185,9 @@ depends-member:
 - !private ["Ps8Hashable", "Float"]
 - !private ["Ps8Hashable", "M_PI"]
 - ["Ps8Hashable", "MenuTitleDirection"]
+- !private ["Ps8Hashable", "NSNotification"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "NotificationCenter"]
 - ["Ps8Hashable", "UIButton"]
 - ["Ps8Hashable", "UIColor"]
 - !private ["Ps8Hashable", "UIControlEvents"]
@@ -1182,6 +1224,7 @@ depends-member:
 - ["Ps8Hashable", "classForCoder"]
 - ["Ps8Hashable", "configureSounds"]
 - !private ["Ps8Hashable", "cosf"]
+- !private ["Ps8Hashable", "default"]
 - ["Ps8Hashable", "defaultCenterPoint"]
 - !private ["Ps8Hashable", "delegate"]
 - ["Ps8Hashable", "didDismissMenuItems"]
@@ -1224,6 +1267,7 @@ depends-member:
 - ["Ps8Hashable", "menuItems"]
 - ["Ps8Hashable", "menuTitleDirection"]
 - ["Ps8Hashable", "path"]
+- !private ["Ps8Hashable", "post"]
 - !private ["Ps8Hashable", "removeFromSuperview"]
 - ["Ps8Hashable", "resizeToFoldedFrame"]
 - !private ["Ps8Hashable", "right"]
@@ -1237,6 +1281,7 @@ depends-member:
 - !private ["Ps8Hashable", "titleMargin"]
 - ["Ps8Hashable", "titleTappedActionEnabled"]
 - ["Ps8Hashable", "top"]
+- ["Ps8Hashable", "touch"]
 - ["Ps8Hashable", "touchesBegan"]
 - !private ["Ps8Hashable", "transform"]
 - ["Ps8Hashable", "url"]
@@ -1300,6 +1345,9 @@ depends-member:
 - !private ["PSo8NSCoding", "Float"]
 - !private ["PSo8NSCoding", "M_PI"]
 - ["PSo8NSCoding", "MenuTitleDirection"]
+- !private ["PSo8NSCoding", "NSNotification"]
+- !private ["PSo8NSCoding", "Name"]
+- !private ["PSo8NSCoding", "NotificationCenter"]
 - ["PSo8NSCoding", "UIButton"]
 - ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIControlEvents"]
@@ -1383,12 +1431,14 @@ depends-member:
 - !private ["PSo8NSCoding", "titleButton"]
 - !private ["PSo8NSCoding", "titleMargin"]
 - ["PSo8NSCoding", "titleTappedActionEnabled"]
+- ["PSo8NSCoding", "touch"]
 - ["PSo8NSCoding", "touchesBegan"]
 - !private ["PSo8NSCoding", "transform"]
 - !private ["PSo8NSCoding", "values"]
 - ["PSo8NSCoding", "willDismissMenuItems"]
 - ["PSo8NSCoding", "willPresentMenuItems"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "Name"]
 - !private ["PSo9NSCopying", "animations"]
 - ["PSo9NSCopying", "black"]
 - !private ["PSo9NSCopying", "duration"]
@@ -1398,6 +1448,7 @@ depends-member:
 - !private ["PSo9NSCopying", "timingFunction"]
 - !private ["PSo9NSCopying", "values"]
 - ["PSo16NSMutableCopying", "init"]
+- !private ["CSo14NSNotification", "Name"]
 - !private ["CSo8NSNumber", "deinit"]
 - ["CSo8NSObject", "AnimationOptions"]
 - !private ["CSo8NSObject", "AudioServicesCreateSystemSoundID"]
@@ -1423,6 +1474,9 @@ depends-member:
 - !private ["CSo8NSObject", "M_PI"]
 - ["CSo8NSObject", "MenuTitleDirection"]
 - ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "NSNotification"]
+- !private ["CSo8NSObject", "Name"]
+- !private ["CSo8NSObject", "NotificationCenter"]
 - ["CSo8NSObject", "Set"]
 - ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "SystemSoundID"]
@@ -1463,6 +1517,7 @@ depends-member:
 - ["CSo8NSObject", "classForCoder"]
 - ["CSo8NSObject", "configureSounds"]
 - !private ["CSo8NSObject", "cosf"]
+- !private ["CSo8NSObject", "default"]
 - ["CSo8NSObject", "defaultCenterPoint"]
 - !private ["CSo8NSObject", "delegate"]
 - ["CSo8NSObject", "didDismissMenuItems"]
@@ -1503,6 +1558,7 @@ depends-member:
 - ["CSo8NSObject", "menuItems"]
 - ["CSo8NSObject", "menuTitleDirection"]
 - ["CSo8NSObject", "path"]
+- !private ["CSo8NSObject", "post"]
 - !private ["CSo8NSObject", "removeFromSuperview"]
 - ["CSo8NSObject", "resizeToFoldedFrame"]
 - ["CSo8NSObject", "selectedSound"]
@@ -1514,6 +1570,7 @@ depends-member:
 - !private ["CSo8NSObject", "titleButton"]
 - !private ["CSo8NSObject", "titleMargin"]
 - ["CSo8NSObject", "titleTappedActionEnabled"]
+- ["CSo8NSObject", "touch"]
 - ["CSo8NSObject", "touchesBegan"]
 - !private ["CSo8NSObject", "transform"]
 - ["CSo8NSObject", "url"]
@@ -1538,6 +1595,9 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Float"]
 - !private ["PSo16NSObjectProtocol", "M_PI"]
 - ["PSo16NSObjectProtocol", "MenuTitleDirection"]
+- !private ["PSo16NSObjectProtocol", "NSNotification"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
 - ["PSo16NSObjectProtocol", "UIButton"]
 - ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIControlEvents"]
@@ -1571,6 +1631,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "classForCoder"]
 - ["PSo16NSObjectProtocol", "configureSounds"]
 - !private ["PSo16NSObjectProtocol", "cosf"]
+- !private ["PSo16NSObjectProtocol", "default"]
 - ["PSo16NSObjectProtocol", "defaultCenterPoint"]
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - ["PSo16NSObjectProtocol", "didDismissMenuItems"]
@@ -1611,6 +1672,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "menuItems"]
 - ["PSo16NSObjectProtocol", "menuTitleDirection"]
 - ["PSo16NSObjectProtocol", "path"]
+- !private ["PSo16NSObjectProtocol", "post"]
 - !private ["PSo16NSObjectProtocol", "removeFromSuperview"]
 - ["PSo16NSObjectProtocol", "resizeToFoldedFrame"]
 - ["PSo16NSObjectProtocol", "selectedSound"]
@@ -1622,6 +1684,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "titleButton"]
 - !private ["PSo16NSObjectProtocol", "titleMargin"]
 - ["PSo16NSObjectProtocol", "titleTappedActionEnabled"]
+- ["PSo16NSObjectProtocol", "touch"]
 - ["PSo16NSObjectProtocol", "touchesBegan"]
 - !private ["PSo16NSObjectProtocol", "transform"]
 - ["PSo16NSObjectProtocol", "url"]
@@ -1633,7 +1696,12 @@ depends-member:
 - ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "size"]
 - ["CSo8NSString", "init"]
+- ["VCSo14NSNotification4Name", "deinit"]
+- !private ["VCSo14NSNotification4Name", "init"]
 - ["Os5Never", "deinit"]
+- !private ["CSo18NotificationCenter", "default"]
+- ["CSo18NotificationCenter", "deinit"]
+- !private ["CSo18NotificationCenter", "post"]
 - ["Ps9OptionSet", "AnimationOptions"]
 - ["Ps9OptionSet", "Default"]
 - ["Ps9OptionSet", "Element"]
@@ -1787,6 +1855,8 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "Float"]
 - !private ["PSo29UIAccessibilityIdentification", "M_PI"]
 - ["PSo29UIAccessibilityIdentification", "MenuTitleDirection"]
+- !private ["PSo29UIAccessibilityIdentification", "NSNotification"]
+- !private ["PSo29UIAccessibilityIdentification", "NotificationCenter"]
 - ["PSo29UIAccessibilityIdentification", "UIButton"]
 - ["PSo29UIAccessibilityIdentification", "UIColor"]
 - !private ["PSo29UIAccessibilityIdentification", "UIControlEvents"]
@@ -1863,6 +1933,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "titleButton"]
 - !private ["PSo29UIAccessibilityIdentification", "titleMargin"]
 - ["PSo29UIAccessibilityIdentification", "titleTappedActionEnabled"]
+- ["PSo29UIAccessibilityIdentification", "touch"]
 - ["PSo29UIAccessibilityIdentification", "touchesBegan"]
 - !private ["PSo29UIAccessibilityIdentification", "transform"]
 - ["PSo29UIAccessibilityIdentification", "willDismissMenuItems"]
@@ -1886,6 +1957,8 @@ depends-member:
 - !private ["PSo12UIAppearance", "Float"]
 - !private ["PSo12UIAppearance", "M_PI"]
 - ["PSo12UIAppearance", "MenuTitleDirection"]
+- !private ["PSo12UIAppearance", "NSNotification"]
+- !private ["PSo12UIAppearance", "NotificationCenter"]
 - ["PSo12UIAppearance", "UIButton"]
 - ["PSo12UIAppearance", "UIColor"]
 - !private ["PSo12UIAppearance", "UIControlEvents"]
@@ -1961,6 +2034,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "titleButton"]
 - !private ["PSo12UIAppearance", "titleMargin"]
 - ["PSo12UIAppearance", "titleTappedActionEnabled"]
+- ["PSo12UIAppearance", "touch"]
 - ["PSo12UIAppearance", "touchesBegan"]
 - !private ["PSo12UIAppearance", "transform"]
 - ["PSo12UIAppearance", "willDismissMenuItems"]
@@ -1984,6 +2058,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "Float"]
 - !private ["PSo21UIAppearanceContainer", "M_PI"]
 - ["PSo21UIAppearanceContainer", "MenuTitleDirection"]
+- !private ["PSo21UIAppearanceContainer", "NSNotification"]
+- !private ["PSo21UIAppearanceContainer", "NotificationCenter"]
 - ["PSo21UIAppearanceContainer", "UIButton"]
 - ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UIControlEvents"]
@@ -2059,6 +2135,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "titleButton"]
 - !private ["PSo21UIAppearanceContainer", "titleMargin"]
 - ["PSo21UIAppearanceContainer", "titleTappedActionEnabled"]
+- ["PSo21UIAppearanceContainer", "touch"]
 - ["PSo21UIAppearanceContainer", "touchesBegan"]
 - !private ["PSo21UIAppearanceContainer", "transform"]
 - ["PSo21UIAppearanceContainer", "willDismissMenuItems"]
@@ -2110,6 +2187,8 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "Float"]
 - !private ["PSo17UICoordinateSpace", "M_PI"]
 - ["PSo17UICoordinateSpace", "MenuTitleDirection"]
+- !private ["PSo17UICoordinateSpace", "NSNotification"]
+- !private ["PSo17UICoordinateSpace", "NotificationCenter"]
 - ["PSo17UICoordinateSpace", "UIButton"]
 - ["PSo17UICoordinateSpace", "UIColor"]
 - !private ["PSo17UICoordinateSpace", "UIControlEvents"]
@@ -2185,6 +2264,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "titleButton"]
 - !private ["PSo17UICoordinateSpace", "titleMargin"]
 - ["PSo17UICoordinateSpace", "titleTappedActionEnabled"]
+- ["PSo17UICoordinateSpace", "touch"]
 - ["PSo17UICoordinateSpace", "touchesBegan"]
 - !private ["PSo17UICoordinateSpace", "transform"]
 - ["PSo17UICoordinateSpace", "willDismissMenuItems"]
@@ -2208,6 +2288,8 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "Float"]
 - !private ["PSo13UIDynamicItem", "M_PI"]
 - ["PSo13UIDynamicItem", "MenuTitleDirection"]
+- !private ["PSo13UIDynamicItem", "NSNotification"]
+- !private ["PSo13UIDynamicItem", "NotificationCenter"]
 - ["PSo13UIDynamicItem", "UIButton"]
 - ["PSo13UIDynamicItem", "UIColor"]
 - !private ["PSo13UIDynamicItem", "UIControlEvents"]
@@ -2283,6 +2365,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "titleButton"]
 - !private ["PSo13UIDynamicItem", "titleMargin"]
 - ["PSo13UIDynamicItem", "titleTappedActionEnabled"]
+- ["PSo13UIDynamicItem", "touch"]
 - ["PSo13UIDynamicItem", "touchesBegan"]
 - !private ["PSo13UIDynamicItem", "transform"]
 - ["PSo13UIDynamicItem", "willDismissMenuItems"]
@@ -2306,6 +2389,8 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "Float"]
 - !private ["PSo18UIFocusEnvironment", "M_PI"]
 - ["PSo18UIFocusEnvironment", "MenuTitleDirection"]
+- !private ["PSo18UIFocusEnvironment", "NSNotification"]
+- !private ["PSo18UIFocusEnvironment", "NotificationCenter"]
 - ["PSo18UIFocusEnvironment", "UIButton"]
 - ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "UIControlEvents"]
@@ -2381,6 +2466,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "titleButton"]
 - !private ["PSo18UIFocusEnvironment", "titleMargin"]
 - ["PSo18UIFocusEnvironment", "titleTappedActionEnabled"]
+- ["PSo18UIFocusEnvironment", "touch"]
 - ["PSo18UIFocusEnvironment", "touchesBegan"]
 - !private ["PSo18UIFocusEnvironment", "transform"]
 - ["PSo18UIFocusEnvironment", "willDismissMenuItems"]
@@ -2404,6 +2490,8 @@ depends-member:
 - !private ["PSo11UIFocusItem", "Float"]
 - !private ["PSo11UIFocusItem", "M_PI"]
 - ["PSo11UIFocusItem", "MenuTitleDirection"]
+- !private ["PSo11UIFocusItem", "NSNotification"]
+- !private ["PSo11UIFocusItem", "NotificationCenter"]
 - ["PSo11UIFocusItem", "UIButton"]
 - ["PSo11UIFocusItem", "UIColor"]
 - !private ["PSo11UIFocusItem", "UIControlEvents"]
@@ -2479,6 +2567,7 @@ depends-member:
 - !private ["PSo11UIFocusItem", "titleButton"]
 - !private ["PSo11UIFocusItem", "titleMargin"]
 - ["PSo11UIFocusItem", "titleTappedActionEnabled"]
+- ["PSo11UIFocusItem", "touch"]
 - ["PSo11UIFocusItem", "touchesBegan"]
 - !private ["PSo11UIFocusItem", "transform"]
 - ["PSo11UIFocusItem", "willDismissMenuItems"]
@@ -2505,6 +2594,8 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "Float"]
 - !private ["PSo27UIGestureRecognizerDelegate", "M_PI"]
 - ["PSo27UIGestureRecognizerDelegate", "MenuTitleDirection"]
+- !private ["PSo27UIGestureRecognizerDelegate", "NSNotification"]
+- !private ["PSo27UIGestureRecognizerDelegate", "NotificationCenter"]
 - ["PSo27UIGestureRecognizerDelegate", "UIButton"]
 - ["PSo27UIGestureRecognizerDelegate", "UIColor"]
 - !private ["PSo27UIGestureRecognizerDelegate", "UIControlEvents"]
@@ -2562,6 +2653,7 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "selectedSoundPath"]
 - !private ["PSo27UIGestureRecognizerDelegate", "sinf"]
 - !private ["PSo27UIGestureRecognizerDelegate", "titleTappedActionEnabled"]
+- !private ["PSo27UIGestureRecognizerDelegate", "touch"]
 - !private ["PSo27UIGestureRecognizerDelegate", "willDismissMenuItems"]
 - !private ["PSo27UIGestureRecognizerDelegate", "willPresentMenuItems"]
 - ["PSo27UIGestureRecognizerDelegate", ""]
@@ -2591,6 +2683,8 @@ depends-member:
 - !private ["CSo11UIResponder", "M_PI"]
 - ["CSo11UIResponder", "MenuTitleDirection"]
 - ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "NSNotification"]
+- !private ["CSo11UIResponder", "NotificationCenter"]
 - ["CSo11UIResponder", "Set"]
 - ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "SystemSoundID"]
@@ -2673,6 +2767,7 @@ depends-member:
 - !private ["CSo11UIResponder", "titleButton"]
 - !private ["CSo11UIResponder", "titleMargin"]
 - ["CSo11UIResponder", "titleTappedActionEnabled"]
+- ["CSo11UIResponder", "touch"]
 - ["CSo11UIResponder", "touchesBegan"]
 - !private ["CSo11UIResponder", "transform"]
 - ["CSo11UIResponder", "willDismissMenuItems"]
@@ -2695,6 +2790,8 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "Float"]
 - !private ["PSo30UIResponderStandardEditActions", "M_PI"]
 - ["PSo30UIResponderStandardEditActions", "MenuTitleDirection"]
+- !private ["PSo30UIResponderStandardEditActions", "NSNotification"]
+- !private ["PSo30UIResponderStandardEditActions", "NotificationCenter"]
 - ["PSo30UIResponderStandardEditActions", "UIButton"]
 - ["PSo30UIResponderStandardEditActions", "UIColor"]
 - !private ["PSo30UIResponderStandardEditActions", "UIControlEvents"]
@@ -2770,6 +2867,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "titleButton"]
 - !private ["PSo30UIResponderStandardEditActions", "titleMargin"]
 - ["PSo30UIResponderStandardEditActions", "titleTappedActionEnabled"]
+- ["PSo30UIResponderStandardEditActions", "touch"]
 - ["PSo30UIResponderStandardEditActions", "touchesBegan"]
 - !private ["PSo30UIResponderStandardEditActions", "transform"]
 - ["PSo30UIResponderStandardEditActions", "willDismissMenuItems"]
@@ -2796,6 +2894,8 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "Float"]
 - !private ["PSo18UITraitEnvironment", "M_PI"]
 - ["PSo18UITraitEnvironment", "MenuTitleDirection"]
+- !private ["PSo18UITraitEnvironment", "NSNotification"]
+- !private ["PSo18UITraitEnvironment", "NotificationCenter"]
 - ["PSo18UITraitEnvironment", "UIButton"]
 - ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UIControlEvents"]
@@ -2872,6 +2972,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "titleButton"]
 - !private ["PSo18UITraitEnvironment", "titleMargin"]
 - ["PSo18UITraitEnvironment", "titleTappedActionEnabled"]
+- ["PSo18UITraitEnvironment", "touch"]
 - ["PSo18UITraitEnvironment", "touchesBegan"]
 - !private ["PSo18UITraitEnvironment", "transform"]
 - ["PSo18UITraitEnvironment", "willDismissMenuItems"]
@@ -2901,6 +3002,8 @@ depends-member:
 - !private ["CSo6UIView", "M_PI"]
 - ["CSo6UIView", "MenuTitleDirection"]
 - ["CSo6UIView", "NSCoder"]
+- !private ["CSo6UIView", "NSNotification"]
+- !private ["CSo6UIView", "NotificationCenter"]
 - ["CSo6UIView", "Set"]
 - ["CSo6UIView", "String"]
 - ["CSo6UIView", "SystemSoundID"]
@@ -2984,6 +3087,7 @@ depends-member:
 - !private ["CSo6UIView", "titleButton"]
 - !private ["CSo6UIView", "titleMargin"]
 - ["CSo6UIView", "titleTappedActionEnabled"]
+- ["CSo6UIView", "touch"]
 - ["CSo6UIView", "touchesBegan"]
 - !private ["CSo6UIView", "transform"]
 - ["CSo6UIView", "willDismissMenuItems"]
@@ -3021,6 +3125,8 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "Float"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "M_PI"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "MenuTitleDirection"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSNotification"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NotificationCenter"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIButton"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIColor"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIControlEvents"]
@@ -3096,6 +3202,7 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "titleButton"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "titleMargin"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "titleTappedActionEnabled"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "touch"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "touchesBegan"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "transform"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", "willDismissMenuItems"]
@@ -3117,6 +3224,7 @@ depends-member:
 - ["Ps26_ExpressibleByColorLiteral", "black"]
 - !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
 - !private ["Ps26_ExpressibleByImageLiteral", "size"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "AudioServicesCreateSystemSoundID"]
 - !private ["Ps9_Hashable", "AudioServicesDisposeSystemSoundID"]
@@ -3136,6 +3244,9 @@ depends-member:
 - !private ["Ps9_Hashable", "Float"]
 - !private ["Ps9_Hashable", "M_PI"]
 - ["Ps9_Hashable", "MenuTitleDirection"]
+- !private ["Ps9_Hashable", "NSNotification"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
 - ["Ps9_Hashable", "UIButton"]
 - ["Ps9_Hashable", "UIColor"]
 - !private ["Ps9_Hashable", "UIControlEvents"]
@@ -3172,6 +3283,7 @@ depends-member:
 - ["Ps9_Hashable", "classForCoder"]
 - ["Ps9_Hashable", "configureSounds"]
 - !private ["Ps9_Hashable", "cosf"]
+- !private ["Ps9_Hashable", "default"]
 - ["Ps9_Hashable", "defaultCenterPoint"]
 - !private ["Ps9_Hashable", "delegate"]
 - ["Ps9_Hashable", "didDismissMenuItems"]
@@ -3214,6 +3326,7 @@ depends-member:
 - ["Ps9_Hashable", "menuItems"]
 - ["Ps9_Hashable", "menuTitleDirection"]
 - ["Ps9_Hashable", "path"]
+- !private ["Ps9_Hashable", "post"]
 - !private ["Ps9_Hashable", "removeFromSuperview"]
 - ["Ps9_Hashable", "resizeToFoldedFrame"]
 - !private ["Ps9_Hashable", "right"]
@@ -3227,6 +3340,7 @@ depends-member:
 - !private ["Ps9_Hashable", "titleMargin"]
 - ["Ps9_Hashable", "titleTappedActionEnabled"]
 - ["Ps9_Hashable", "top"]
+- ["Ps9_Hashable", "touch"]
 - ["Ps9_Hashable", "touchesBegan"]
 - !private ["Ps9_Hashable", "transform"]
 - ["Ps9_Hashable", "url"]
@@ -3255,6 +3369,7 @@ depends-member:
 - !private ["Ps14_SignedInteger", "hashValue"]
 - !private ["Ps11_Strideable", "hashValue"]
 - !private ["Ps11_Strideable", "init"]
+- !private ["Ps20_SwiftNewtypeWrapper", "init"]
 depends-nominal:
 - !private "Ps16AbsoluteValuable"
 - "V13ExpandingMenu16AnimationOptions"
@@ -3325,12 +3440,15 @@ depends-nominal:
 - "PSo8NSCoding"
 - "PSo9NSCopying"
 - "PSo16NSMutableCopying"
+- !private "CSo14NSNotification"
 - !private "CSo8NSNumber"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
+- "VCSo14NSNotification4Name"
 - "Os5Never"
+- "CSo18NotificationCenter"
 - "Ps9OptionSet"
 - "Sq"
 - !private "Ps22RandomAccessCollection"
@@ -3396,6 +3514,7 @@ depends-nominal:
 - "Ps21_ObjectiveCBridgeable"
 - !private "Ps14_SignedInteger"
 - !private "Ps11_Strideable"
+- !private "Ps20_SwiftNewtypeWrapper"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -3411,4 +3530,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
-interface-hash: "552890c1d62354f88846e2650f091604"
+interface-hash: "d9d91b201b8b511f58fc2400e68e1283"
