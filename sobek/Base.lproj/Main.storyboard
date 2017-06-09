@@ -192,9 +192,7 @@ http://sobek.ufrgs.br</string>
                             <constraint firstItem="yky-iP-aLr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="k05-wQ-YXj"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="fBw-6j-YXP">
-                        <barButtonItem key="rightBarButtonItem" title="Opções" id="ORr-eM-SWo"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="fBw-6j-YXP"/>
                     <connections>
                         <outlet property="mWebView" destination="yky-iP-aLr" id="eSu-Wh-MI6"/>
                     </connections>

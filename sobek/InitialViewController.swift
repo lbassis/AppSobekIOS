@@ -22,7 +22,7 @@ class InitialViewController: UIViewController {
 	@IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
 	
 	let IDSIZE = 8
-	var language = 0	// padrao é portugues
+    var language = 0	// 0 é portugues
 	
 	@IBAction func aboutButton(sender: UIBarButtonItem) {
 		self.aboutView.isHidden = false
@@ -43,17 +43,24 @@ class InitialViewController: UIViewController {
 	}
 	
 	func updateLanguage() {
+        
+        let defaults = UserDefaults.standard
 		
 		if (self.language == 0) {
 			self.confirmButton.setTitle("Extrair", for: .normal)
 			self.textField.placeholder = "Insira a URL desejada"
             self.aboutText.text = "Sobek é uma ferramenta de mineração de texto que foi desenvolvida para apoiar aplicações educacionais. Ele é capaz de identificar as informações relevantes em um texto e apresentar essas informações na forma de um grafo, auxiliando a sua identificação visual. O Sobek foi desenvolvido no Programa de Pós-Graduação em Informática na Educação, na Universidade Federal do Rio Grande do Sul (UFRGS), Brasil. Para obter mais informações, visite \nhttp://sobek.ufrgs.br"
+            
+            defaults.set(0, forKey: "language")
+
 		}
 		
 		else {
 			self.confirmButton.setTitle("Extract", for: .normal)
 			self.textField.placeholder = "Insert the desired URL"
             self.aboutText.text = "Sobek is a text mining tool developed to assist educational applications. It is able to identify the relevant information in a text and show them as a graph, helping in its visual identification. Sobek was developed at the Programa de Pós-Graduação em Informática na Educação from the Universidade Federal do Rio Grande do Sul (UFRGS), Brazil. For more information, see \nhttp://sobek.ufrgs.br"
+            
+            defaults.set(1, forKey: "language")
 		}
 	}
 	
@@ -102,10 +109,14 @@ class InitialViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+        let defaults = UserDefaults.standard
+        self.language = defaults.integer(forKey: "language")
+        updateLanguage()
 	}
 	
 	override func viewWillAppear(_ animated: Bool) {
-		hideNavBar()
+        super.viewWillAppear(false)
+        hideNavBar()
 	}
 	
 	override func didReceiveMemoryWarning() {
@@ -131,6 +142,14 @@ class InitialViewController: UIViewController {
 		let result = sender as! [String : Any]
 		webview.id = result["id"] as! String
 		webview.language = result["language"] as! Int
+        
+        if (language == 0) {
+            webview.navigationItem.backBarButtonItem?.title = "Voltar"
+        }
+        
+        else {
+            webview.navigationItem.backBarButtonItem?.title = "Back"
+        }
 	}
 	
 }
