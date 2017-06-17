@@ -13,12 +13,13 @@
 
 
 import UIKit
+import WebKit
 import ExpandingMenu
 
 class ViewController: UIViewController, UIGestureRecognizerDelegate {
 
     
-	@IBOutlet weak var mWebView: UIWebView!
+	@IBOutlet weak var mWebView: WKWebView!
 	var id: String = ""
 	var language = 0
     var printMode = 0
@@ -56,7 +57,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         case 0:
         
             if (self.fullGraph == 0) {
-                self.mWebView.stringByEvaluatingJavaScript(from: "showAllNodes();")
+                self.mWebView.evaluateJavaScript("showAllNodes();")
                 self.fullGraph = 1
                 
                 if (self.language == 0) {
@@ -69,7 +70,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             }
             
             else {
-                self.mWebView.stringByEvaluatingJavaScript(from: "hideOtherNodes();")
+                self.mWebView.evaluateJavaScript("hideOtherNodes();")
                 self.fullGraph = 0
                 
                 if (self.language == 0) {
@@ -84,7 +85,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         case 1:
             
             if (self.printMode == 0) {
-                self.mWebView.stringByEvaluatingJavaScript(from: "printVersion();")
+                self.mWebView.evaluateJavaScript("printVersion();")
                 self.printMode = 1
                 
                 if (self.language == 0) {
@@ -97,7 +98,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             }
                 
             else {
-                self.mWebView.stringByEvaluatingJavaScript(from: "normalVersion();")
+                self.mWebView.evaluateJavaScript("normalVersion();")
                 self.printMode = 0
                 
                 if (self.language == 0) {
@@ -125,7 +126,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 		//let url = URL(string:"http://sobek.ufrgs.br/app/grafo/grafos/?id=" + id)
         let url = URL(string:"http://192.168.25.107/~Lucas/Sobek/grafo/?id=" + id)
 		let requestObj = NSURLRequest(url: url!);
-		mWebView.loadRequest(requestObj as URLRequest);
+		mWebView.load(requestObj as URLRequest);
         
         
         //self.navigationItem.rightBarButtonItem?.title = "fadfsfds"

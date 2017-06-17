@@ -176,11 +176,11 @@ SWIFT_CLASS("_TtC5sobek21InitialViewController")
 @class ExpandingMenuButton;
 @class ExpandingMenuItem;
 @class NSNotification;
-@class UIWebView;
+@class WKWebView;
 
 SWIFT_CLASS("_TtC5sobek14ViewController")
 @interface ViewController : UIViewController <UIGestureRecognizerDelegate>
-@property (nonatomic, weak) IBOutlet UIWebView * _Null_unspecified mWebView;
+@property (nonatomic, weak) IBOutlet WKWebView * _Null_unspecified mWebView;
 @property (nonatomic, copy) NSString * _Nonnull id;
 @property (nonatomic) NSInteger language;
 @property (nonatomic) NSInteger printMode;
