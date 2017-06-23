@@ -183,7 +183,17 @@ class ViewController: UIViewController, WKUIDelegate, WKScriptMessageHandler {
         NotificationCenter.default.addObserver(self, selector: #selector(self.itemTouched(_:)), name: NSNotification.Name(rawValue: touch), object: nil)
         
 		//let url = URL(string:"http://sobek.ufrgs.br/app/grafo/?id=" + id)
-        let url = URL(string:"http://192.168.25.107/~Lucas/Sobek/grafo/?id=" + id + "=" + String(self.language))
+        
+        var languageString = ""
+        
+        if (language == 0) {
+            languageString = "pt"
+        }
+        else {
+            languageString = "en"
+        }
+        
+        let url = URL(string:"http://192.168.25.107/~Lucas/Sobek/grafo/?id=" + id + "=" + languageString)
 		let requestObj = NSURLRequest(url: url!);
 		mWebView.load(requestObj as URLRequest);
         
