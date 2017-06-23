@@ -177,7 +177,6 @@ class ViewController: UIViewController, WKUIDelegate, WKScriptMessageHandler {
         menuButtonSetup()
         NotificationCenter.default.addObserver(self, selector: #selector(self.itemTouched(_:)), name: NSNotification.Name(rawValue: touch), object: nil)
         
-		//let url = URL(string:"http://sobek.ufrgs.br/app/grafo/?id=" + id)
         
         var languageString = ""
         
@@ -188,7 +187,9 @@ class ViewController: UIViewController, WKUIDelegate, WKScriptMessageHandler {
             languageString = "en"
         }
         
-        let url = URL(string:"http://192.168.25.107/~Lucas/Sobek/grafo/?id=" + id + "=" + languageString)
+        
+        let url = URL(string:"http://sobek.ufrgs.br/app/grafo/?id=" + id + "=" + languageString)
+        //let url = URL(string:"http://192.168.25.107/~Lucas/Sobek/grafo/?id=" + id + "=" + languageString)
 		let requestObj = NSURLRequest(url: url!);
 		mWebView.load(requestObj as URLRequest);
         
