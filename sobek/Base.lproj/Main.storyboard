@@ -14,7 +14,7 @@
         <scene sceneID="aIp-bm-QN4">
             <objects>
                 <navigationController id="acU-mv-wLo" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="omY-eN-Ffs">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="omY-eN-Ffs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -119,18 +119,18 @@ http://sobek.ufrgs.br</string>
                     </view>
                     <navigationItem key="navigationItem" title="Sobek" id="BlW-4I-dbG">
                         <leftBarButtonItems>
-                            <barButtonItem image="ic_flag_brazil.png" style="plain" id="g9u-57-mpf">
+                            <barButtonItem image="ic_flag_brazil.png" style="done" id="g9u-57-mpf">
                                 <connections>
                                     <action selector="ptLang:" destination="lp5-C5-z5G" id="6Fl-44-WbG"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem image="ic_flag_uk.png" style="plain" id="dCj-WJ-1rJ">
+                            <barButtonItem image="ic_flag_uk.png" style="done" id="dCj-WJ-1rJ">
                                 <connections>
                                     <action selector="enLang:" destination="lp5-C5-z5G" id="crh-8A-LaR"/>
                                 </connections>
                             </barButtonItem>
                         </leftBarButtonItems>
-                        <barButtonItem key="rightBarButtonItem" image="about" style="plain" id="D81-iu-2ay">
+                        <barButtonItem key="rightBarButtonItem" image="about" style="done" id="D81-iu-2ay">
                             <connections>
                                 <action selector="aboutButtonWithSender:" destination="lp5-C5-z5G" id="TBm-2l-UhW"/>
                             </connections>
@@ -167,34 +167,33 @@ http://sobek.ufrgs.br</string>
                         <rect key="frame" x="0.0" y="64" width="667" height="311"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="F2v-jQ-gLI">
-                                <rect key="frame" x="64" y="147" width="273" height="466"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="b2n-6V-AuS">
-                                        <rect key="frame" x="0.0" y="0.0" width="273" height="466"/>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
-                            <webView contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="yky-iP-aLr">
-                                <rect key="frame" x="0.0" y="0.0" width="667" height="311"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dab-kG-NAE" userLabel="confirm">
+                                <rect key="frame" x="9" y="261" width="53" height="30"/>
+                                <state key="normal" title="confirm"/>
+                                <connections>
+                                    <action selector="confirmButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Chn-4u-Ov9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pd-DQ-Zmm">
+                                <rect key="frame" x="602" y="261" width="45" height="30"/>
+                                <state key="normal" title="cancel"/>
+                                <connections>
+                                    <action selector="cancelButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fdm-yX-PC3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="F2v-jQ-gLI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="44" id="3dp-vf-tyH"/>
-                            <constraint firstAttribute="trailing" secondItem="F2v-jQ-gLI" secondAttribute="trailing" constant="330" id="ALb-BK-ECo"/>
-                            <constraint firstAttribute="trailing" secondItem="yky-iP-aLr" secondAttribute="trailing" id="I58-c4-oz1"/>
-                            <constraint firstItem="yky-iP-aLr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="QK6-dg-MpR"/>
-                            <constraint firstAttribute="bottom" secondItem="F2v-jQ-gLI" secondAttribute="bottom" constant="-302" id="Qna-iI-5jS"/>
-                            <constraint firstItem="F2v-jQ-gLI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="147" id="eRv-Zs-L3S"/>
-                            <constraint firstItem="yky-iP-aLr" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="iHS-8u-IWc"/>
-                            <constraint firstItem="yky-iP-aLr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="k05-wQ-YXj"/>
+                            <constraint firstItem="3Pd-DQ-Zmm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="O92-SB-Y8S"/>
+                            <constraint firstItem="Dab-kG-NAE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-11" id="n8B-BX-TQB"/>
+                            <constraint firstAttribute="bottom" secondItem="Dab-kG-NAE" secondAttribute="bottom" constant="20" symbolic="YES" id="pUt-4J-pwP"/>
+                            <constraint firstItem="Dab-kG-NAE" firstAttribute="baseline" secondItem="3Pd-DQ-Zmm" secondAttribute="baseline" id="vXx-2A-etV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fBw-6j-YXP"/>
                     <connections>
-                        <outlet property="mWebView" destination="yky-iP-aLr" id="eSu-Wh-MI6"/>
+                        <outlet property="cancelButton" destination="3Pd-DQ-Zmm" id="qBr-Es-wif"/>
+                        <outlet property="confirmButton" destination="Dab-kG-NAE" id="01J-gI-o3a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

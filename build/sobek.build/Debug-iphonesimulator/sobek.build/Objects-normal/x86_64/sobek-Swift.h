@@ -116,6 +116,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import WebKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -173,26 +174,42 @@ SWIFT_CLASS("_TtC5sobek21InitialViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class ExpandingMenuButton;
-@class ExpandingMenuItem;
-@class NSNotification;
 @class WKWebView;
+@class ExpandingMenuItem;
+@class ExpandingMenuButton;
+@class NSNotification;
+@class WKUserContentController;
+@class WKScriptMessage;
+@class WKFrameInfo;
 
 SWIFT_CLASS("_TtC5sobek14ViewController")
-@interface ViewController : UIViewController <UIGestureRecognizerDelegate>
-@property (nonatomic, weak) IBOutlet WKWebView * _Null_unspecified mWebView;
+@interface ViewController : UIViewController <WKScriptMessageHandler, WKUIDelegate>
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified cancelButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified confirmButton;
+@property (nonatomic, strong) WKWebView * _Nonnull mWebView;
 @property (nonatomic, copy) NSString * _Nonnull id;
 @property (nonatomic) NSInteger language;
 @property (nonatomic) NSInteger printMode;
 @property (nonatomic) NSInteger fullGraph;
 @property (nonatomic, readonly, copy) NSString * _Nonnull touch;
+@property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull reloadButton;
 @property (nonatomic, readonly, strong) ExpandingMenuButton * _Nonnull menuButton;
 @property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull fullGraphButton;
 @property (nonatomic, readonly, strong) ExpandingMenuItem * _Nonnull printModeButton;
+- (IBAction)confirmButtonPressed:(id _Nonnull)sender;
+- (IBAction)cancelButtonPressed:(id _Nonnull)sender;
 - (void)menuButtonSetup;
+- (void)confirmationButtonSetup;
 - (void)itemTouched:(NSNotification * _Nonnull)notification;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+/**
+  ////////////////////
+*/
+- (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
+- (void)webView:(WKWebView * _Nonnull)webView runJavaScriptAlertPanelWithMessage:(NSString * _Nonnull)message initiatedByFrame:(WKFrameInfo * _Nonnull)frame completionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (void)webView:(WKWebView * _Nonnull)webView runJavaScriptConfirmPanelWithMessage:(NSString * _Nonnull)message initiatedByFrame:(WKFrameInfo * _Nonnull)frame completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
+- (void)webView:(WKWebView * _Nonnull)webView runJavaScriptTextInputPanelWithPrompt:(NSString * _Nonnull)prompt defaultText:(NSString * _Nullable)defaultText initiatedByFrame:(WKFrameInfo * _Nonnull)frame completionHandler:(void (^ _Nonnull)(NSString * _Nullable))completionHandler;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

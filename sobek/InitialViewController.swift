@@ -81,8 +81,7 @@ class InitialViewController: UIViewController {
 		self.navigationController?.navigationBar.alpha = 0.85
 		
 		
-		//let serverUrl = "http://192.168.25.210/sobek/receiver.php"
-		//let serverUrl = "http://192.168.0.78/sobek_request_receiver/receiver.php"
+		//let serverUrl = "http://sobek.ufrgs.br/app/receiver.php"
         let serverUrl = "http://192.168.25.107/~Lucas/Sobek/receiver.php"
 
 		let id = randomID()

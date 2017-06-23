@@ -15,17 +15,17 @@ provides-member:
 - ["O14AZDropdownMenu31AZDropdownMenuItemImagePosition", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bool"
-- "=="
-- "CGFloat"
-- "/"
-- "String"
-- "BooleanLiteralType"
-- "UIColor"
-- "AZDropdownMenuSeperatorStyle"
+- "StringLiteralType"
 - "AZDropdownMenuItemAlignment"
 - "AZDropdownMenuItemImagePosition"
-- "StringLiteralType"
+- "Bool"
+- "String"
+- "BooleanLiteralType"
+- "=="
+- "UIColor"
+- "AZDropdownMenuSeperatorStyle"
+- "/"
+- "CGFloat"
 - "AZDropdownMenuConfig"
 depends-member:
 - ["V14AZDropdownMenu20AZDropdownMenuConfig", "AZDropdownMenuItemAlignment"]
