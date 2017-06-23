@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AZDropdownMenu.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>ExpandingMenu-ExpandingMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,16 +32,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>019A27288014852DEC11569306AD6F9E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>0BA6525597C1B817693051CCA494E16A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>500C185A64F1B9EBDACE0D355D353AAB</key>
 		<dict>
 			<key>primary</key>
@@ -58,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>7409E312376929E18E79DC1DE95F21FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C61A1BCBBFE65ECFFDF259469FB524B0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

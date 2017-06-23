@@ -6,11 +6,6 @@
 //  Copyright © 2017 Lucas Barros de Assis. All rights reserved.
 //
 
-// icone da engrenagem: http://www.flaticon.com/free-icon/settings-cog_17214
-// icone da impressora: http://www.flaticon.com/free-icon/printer_12022#term=print&page=1&position=4
-// icone medico (!): http://www.flaticon.com/free-icon/medical-shape_31996
-// infos: http://www.flaticon.com/free-icon/information-button_1176#term=info&page=1&position=9
-// reload: <div>Icons made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
 import UIKit
 import WebKit
