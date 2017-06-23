@@ -91,14 +91,36 @@ class InitialViewController: UIViewController {
 		
 		Alamofire.request(serverUrl, method: .post, parameters: postString).responseString { response in
 			
-			let result = ["id":id, "language":self.language] as [String : Any]
-            print (response.description)
+            
+            self.loadingIndicator.isHidden = true
+
+            if (response.description == "SUCCESS: INVALID URL" || response.description == "SUCCESS: FAILED EXTRACTING TEXT") {
+                
+                var message = ""
+                
+                if (self.language == 0) {
+                    message = "Falha ao extrair o texto"
+                }
+                
+                else {
+                    message = "Failed extracting text"
+                }
+                
+                let alert = UIAlertController(title: "", message: message, preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: {
+                    self.view.alpha = 1
+                    self.navigationController?.navigationBar.alpha = 1
+                    self.view.isUserInteractionEnabled = true
+                })
+            }
+            
+            else {
+                self.navigationController?.navigationBar.alpha = 1
+                let result = ["id":id, "language":self.language] as [String : Any]
+                self.performSegue(withIdentifier: "segue", sender: result)
+            }
 			
-			self.performSegue(withIdentifier: "segue", sender: result)
-			
-			self.loadingIndicator.isHidden = true
-			self.navigationController?.navigationBar.alpha = 1
-			self.view.isUserInteractionEnabled = true
 		}
 
 		
